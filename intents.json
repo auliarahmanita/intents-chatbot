@@ -1,0 +1,546 @@
+{
+  "intents": [
+    {
+      "tag": "salam",
+      "patterns": ["Hi", "Hey", "Halo", "Hai", "Hello", "Permisi", "Tes"],
+      "responses": ["Halo! Terima kasih sudah berkunjung kesini, apa yang bisa saya bantu? ", "Halo! Ada yang bisa saya bantu?","Halo! Bagaimana saya bisa membantu Anda hari ini?"]
+    },
+    {
+      "tag": "salam_pagi",
+      "patterns": ["Selamat pagi", "Pagi", "Met pagi"],
+      "responses": ["Selamat pagi juga!", "Selamat pagi! Terima kasih sudah berkunjung kesini, apa yang bisa saya bantu? ","Selamat pagi juga! Ada yang bisa saya bantu?", "Selamat pagi! Bagaimana saya bisa membantu Anda hari ini?"]
+    },
+    {
+      "tag": "salam_siang",
+      "patterns": ["Selamat siang", "Siang", "Met siang"],
+      "responses": ["Selamat siang juga!", "Selamat siang! Terima kasih sudah berkunjung kesini, apa yang bisa saya bantu? ", "Selamat siang juga! Ada yang bisa saya bantu?", "Selamat siang! Bagaimana saya bisa membantu Anda hari ini?"]
+    },
+    {
+      "tag": "salam_sore",
+      "patterns": ["Selamat sore", "Sore", "Met sore"],
+      "responses": ["Selamat sore juga!", "Selamat sore! Terima kasih sudah berkunjung kesini, apa yang bisa saya bantu? ", "Selamat sore juga! Ada yang bisa saya bantu?", "Selamat sore! Bagaimana saya bisa membantu Anda hari ini?"]
+    },
+    {
+      "tag": "salam_malam",
+      "patterns": ["Selamat malam", "Malam", "Met malam"],
+      "responses": ["Selamat malam juga!", "Selamat malam! Terima kasih sudah berkunjung kesini, apa yang bisa saya bantu? ", "Selamat malam juga! Ada yang bisa saya bantu?", "Selamat malam! Bagaimana saya bisa membantu Anda hari ini?"]
+    },
+    {
+      "tag": "salam_islam",
+      "patterns": ["Assalamualaikum", "Assalamualaikum wr. wb.", "Assalamualaikum warahmatullahi wabarakatu", "Ass"],
+      "responses": ["Waalaikumsalam", "Waalaikumsalam wr. wb.", "Waalaikumsalam warahmatullahi wabarakatu"]
+    },
+    {
+      "tag": "sampai_jumpa",
+      "patterns": ["Selamat tinggal", "Bye", "Dadah", "Dah", "Sampai jumpa", "Saya harus pergi"],
+      "responses": ["Sampai Berjumpa Lagi! Terima Kasih Sudah Berkunjung", "Sampai nanti!", "Selamat tinggal! Jika Anda memiliki pertanyaan lain, jangan ragu untuk bertanya."]
+    },
+    {
+      "tag": "kamu_siapa",
+      "patterns": ["Kamu siapa", "Ini siapa", "Kamu ini apa"],
+      "responses": ["Saya adalah Chatbot MM FEB Unpad", "Saya Chatbot MM FEB Unpad, saya siap membantu Anda", "Saya Chatbot MM FEB Unpad, ada yang bisa saya bantu?"]
+    },
+    {
+      "tag": "kabar",
+      "patterns": ["Apa kabar", "Bagaimana kabarmu", "Kamu ini apa", "Apa kamu baik baik saja", "Bagaimana harimu"],
+      "responses": ["Kabar saya baik! Terima kasih telah bertanya", "Saya baik-baik saja", "Kabar saya baik! Semoga kabar Anda juga baik"]
+    },
+    {
+      "tag": "lagi_apa",
+      "patterns": ["Lagi apa", "Anda sedang apa?", "Lagi ngapain", "Anda sedang melakukan apa"],
+      "responses": ["Saya sedang berkomunikasi dengan Anda", "Saya sedang membantu Anda, ada yang ingin ditanyakan? ", "Saya sedang membantu Anda, apa yang bisa saya bantu?"]
+    },
+    {
+      "tag": "maaf",
+      "patterns": ["Maaf", "Sorry", "Maafkan", "Saya minta maaf"],
+      "responses": ["Tidak apa-apa", "Jangan khawatir",  "Tidak apa-apa! Ada yang bisa saya bantu lagi?", "Jangan khawatir! Ada yang bisa saya bantu lagi?"]
+    },
+    {
+      "tag": "terima_kasih",
+      "patterns": ["Thanks", "Thank you", "Terima Kasih", "Trims", "Makasih", "Makacih", "Love"],
+      "responses": ["Senang dapat membantu Anda!", "Tentu saja!", "Dengan senang hati! Jika Anda memiliki pertanyaan lain, jangan ragu untuk menghubungi saya kembali"]
+    },
+    {
+      "tag": "visi",
+      "patterns": ["Sebutkan visi", "Apa visi", "Visi"],
+      "responses": ["Visi apa yang Anda cari? Saya memiliki informasi visi dari Universitas Padjadjaran, Fakultas Ekonomi dan Bisnis, dan S2 Magister Manajemen.", "Bisakah Anda lebih spesifik dengan visi apa yang Anda cari? Saya memiliki informasi visi dari Universitas Padjadjaran, Fakultas Ekonomi dan Bisnis, dan S2 Magister Manajemen."]
+    },
+    {
+      "tag": "misi",
+      "patterns": ["Sebutkan misi","Apa misi", "Misi"],
+      "responses": ["Misi apa yang Anda cari? Saya memiliki informasi misi dari Universitas Padjadjaran, Fakultas Ekonomi dan Bisnis, dan S2 Magister Manajemen.", "Bisakah Anda lebih spesifik dengan misi apa yang Anda cari? Saya memiliki informasi misi dari Universitas Padjadjaran, Fakultas Ekonomi dan Bisnis, dan S2 Magister Manajemen."]
+    },
+    {
+      "tag": "visi_misi",
+      "patterns": ["Sebutkan visi misi", "Apa visi misi", "Visi Misi"],
+      "responses": ["Visi Misi apa yang Anda cari? Saya memiliki informasi visi misi dari Universitas Padjadjaran, Fakultas Ekonomi dan Bisnis, dan S2 Magister Manajemen.", "Bisakah Anda lebih spesifik dengan visi misi apa yang Anda cari? Saya memiliki informasi visi misi dari Universitas Padjadjaran, Fakultas Ekonomi dan Bisnis, dan S2 Magister Manajemen."]
+    },
+    {
+      "tag": "visi_mm",
+      "patterns": ["Sebutkan visi S2 Magister Manajemen", "Sebutkan visi S2 MM","Apa visi S2 Magister Manajemen", "Apa visi MM", "Visi Magister Manajemen","Visi S2 Magister Manajemen", "Visi S2 MM", "Visi MM", "Visi Magister Manajemen"],
+      "responses": ["Menjadi program studi atau sekolah manajemen dan bisnis terkemuka dan berkualitas Internasional untuk menghasilkan manajer, konsultan, serta wirausahawan yang handal, profesional dan mampu mengaplikasikan Teknologi Informasi dan Komunikasi (TIK), pada tahun 2026.",
+    "Visi Prodi S2 Magister Manajemen FEB UNPAD adalah Menjadi program studi atau sekolah manajemen dan bisnis terkemuka dan berkualitas Internasional untuk menghasilkan manajer, konsultan, serta wirausahawan yang handal, profesional dan mampu mengaplikasikan Teknologi Informasi dan Komunikasi (TIK), pada tahun 2026."]
+    },
+    {
+      "tag": "misi_mm",
+      "patterns": ["Sebutkan misi S2 Magister Manajemen", "Sebutkan misi S2 MM", "Apa misi S2 Magister Manajemen", "Apa misi MM", "Misi Magister Manajemen","Misi S2 Magister Manajemen", "Misi S2 MM", "Misi MM", "Misi Magister Manajemen"],
+      "responses": ["1. Menyelenggarakan pendidikan Program Studi Magister Manajemen dengan kurikulum yang membentuk lulusan manajer professional, konsultan dan wirausahawan yang kreatif, inovatif dan visioner yang memiliki kemampuan digital.\n 2. Mengembangkan penelitian dalam bidang ilmu manajemen dan bisnis berdasarkan pendekatan organisasi bisnis dan non-bisnis yang bermanfaat bagi perkembangan ilmu manajemen dan bisnis dalam kehidupan masyarakat.\n3. Menjalankan pengabdian kepada masyarakat dengan menerapkan ilmu manajemen dan bisnis sesuai kebutuhan pengguna.\n4. Menyelenggarakan tata kelola yang baik (good governance) organisasi program studi magister manajemen yang berstandar internasional.\n5. Menjalin hubungan kerja sama strategis dengan para pemangku kepentingan (institusi pendidikan lain, pengguna lulusan, pemerintah, dan masyarakat umumnya) secara kreatif dan inovatif.",
+    "Misi Prodi S2 Magister Manajemen FEB UNPAD adalah\n 1. Menyelenggarakan pendidikan Program Studi Magister Manajemen dengan kurikulum yang membentuk lulusan manajer professional, konsultan dan wirausahawan yang kreatif, inovatif dan visioner yang memiliki kemampuan digital.\n 2. Mengembangkan penelitian dalam bidang ilmu manajemen dan bisnis berdasarkan pendekatan organisasi bisnis dan non-bisnis yang bermanfaat bagi perkembangan ilmu manajemen dan bisnis dalam kehidupan masyarakat.\n3. Menjalankan pengabdian kepada masyarakat dengan menerapkan ilmu manajemen dan bisnis sesuai kebutuhan pengguna.\n4. Menyelenggarakan tata kelola yang baik (good governance) organisasi program studi magister manajemen yang berstandar internasional.\n5. Menjalin hubungan kerja sama strategis dengan para pemangku kepentingan (institusi pendidikan lain, pengguna lulusan, pemerintah, dan masyarakat umumnya) secara kreatif dan inovatif."]
+    },
+    {
+      "tag": "visi_misi_mm",
+      "patterns": ["Sebutkan visi misi S2 Magister Manajemen", "Sebutkan visi misi S2 MM", "Apa visi misi S2 Magister Manajemen", "Apa visi misi MM", "Visi Misi Magister Manajemen","Visi Misi S2 Magister Manajemen", "Visi Misi S2 MM", "Visi Misi MM", "Visi Misi Magister Manajemen"],
+      "responses": ["Visi :\nMenjadi program studi atau sekolah manajemen dan bisnis terkemuka dan berkualitas Internasional untuk menghasilkan manajer, konsultan, serta wirausahawan yang handal, profesional dan mampu mengaplikasikan Teknologi Informasi dan Komunikasi (TIK), pada tahun 2026.\nMisi :\n1. Menyelenggarakan pendidikan Program Studi Magister Manajemen dengan kurikulum yang membentuk lulusan manajer professional, konsultan dan wirausahawan yang kreatif, inovatif dan visioner yang memiliki kemampuan digital.\n 2. Mengembangkan penelitian dalam bidang ilmu manajemen dan bisnis berdasarkan pendekatan organisasi bisnis dan non-bisnis yang bermanfaat bagi perkembangan ilmu manajemen dan bisnis dalam kehidupan masyarakat.\n3. Menjalankan pengabdian kepada masyarakat dengan menerapkan ilmu manajemen dan bisnis sesuai kebutuhan pengguna.\n4. Menyelenggarakan tata kelola yang baik (good governance) organisasi program studi magister manajemen yang berstandar internasional.\n5. Menjalin hubungan kerja sama strategis dengan para pemangku kepentingan (institusi pendidikan lain, pengguna lulusan, pemerintah, dan masyarakat umumnya) secara kreatif dan inovatif.",
+    "Visi Prodi S2 Magister Manajemen FEB UNPAD :\nMenjadi program studi atau sekolah manajemen dan bisnis terkemuka dan berkualitas Internasional untuk menghasilkan manajer, konsultan, serta wirausahawan yang handal, profesional dan mampu mengaplikasikan Teknologi Informasi dan Komunikasi (TIK), pada tahun 2026.\nMisi Prodi S2 Magister Manajemen FEB UNPAD :\n1. Menyelenggarakan pendidikan Program Studi Magister Manajemen dengan kurikulum yang membentuk lulusan manajer professional, konsultan dan wirausahawan yang kreatif, inovatif dan visioner yang memiliki kemampuan digital.\n 2. Mengembangkan penelitian dalam bidang ilmu manajemen dan bisnis berdasarkan pendekatan organisasi bisnis dan non-bisnis yang bermanfaat bagi perkembangan ilmu manajemen dan bisnis dalam kehidupan masyarakat.\n3. Menjalankan pengabdian kepada masyarakat dengan menerapkan ilmu manajemen dan bisnis sesuai kebutuhan pengguna.\n4. Menyelenggarakan tata kelola yang baik (good governance) organisasi program studi magister manajemen yang berstandar internasional.\n5. Menjalin hubungan kerja sama strategis dengan para pemangku kepentingan (institusi pendidikan lain, pengguna lulusan, pemerintah, dan masyarakat umumnya) secara kreatif dan inovatif."]    
+    },
+    {
+      "tag": "tujuan_mm",
+      "patterns": ["Sebutkan tujuan Magister Manajemen", "Sebutkan tujuan MM", "Apa tujuan Magister Manajemen", "Apa tujuan MM", "Tujuan Magister Manajemen", "Tujuan MM"],
+      "responses": ["1. Terselenggaranya sistem pembelajaran bidang manajemen dan bisnis yang sesuai dengankebutuhan kurikulum pendidikan tinggi (KPT) yang berbasis Outcome dalam membentuk lulusan manajer professional, konsultan dan wirausahawan yang kreatif, inovatif dan visioner.\n2. Menghasilkan lulusan yang unggul di bidang manajemen dan bisnis dengan kekhasan pada kemampuan penerapan riset, konsultasi dan pengabdian pada masyarakat di bidang fungsi-fungsi bisnis.\n3. Menghasilkan peta jalan penelitian dosen dan mahasiswa di bidang manajemen dan bisnis secara terintegrasi dengan peta jalan penelitian fakultas dan universitas.\n4. Menghasilkan dan meningkatkan kegiatan pengabdian pada masyarakat di bidang manajemen dan bisnis melalui kerjasama strategis dengan berbagai pemangku kepentingan (stakeholder) yang dapat dimanfaatkan secara praktis oleh masyarakat.\n5. Menghasilkan karya publikasi ilmiah di bidang manajemen dan bisnis yang berbasis penelitian dan dapat diaplikasikan pada masyarakat pengguna.\n6. Meningkatnya ketersediaan sarana dan prasarana penunjang pendidikan tinggi tingkat magister berstandar internasional.\n7. Terlaksananya sistem penjaminan mutu berstandar internasional dalam upaya mempertahankan dan meningkatkan mutu penyelenggaraan pendidikan tinggi di tingkat magister.",
+    "Tujuan Prodi S2 Magister Manajemen FEB UNPAD :\n1. Terselenggaranya sistem pembelajaran bidang manajemen dan bisnis yang sesuai dengankebutuhan kurikulum pendidikan tinggi (KPT) yang berbasis Outcome dalam membentuk lulusan manajer professional, konsultan dan wirausahawan yang kreatif, inovatif dan visioner.\n2. Menghasilkan lulusan yang unggul di bidang manajemen dan bisnis dengan kekhasan pada kemampuan penerapan riset, konsultasi dan pengabdian pada masyarakat di bidang fungsi-fungsi bisnis.\n3. Menghasilkan peta jalan penelitian dosen dan mahasiswa di bidang manajemen dan bisnis secara terintegrasi dengan peta jalan penelitian fakultas dan universitas.\n4. Menghasilkan dan meningkatkan kegiatan pengabdian pada masyarakat di bidang manajemen dan bisnis melalui kerjasama strategis dengan berbagai pemangku kepentingan (stakeholder) yang dapat dimanfaatkan secara praktis oleh masyarakat.\n5. Menghasilkan karya publikasi ilmiah di bidang manajemen dan bisnis yang berbasis penelitian dan dapat diaplikasikan pada masyarakat pengguna.\n6. Meningkatnya ketersediaan sarana dan prasarana penunjang pendidikan tinggi tingkat magister berstandar internasional.\n7. Terlaksananya sistem penjaminan mutu berstandar internasional dalam upaya mempertahankan dan meningkatkan mutu penyelenggaraan pendidikan tinggi di tingkat magister."]    
+    },
+    {
+      "tag": "visi_feb",
+      "patterns": ["Sebutkan visi Fakultas Ekonomi dan Bisnis", "Sebutkan visi FEB","Apa visi Fakultas Ekonomi dan Bisnis", "Apa visi FEB", "Visi Fakultas Ekonomi dan Bisnis", "Visi FEB"],
+      "responses": ["Menjadi Fakultas Ekonomi dan Bisnis yang unggul, berkinerja, bermanfaat dan berkelanjutan secara nasional dan internasional, melalui kepemimpinan transformatif yang didukung oleh manajemen Fakultas yang kokoh dan jaringan luas.",
+    "Visi Fakultas Ekonomi dan Bisnis Universitas Padjadjaran adalah Menjadi Fakultas Ekonomi dan Bisnis yang unggul, berkinerja, bermanfaat dan berkelanjutan secara nasional dan internasional, melalui kepemimpinan transformatif yang didukung oleh manajemen Fakultas yang kokoh dan jaringan luas."]
+    },
+    {
+      "tag": "misi_feb",
+      "patterns": ["Sebutkan misi Fakultas Ekonomi dan Bisnis", "Sebutkan misi FEB","Apa misi Fakultas Ekonomi dan Bisnis", "Apa misi FEB", "Misi Fakultas Ekonomi dan Bisnis", "Misi FEB"],
+      "responses": ["1. Menjalankan kegiatan pendidikan tinggi di bidang Ekonomi dan Bisnis dengan mengelaborasi berbagai pendekatan,teknik, dan metode pendidikan kontemporer dan berkelanjutan secara nasional dan internasional.\n2. Menyelenggarakan kegiatan penelitian di bidang Ekonomidan Bisnis yang mampu melahirkan solusi nyata bagi permasalahan kehidupan bidang Ekonomi dan Bisnis yang berkelanjutan di level nasional maupun internasional,melalui pendekatan multidisiplin dan transdisiplin.\n3. Mengabdi kepada masyarakat melalui pengembangan berbagai bentuk kolaborasi pentahelix (akademisi,pemerintah, bisnis, media dan komunitas) yang integrative dan berkelanjutan secara nasional maupun internasional.\n4. Menyelenggarakan manajemen Fakultas yang kokoh dan berkelanjutan dengan menerapkan nilai-nilai ETIKA meliputi Empati, Tata Kelola, Inklusif, Kolaborasi dan Amanah.",
+    "Misi Fakultas Ekonomi dan Bisnis Universitas Padjadjaran adalah\n 1. Menjalankan kegiatan pendidikan tinggi di bidang Ekonomi dan Bisnis dengan mengelaborasi berbagai pendekatan,teknik, dan metode pendidikan kontemporer dan berkelanjutan secara nasional dan internasional.\n2. Menyelenggarakan kegiatan penelitian di bidang Ekonomidan Bisnis yang mampu melahirkan solusi nyata bagi permasalahan kehidupan bidang Ekonomi dan Bisnis yang berkelanjutan di level nasional maupun internasional,melalui pendekatan multidisiplin dan transdisiplin.\n3. Mengabdi kepada masyarakat melalui pengembangan berbagai bentuk kolaborasi pentahelix (akademisi,pemerintah, bisnis, media dan komunitas) yang integrative dan berkelanjutan secara nasional maupun internasional.\n4. Menyelenggarakan manajemen Fakultas yang kokoh dan berkelanjutan dengan menerapkan nilai-nilai ETIKA meliputi Empati, Tata Kelola, Inklusif, Kolaborasi dan Amanah."]
+    },
+    {
+      "tag": "visi_misi_feb",
+      "patterns": ["Sebutkan visi misi Fakultas Ekonomi dan Bisnis", "Sebutkan visi misi FEB", "Apa visi misi Fakultas Ekonomi dan Bisnis", "Apa visi misi FEB", "Visi Misi Fakultas Ekonomi dan Bisnis", "Visi Misi FEB"],
+      "responses": ["Visi :\nMenjadi Fakultas Ekonomi dan Bisnis yang unggul, berkinerja, bermanfaat dan berkelanjutan secara nasional dan internasional, melalui kepemimpinan transformatif yang didukung oleh manajemen Fakultas yang kokoh dan jaringan luas.\nMisi :\n1. Menjalankan kegiatan pendidikan tinggi di bidang Ekonomi dan Bisnis dengan mengelaborasi berbagai pendekatan,teknik, dan metode pendidikan kontemporer dan berkelanjutan secara nasional dan internasional.\n2. Menyelenggarakan kegiatan penelitian di bidang Ekonomidan Bisnis yang mampu melahirkan solusi nyata bagi permasalahan kehidupan bidang Ekonomi dan Bisnis yang berkelanjutan di level nasional maupun internasional,melalui pendekatan multidisiplin dan transdisiplin.\n3. Mengabdi kepada masyarakat melalui pengembangan berbagai bentuk kolaborasi pentahelix (akademisi,pemerintah, bisnis, media dan komunitas) yang integrative dan berkelanjutan secara nasional maupun internasional.\n4. Menyelenggarakan manajemen Fakultas yang kokoh dan berkelanjutan dengan menerapkan nilai-nilai ETIKA meliputi Empati, Tata Kelola, Inklusif, Kolaborasi dan Amanah.",
+    "Visi Fakultas Ekonomi dan Bisnis :\nMenjadi Fakultas Ekonomi dan Bisnis yang unggul, berkinerja, bermanfaat dan berkelanjutan secara nasional dan internasional, melalui kepemimpinan transformatif yang didukung oleh manajemen Fakultas yang kokoh dan jaringan luas.\nMisi Fakultas Ekonomi dan Bisnis :\n1. Menjalankan kegiatan pendidikan tinggi di bidang Ekonomi dan Bisnis dengan mengelaborasi berbagai pendekatan,teknik, dan metode pendidikan kontemporer dan berkelanjutan secara nasional dan internasional.\n2. Menyelenggarakan kegiatan penelitian di bidang Ekonomidan Bisnis yang mampu melahirkan solusi nyata bagi permasalahan kehidupan bidang Ekonomi dan Bisnis yang berkelanjutan di level nasional maupun internasional,melalui pendekatan multidisiplin dan transdisiplin.\n3. Mengabdi kepada masyarakat melalui pengembangan berbagai bentuk kolaborasi pentahelix (akademisi,pemerintah, bisnis, media dan komunitas) yang integrative dan berkelanjutan secara nasional maupun internasional.\n4. Menyelenggarakan manajemen Fakultas yang kokoh dan berkelanjutan dengan menerapkan nilai-nilai ETIKA meliputi Empati, Tata Kelola, Inklusif, Kolaborasi dan Amanah."]    
+    },
+    {
+      "tag": "tujuan_feb",
+      "patterns": ["Sebutkan tujuan Fakultas Ekonomi dan Bisnis", "Sebutkan tujuan FEB", "Apa tujuan Fakultas Ekonomi dan Bisnis", "Apa tujuan FEB", "Tujuan Fakultas Ekonomi dan Bisnis", "Tujuan FEB"],
+      "responses":["1. Menghasilkan lulusan dengan kompetensi yang diakui dan berdampak baik di tingkat nasional maupun internasional.\n2. Menghasilkan karya penelitian yang berdampak nyata bagi kinerja ekonomi dan bisnis yang berkelanjutan di tingkat nasional dan internasional.\n3. Menghasilkan karya pengabdian kepada masyarakat yang berdampak nyata bagi kesejahteraan masyarakat dan pembangunan berkelanjutan di tingkat nasional dan internasional.\n4. Terbangunnya jejaring yang kuat dan berkelanjutan antara civitas akademika, alumni, dunia bisnis, pemerintah dan seluruh pemangku kepentingan dalam kegiatan tridharma perguruan tinggi.\n5. Terselenggaranya manajemen pendidikan yang profesional dengan nilai-nilai tata kelola fakultas yg baik (good faculty governance) dan berkelanjutan (sustainable) yang mengintegrasikan nilai-nilai ETIKA yang digali dari budaya lokal, nasional dan global dalam proses aktualisasi intelektualnya.",
+      "Tujuan Fakultas Ekonomi dan Bisnis :\n1. Menghasilkan lulusan dengan kompetensi yang diakui dan berdampak baik di tingkat nasional maupun internasional.\n2. Menghasilkan karya penelitian yang berdampak nyata bagi kinerja ekonomi dan bisnis yang berkelanjutan di tingkat nasional dan internasional.\n3. Menghasilkan karya pengabdian kepada masyarakat yang berdampak nyata bagi kesejahteraan masyarakat dan pembangunan berkelanjutan di tingkat nasional dan internasional.\n4. Terbangunnya jejaring yang kuat dan berkelanjutan antara civitas akademika, alumni, dunia bisnis, pemerintah dan seluruh pemangku kepentingan dalam kegiatan tridharma perguruan tinggi.\n5. Terselenggaranya manajemen pendidikan yang profesional dengan nilai-nilai tata kelola fakultas yg baik (good faculty governance) dan berkelanjutan (sustainable) yang mengintegrasikan nilai-nilai ETIKA yang digali dari budaya lokal, nasional dan global dalam proses aktualisasi intelektualnya."]
+    },
+    {
+      "tag": "sasaran_strategis_feb",
+      "patterns": ["Sebutkan sasaran strategis Fakultas Ekonomi dan Bisnis", "Sebutkan sasaran strategis FEB", "Apa sasaran strategis Fakultas Ekonomi dan Bisnis", "Apa sasaran strategis FEB", "Sasaran strategis Fakultas Ekonomi dan Bisnis", "Sasaran strategis FEB"],
+      "responses":["1. Terwujudnya atmosfer Akademik yang Kondusif.\n2. Tercapainya Indonesia 2045 sebagai Orientasi Strategis Keilmuan dan Pembangunan Karakter dalam Pengajaran.\n3. Tercapainya pengembangan Smart Campus yang Inklusif.\n4. Terlaksananya Riset dan PPM sebagai Problem Solver untuk Indonesia dan Dunia.\n5. Terbangunnya sinergi pentahelix antara akademisi, pemerintah, bisnis, media dan komunitas.\n6. Terwujudnya Internasionalisasi dari Recognized menuju Greatness.\n7. Terciptanya FEB sebagai pusat keunggulan pendidikan, riset dan pengabdian kepada masyarakat untuk menunjang Ekosistem Stakeholders.",
+      "Sasaran strategis Fakultas Ekonomi dan Bisnis :\n1. Terwujudnya atmosfer Akademik yang Kondusif.\n2. Tercapainya Indonesia 2045 sebagai Orientasi Strategis Keilmuan dan Pembangunan Karakter dalam Pengajaran.\n3. Tercapainya pengembangan Smart Campus yang Inklusif.\n4. Terlaksananya Riset dan PPM sebagai Problem Solver untuk Indonesia dan Dunia.\n5. Terbangunnya sinergi pentahelix antara akademisi, pemerintah, bisnis, media dan komunitas.\n6. Terwujudnya Internasionalisasi dari Recognized menuju Greatness.\n7. Terciptanya FEB sebagai pusat keunggulan pendidikan, riset dan pengabdian kepada masyarakat untuk menunjang Ekosistem Stakeholders."]
+    },
+    {
+      "tag": "visi_unpad",
+      "patterns": ["Sebutkan visi Universitas Padjadjaran", "Sebutkan visi Unpad", "Apa visi Universitas Padjadjaran", "Apa visi Unpad", "Visi Universitas Padjadjaran", "Visi Unpad"],
+      "responses": ["Mencapai Universitas Bereputasi Dunia dan Berdampak pada Masyarakat.",
+    "Visi Universitas Padjadjaran adalahMencapai Universitas Bereputasi Dunia dan Berdampak pada Masyarakat."]
+    },
+    {
+      "tag": "misi_unpad",
+      "patterns": ["Sebutkan misi Universitas Padjadjaran", "Sebutkan misi Unpad", "Apa misi Universitas Padjadjaran", "Apa misi Unpad", "Misi Universitas Padjadjaran", "Misi Unpad"],
+      "responses": ["1. Mewujudkan academic excellence dan memperoleh rekognisi nasional dan internasional;\n2. Meningkatnya relevansi dan inovasi pendidikan, penelitian dan pengabdian pada masyarakat;\n3. Mewujudkan kemandirian dengan kapitalisasi sumber daya internal dan kemitraan strategis;\n4. Meningkatkan kontribusi Unpad dalam penyelesaian masalah yang berdampak pada kesejahteraan masyarakat Jawa Barat dan Indonesia;\n5. Membangun karakter kepemimpinan dengan budaya kolektif, profesional, dan berintegritas dalam pengelolaan keberlanjutan Universitas.",
+    "Misi Universitas Padjadjaran adalah\n 1. Mewujudkan academic excellence dan memperoleh rekognisi nasional dan internasional;\n2. Meningkatnya relevansi dan inovasi pendidikan, penelitian dan pengabdian pada masyarakat;\n3. Mewujudkan kemandirian dengan kapitalisasi sumber daya internal dan kemitraan strategis;\n4. Meningkatkan kontribusi Unpad dalam penyelesaian masalah yang berdampak pada kesejahteraan masyarakat Jawa Barat dan Indonesia;\n5. Membangun karakter kepemimpinan dengan budaya kolektif, profesional, dan berintegritas dalam pengelolaan keberlanjutan Universitas. "]
+    },
+    {
+      "tag": "visi_misi_unpad",
+      "patterns": ["Sebutkan visi misi Universitas Padjadjaran", "Sebutkan visi misi Unpad", "Apa visi misi Universitas Padjadjaran", "Apa visi misi Unpad", "Visi Misi Universitas Padjadjaran", "Visi Misi Unpad"],
+      "responses": ["Visi :\nMencapai Universitas Bereputasi Dunia dan Berdampak pada Masyarakat.\nMisi :\n1. Mewujudkan academic excellence dan memperoleh rekognisi nasional dan internasional;\n2. Meningkatnya relevansi dan inovasi pendidikan, penelitian dan pengabdian pada masyarakat;\n3. Mewujudkan kemandirian dengan kapitalisasi sumber daya internal dan kemitraan strategis;\n4. Meningkatkan kontribusi Unpad dalam penyelesaian masalah yang berdampak pada kesejahteraan masyarakat Jawa Barat dan Indonesia;\n5. Membangun karakter kepemimpinan dengan budaya kolektif, profesional, dan berintegritas dalam pengelolaan keberlanjutan Universitas.",
+    "Visi Universitas Padjadjaran :\nMencapai Universitas Bereputasi Dunia dan Berdampak pada Masyarakat.\nMisi Universitas Padjadjaran :\n1. Mewujudkan academic excellence dan memperoleh rekognisi nasional dan internasional;\n2. Meningkatnya relevansi dan inovasi pendidikan, penelitian dan pengabdian pada masyarakat;\n3. Mewujudkan kemandirian dengan kapitalisasi sumber daya internal dan kemitraan strategis;\n4. Meningkatkan kontribusi Unpad dalam penyelesaian masalah yang berdampak pada kesejahteraan masyarakat Jawa Barat dan Indonesia;\n5. Membangun karakter kepemimpinan dengan budaya kolektif, profesional, dan berintegritas dalam pengelolaan keberlanjutan Universitas."]    
+    },
+    {
+      "tag": "tujuan_unpad",
+      "patterns": ["Sebutkan tujuan Universitas Padjadjaran", "Sebutkan tujuan Unpad", "Apa tujuan Universitas Padjadjaran", "Apa tujuan Unpad", "Tujuan Universitas Padjadjaran", "Tujuan Unpad"],
+      "responses":["1. Tercapainya keberlanjutan produktivitas sumber daya manusia (SDM) dan kelembagaan merespons perubahan global;\n2. Tercapainya lulusan berdaya saing Internasional yang berkarakter dan menjunjung budaya lokal;\n3. Tercapainya hasil riset dan inovasi unggul yang terekognisi internasional berlandaskan Pola Ilmiah Pokok;\n4. Terwujudnya kemandirian institusi yang didukung oleh tata kelola yang baik dan kemitraan strategis di dalam dan luar negeri;\n5. Terwujudnya peningkatan kontribusi untuk pembangunan Jawa Barat dan Indonesia berbasis kualitas dan relevansi pengembangan iptek dan inovasi;\n6. Tercapainya pengakuan atas reputasi Unpad berskala Internasional.",
+      "Tujuan Universitas Padjadjaran :\n1. Tercapainya keberlanjutan produktivitas sumber daya manusia (SDM) dan kelembagaan merespons perubahan global;\n2. Tercapainya lulusan berdaya saing Internasional yang berkarakter dan menjunjung budaya lokal;\n3. Tercapainya hasil riset dan inovasi unggul yang terekognisi internasional berlandaskan Pola Ilmiah Pokok;\n4. Terwujudnya kemandirian institusi yang didukung oleh tata kelola yang baik dan kemitraan strategis di dalam dan luar negeri;\n5. Terwujudnya peningkatan kontribusi untuk pembangunan Jawa Barat dan Indonesia berbasis kualitas dan relevansi pengembangan iptek dan inovasi;\n6. Tercapainya pengakuan atas reputasi Unpad berskala Internasional."]
+    },
+    {
+      "tag": "sasaran_strategis_unpad",
+      "patterns": ["Sebutkan sasaran strategis Universitas Padjadjaran", "Sebutkan sasaran strategis Unpad", "Apa sasaran strategis Universitas Padjadjaran", "Apa sasaran strategis Unpad", "Sasaran strategis Universitas Padjadjaran", "Sasaran strategis Unpad"],
+      "responses":["1. Meningkatnya kualitas dan keunggulan Sumber Daya Manusia (SDM) yang berdaya saing global;\n2. Meningkatnya relevansi pendidikan, penelitian dan pengabdian pada masyarakat;\n3. Terwujudnya kemandirian melalui peningkatan nilai tambah hasil inovasi menggunakan kemitraan pentahelix;\n4. Meningkatnya kontribusi Unpad untuk daya saing Jawa Barat dan Indonesia yang memberikan dampak bagi kesejahteraan seluruh masyarakat;\n5. Terwujudnya Rekognisi Global atas kinerja dan inovasi penyelenggaraan tridharma perguruan tinggi;\n6. Terwujudnya tata kelola yang baik yang mendukung kemandirian dan kemajuan berkelanjutan.",
+      "Sasaran strategis Universitas Padjadjaran :\n1. Meningkatnya kualitas dan keunggulan Sumber Daya Manusia (SDM) yang berdaya saing global;\n2. Meningkatnya relevansi pendidikan, penelitian dan pengabdian pada masyarakat;\n3. Terwujudnya kemandirian melalui peningkatan nilai tambah hasil inovasi menggunakan kemitraan pentahelix;\n4. Meningkatnya kontribusi Unpad untuk daya saing Jawa Barat dan Indonesia yang memberikan dampak bagi kesejahteraan seluruh masyarakat;\n5. Terwujudnya Rekognisi Global atas kinerja dan inovasi penyelenggaraan tridharma perguruan tinggi;\n6. Terwujudnya tata kelola yang baik yang mendukung kemandirian dan kemajuan berkelanjutan."]
+    },
+    {
+      "tag": "sejarah",
+      "patterns": ["Sejarah Magister Manajemen","Awal mula Magister Manajemen","Sejarah MM", "Awal mula MM","Awal Magister Manajemen","Awal MM"],
+      "responses": ["Pada tahun 1979 Program Pascasarjana Unpad telah melaksanakan program pendidikan Magister (Strata-2) untuk berbagai bidang ilmu sesuai dengan perkembangan pesat di bidang ilmu pengetahuan, teknologi, informasi,komunikasi dan elektronik, mendorong peningkatan kualitas sumber daya manusia.\nLalu kemudian pada tahun 1992 Program Pascasarjana Unpad membuka program studi Magister Manajemen jalur profesi pada tanggal 19 Juni 1992 dengan SK Rektor Nomor: 76a/PT06.H/Kep/I/92 dan dikukuhkan oleh SK Dirjen Dikti No. 525/DIKTI/Kep/1993 pada tanggal 10 September 1993 tentang surat pengesahan pendirian Program Magister Manajemen."]
+    },
+    {
+      "tag": "tujuan_pendirian",
+      "patterns": ["Tujuan pendirian Magister Manajemen","Pendirian Magister Manajemen untuk apa","Tujuan pembentukan Magister Manajemen","Pembentukan Magister Manajemen untuk apa","Tujuan pembentukan MM", "Pembentukan MM untuk apa","Tujuan pendirian MM", "Pendirian MM untuk apa"],
+      "responses": ["Untuk menerapkan dan mengembangkan konsep-konsep manajemen, baik yang berorientasi laba maupun nirlaba dalam berbagai organisasi, baik yang bisnis maupun non-bisnis seperti : industri manufaktur, perbankan, agrobisnis maupun bagi pelayanan publik diantaranya merupakan organisasi di lingkungan pemerintahan, rumah sakit, dan pelayanan publik lainnya."]
+    },
+    {
+      "tag": "kompetensi_lulusan",
+      "patterns": ["Kompetensi lulusan Magister Manajemen", "Seperti apa kompetensi lulusan Magister Manajemen", "Kompetensi lulusan MM", "Seperti apa kompetensi lulusan MM"],
+      "responses": ["Lulusan Prodi MM FEB Unpad berhak menyandang gelar MAGISTER MANAJEMEN (MM) yaitu gelar akademis Strata-2 (S2) dengan kemampuan profesional sesuai dengan spesialisasi atau peminatan yang diambilnya serta diperbolehkan meneruskan studi ke jenjang selanjutnya yaitu ke program pascasarjana Strata-3 (Doktor), bagi yang memenuhi syarat."]
+    },
+    {
+      "tag": "capaian_pembelajaran_lulusan",
+      "patterns": ["Capaian pembelajaran lulusan Magister Manajemen", "Capaian pembelajaran lulusan MM", "Apa capaian pembelajaran lulusan Magister Manajemen", "Apa capaian pembelajaran lulusan MM"],
+      "responses": ["Setelah melalui proses pembelajaran di Program Studi Magister Manajemen, alumni diharapkan dapat memenuhi standar kompetensi berdasarkan Standar Nasional Pendidikan Dikti (SN-Dikti) dan Kerangka Kualifikasi Nasional Indonesia (KKNI) yang terdiri dari Sikap (Attitude), Ketrampilan Umum (General Skills), Ketrampilan Khusus (Special Skills) dan Pengetahuan (Knowledge) dalam bidang Manajemen dan Bisnis terutama sebagai:\n1. Eksekutif /Manajer Perusahaan atau Pimpinan Lembaga\n2. Konsultan Manajemen dan Bisnis/Non-Bisnis\n3. Wirausahawan"]
+    },
+    {
+      "tag": "akreditasi",
+      "patterns": ["Akreditasi Magister Manajemen", "Akreditasi MM", "Bagaimana akreditasi Magister Manajemen", "Bagaimana akreditasi MM"],
+      "responses": ["1.Akreditasi pertama tanggal 19 Oktober 2000 - Nilai U (Unggul) - SK No.032/BAN-PT/Ak-I/S2/X/20002.\n2. Akreditasi kedua tanggal 04 Mei 2006 - Akreditasi A (Sangat Baik) - Sertifikat Akreditasi No.00546/Ak-V/S2-001/UPAMMJ/V/2006.\n3. Akreditasi ketiga tanggal 23 September 2011 - Akreditasi A - Sertifikat Akreditasi BAN-PT No. 016/BAN-PT/Ak-IX/S2/IX/2011.\n4. Akreditasi keempat tanggal 15 Agustus 2017 - Akreditasi A(2017-2022) - Sertifikat Akreditasi BAN-PT No. 2878/SK/BAN-PT/Akred/M/VIII/2017.\n5. Akreditasi International (Maret 2014-2019) dari ABEST21."]
+    },
+    {
+      "tag": "konsep_kurikulum",
+      "patterns": ["Konsep kurikulum Magister Manajemen", "Konsep kurikulum MM", "Bagaimana konsep kurikulum Magister Manajemen", "Bagaimana konsep kurikulum MM", "Seperti apa konsep kurikulum Magister Manajemen", "Seperti apa konsep kurikulum MM"],
+      "responses": ["Kurikulum Prodi MM telah dievaluasi Pada Lokakarya Tinjauan Kurikulum Fakultas di Purwakarta pada Tanggal 27-29 Nov 2019 dan Lokakarya Kurikulum Demabis Pada tgl 21-22 Januari 2020 di Kuningan – Kurikulum 2021/2022\nLokakarya Kurikulum OBE MM FEB Unpad, November 2021. Jumlah SKS tetap sama: Kelas Reguler/Eksekutif: 44 SKS dengan Rencana Penambahan Pada Matakuliah-matakuliah Pilihan: International Insights, Manajemen Lintas Budaya, dan Leadership."]
+    },
+    {
+      "tag": "sks_mm",
+      "patterns": ["SKS Magister Manajemen", "SKS MM", "Ada berapa SKS di Magister Manajemen", "Ada berapa SKS di MM", "Berapa SKS di Magister Manajemen", "Berapa SKS di Magister Manajemen", "Berapa SKS", "SKS"],
+      "responses": ["Pada Program Studi Magister Manajemen terdapat total 44 SKS, baik untuk kelas reguler maupun kelas eksekutif.", "Program Studi Magister Manajemen memiliki total 44 SKS, baik untuk kelas reguler maupun kelas eksekutif."]
+    },
+    {
+      "tag": "sks_mm_detail",
+      "patterns": ["SKS Semester 1 Magister Manajemen", "SKS Semester 1 MM", "Ada berapa SKS di Semester 1 pada Magister Manajemen", "Ada berapa SKS di Semester 1 pada MM", "Berapa SKS Semester 1 di Magister Manajemen", "Berapa SKS Semester 1 di Magister Manajemen", "Berapa SKS Semester 1", "SKS Semester 1",
+      "SKS Semester 2 Magister Manajemen", "SKS Semester 2 MM", "Ada berapa SKS di Semester 2 pada Magister Manajemen", "Ada berapa SKS di Semester 2 pada MM", "Berapa SKS Semester 2 di Magister Manajemen", "Berapa SKS Semester 2 di Magister Manajemen", "Berapa SKS Semester 2", "SKS Semester 2",
+      "SKS Semester 3 Magister Manajemen", "SKS Semester 3 MM", "Ada berapa SKS di Semester 3 pada Magister Manajemen", "Ada berapa SKS di Semester 3 pada MM", "Berapa SKS Semester 3 di Magister Manajemen", "Berapa SKS Semester 3 di Magister Manajemen", "Berapa SKS Semester 3", "SKS Semester 3",
+      "SKS martikulasi Magister Manajemen", "SKS martikulasi MM", "Ada berapa SKS martikulasi pada Magister Manajemen", "Ada berapa SKS martikulasi pada MM", "Berapa SKS martikulasi di Magister Manajemen", "Berapa SKS martikulasi di Magister Manajemen", "Berapa SKS martikulasi", "SKS martikulasi"],
+      "responses": ["Berikut rincian jumlah SKS Pada Program Studi Magister Manajemen :\n1. Martikulasi - 12 SKS.\n2. Semester 1 - 16 SKS.\n3. Semester 2 - 20 SKS.\n4. Semester 3 - 8 SKS."]
+    },
+    {
+      "tag": "semester_mm",
+      "patterns": ["Semester Magister Manajemen", "Semester MM", "Ada berapa Semester di Magister Manajemen", "Ada berapa Semester di MM", "Berapa Semester di Magister Manajemen", "Berapa Semester di Magister Manajemen", "Berapa Semester", "Semester"],
+      "responses": ["Pada Program Studi Magister Manajemen terdapat 3 Semester, dimana sebelum Semester 1, mahasiswa wajib memenuhi matrikulasi .", "Program Studi Magister Manajemen memiliki waktu pembelajaran selama 3 Semester, dimana sebelum Semester 1, mahasiswa wajib memenuhi matrikulasi."]
+    },
+    {
+      "tag": "konsentrasi_mm",
+      "patterns": ["Konsentrasi Magister Manajemen", "Konsentrasi MM", "Apa saja konsentrasi di Magister Manajemen", "Apa saja konsentrasi di MM", "Kursus konsentrasi di Magister Manajemen", "Kursus konsentrasi di MM",  "Konsentrasi"],
+      "responses": ["Pada Program Studi Magister Manajemen terdapat 11 kursus konsentrasi, yaitu :\n1. Manajemen Pemasaran\n2. Manajemen Sumber Daya Manusia\n3. Manajemen Keuangan\n4. Manajemen Operasi\n5. Manajemen Strategik\n6. Manajemen Kewirausahaan dan Inovasi\n7. Manajemen Rumah Sakit\n8. Manajemen Aset dan Penilaian\n9. Manajemen Risiko\n10. Manajemen Perbankan\n11. Manajemen Bisnis dan Keuangan Syariah "]
+    },
+    {
+      "tag": "mk",
+      "patterns": ["Apa saja mata kuliah di Magister Manajemen", "Apa saja mata kuliah di MM", "Mata kuliah Magister Manajemen", "Mata kuliah MM", "Mata kuliah"],
+      "responses": ["Saya dapat menjabarkan mata kuliah pada Program Studi Magister Manajemen, bisa kah Anda lebih spesifik mata kuliah pada semester apa yang Anda cari?"]
+    },
+    {
+      "tag": "mk_smt_1",
+      "patterns": ["Apa saja mata kuliah semester 1 di Magister Manajemen", "Apa saja mata kuliah semester 1 di MM", "Mata kuliah semester 1 Magister Manajemen", "Mata kuliah semester 1 MM", "Mata kuliah semester 1"],
+      "responses": ["Mata kuliah semester 1 (untuk semua konsentrasi) Program Studi Magister Manajemen adalah sebagai berikut :\nMetoda Kuantitatif untuk Manajemen\n2. Teori dan Aplikasi Manajemen Pemasaran\n3. Teori dan Aplikasi Manajemen SDM\n4. Teori dan Aplikasi Manajemen Operasi\n5. Teori dan Aplikasi Manajemen Keuangan\n6. 1 Pilihan Wajib (SIKP Seminar Internasional & Kunjungan Perusahaan)"]
+    },
+    {
+      "tag": "mk_smt_2",
+      "patterns": ["Apa saja mata kuliah semester 2 di Magister Manajemen", "Apa saja mata kuliah semester 2 di MM", "Mata kuliah semester 2 Magister Manajemen", "Mata kuliah semester 2 MM", "Mata kuliah semester 2"],
+      "responses": ["Saya dapat menjabarkan mata kuliah semester 2 pada Program Studi Magister Manajemen, bisa kah Anda lebih spesifik mata kuliah pada kursus konsentrasi apa yang Anda cari?"]
+    },
+    {
+      "tag": "mk_smt_2_man_sdm",
+      "patterns": ["Apa saja mata kuliah semester 2 dengan konsentrasi Manajemen SDM di Magister Manajemen", "Apa saja mata kuliah semester 2 dengan konsentrasi Manajemen SDM di MM", "Mata kuliah semester 2 konsentrasi Manajemen SDM Magister Manajemen", "Mata kuliah semester 2 konsentrasi Manajemen SDM MM", "Mata kuliah semester 2 konsentrasi Manajemen SDM"],
+      "responses": ["Mata kuliah semester 2 (untuk konsentrasi Manajemen SDM) Program Studi Magister Manajemen adalah sebagai berikut :\n1. Manajemen Strategik\n2. Metoda Penelitian Manajemen\n3. Manajemen Kinerja\n4. Strategi Sumber Daya Manusia dan Manajemen Sumber Daya Manusia Internasional\n5. Hubungan Industrial\n6. Modal Intelektual dan Manajemen Pengetahuan Manajemen Talenta dan Pengetahuan\n7. 1 Mata Kuliah Pilihan"]
+    },
+    {
+      "tag": "mk_smt_2_man_keu",
+      "patterns": ["Apa saja mata kuliah semester 2 dengan konsentrasi Manajemen Keuangan di Magister Manajemen", "Apa saja mata kuliah semester 2 dengan konsentrasi Manajemen Keuangan di MM", "Mata kuliah semester 2 konsentrasi Manajemen Keuangan Magister Manajemen", "Mata kuliah semester 2 konsentrasi Manajemen Keuangan MM", "Mata kuliah semester 2 konsentrasi Manajemen Keuangan"],
+      "responses": ["Mata kuliah semester 2 (untuk konsentrasi Manajemen Keuangan) Program Studi Magister Manajemen adalah sebagai berikut :\n1. Manajemen Strategik\n2. Metoda Penelitian Manajemen\n3. Teori Investasi dan Analisis Sekuritas\n4. Topik Khusus Manajemen Keuangan\n5. Manajemen Resiko Bisnis dan Finansial\n6. Manajemen Keuangan Perusahaan Multinasional\n7. 1 Mata Kuliah Pilihan"]
+    },
+    {
+      "tag": "mk_smt_2_man_pms",
+      "patterns": ["Apa saja mata kuliah semester 2 dengan konsentrasi Manajemen Pemasaran di Magister Manajemen", "Apa saja mata kuliah semester 2 dengan konsentrasi Manajemen Pemasaran di MM", "Mata kuliah semester 2 konsentrasi Manajemen Pemasaran Magister Manajemen", "Mata kuliah semester 2 konsentrasi Manajemen Pemasaran MM", "Mata kuliah semester 2 konsentrasi Manajemen Pemasaran"],
+      "responses": ["Mata kuliah semester 2 (untuk konsentrasi Manajemen Pemasaran) Program Studi Magister Manajemen adalah sebagai berikut :\n1. Manajemen Strategik\n2. Metoda Penelitian Manajemen\n3. Perilaku Pelanggan dan Riset Pasar\n4. Manajemen Pemasaran Strategik\n5. Manajemen Pemasaran Bisnis Internasional\n6. Manajemen Kreasi Nilai Pelanggan\n7. 1 Mata Kuliah Pilihan"]
+    },
+    {
+      "tag": "mk_smt_2_man_str",
+      "patterns": ["Apa saja mata kuliah semester 2 dengan konsentrasi Manajemen Strategik di Magister Manajemen", "Apa saja mata kuliah semester 2 dengan konsentrasi Manajemen Strategik di MM", "Mata kuliah semester 2 konsentrasi Manajemen Strategik Magister Manajemen", "Mata kuliah semester 2 konsentrasi Manajemen Strategik MM", "Mata kuliah semester 2 konsentrasi Manajemen Strategik"],
+      "responses": ["Mata kuliah semester 2 (untuk konsentrasi Manajemen Strategik) Program Studi Magister Manajemen adalah sebagai berikut :\n1. Manajemen Strategik\n2. Metoda Penelitian Manajemen\n3. Analisis Persaingan, Strategi Korporasi dan Bisnis [AP-SKB] \n4. Implementasi Strategi dan Balance Score Card[IS-BSC] \n5. Manajemen Konsultasi Korporaso dan Bisnis[MKKB] \n6. Big Data dan Pengambilan Keputusan Strategik[DB-PKS] \n7. 1 Mata Kuliah Pilihan"]
+    },
+    {
+      "tag": "mk_smt_2_man_rs",
+      "patterns": ["Apa saja mata kuliah semester 2 dengan konsentrasi Manajemen Rumah Sakit di Magister Manajemen", "Apa saja mata kuliah semester 2 dengan konsentrasi Manajemen Rumah Sakit di MM", "Mata kuliah semester 2 konsentrasi Manajemen Rumah Sakit Magister Manajemen", "Mata kuliah semester 2 konsentrasi Manajemen Rumah Sakit MM", "Mata kuliah semester 2 konsentrasi Manajemen Rumah Sakit"],
+      "responses": ["Mata kuliah semester 2 (untuk konsentrasi Manajemen Rumah Sakit) Program Studi Magister Manajemen adalah sebagai berikut :\n1. Manajemen Strategik\n2. Metoda Penelitian Manajemen\n3. Epidemiologi Dasar Terapan\n4. Manajemen Pelayanan \n5. Manajemen Keperawatan\n6. Isu Rumah Sakit\n7. Manajemen Penunjang Medik\n8. 1 Mata Kuliah Pilihan"]
+    },
+    {
+      "tag": "mk_smt_2_man_adp",
+      "patterns": ["Apa saja mata kuliah semester 2 dengan konsentrasi Manajemen Aset dan Penilaian di Magister Manajemen", "Apa saja mata kuliah semester 2 dengan konsentrasi Manajemen Aset dan Penilaian di MM", "Mata kuliah semester 2 konsentrasi Manajemen Aset dan Penilaian Magister Manajemen", "Mata kuliah semester 2 konsentrasi Manajemen Aset dan Penilaian MM", "Mata kuliah semester 2 konsentrasi Manajemen Aset dan Penilaian"],
+      "responses": ["Mata kuliah semester 2 (untuk konsentrasi Manajemen Aset dan Penilaian) Program Studi Magister Manajemen adalah sebagai berikut :\n1. Manajemen Strategik\n2. Metoda Penelitian Manajemen\n3. Penilaian Aset Finansial\n4. Penilaian Bisnis\n5. Manajemen Aset\n6. Topik Khusus Manajemen Aset\n7. 1 Mata Kuliah Pilihan"]
+    },
+    {
+      "tag": "mk_smt_2_man_opr",
+      "patterns": ["Apa saja mata kuliah semester 2 dengan konsentrasi Manajemen Operasi di Magister Manajemen", "Apa saja mata kuliah semester 2 dengan konsentrasi Manajemen Operasi di MM", "Mata kuliah semester 2 konsentrasi Manajemen Operasi Magister Manajemen", "Mata kuliah semester 2 konsentrasi Manajemen Operasi MM", "Mata kuliah semester 2 konsentrasi Manajemen Operasi"],
+      "responses": ["Mata kuliah semester 2 (untuk konsentrasi Manajemen Operasi) Program Studi Magister Manajemen adalah sebagai berikut :\n1. Manajemen Strategik\n2. Metoda Penelitian Manajemen\n3. Manajemen Rantai Pasokan\n4. Penjadwalan Operasi\n5. Manajemen Mutu Terpadu\n6. Perencanaan Fasilitas\n7. 1 Mata Kuliah Pilihan"]
+    },
+    {
+      "tag": "mk_smt_2_man_kdi",
+      "patterns": ["Apa saja mata kuliah semester 2 dengan konsentrasi Manajemen Kewirausahaan dan Inovasi di Magister Manajemen", "Apa saja mata kuliah semester 2 dengan konsentrasi Manajemen Kewirausahaan dan Inovasi di MM", "Mata kuliah semester 2 konsentrasi Manajemen Kewirausahaan dan Inovasi Magister Manajemen", "Mata kuliah semester 2 konsentrasi Manajemen Kewirausahaan dan Inovasi MM", "Mata kuliah semester 2 konsentrasi Manajemen Kewirausahaan dan Inovasi"],
+      "responses": ["Mata kuliah semester 2 (untuk konsentrasi Manajemen Kewirausahaan dan Inovasi) Program Studi Magister Manajemen adalah sebagai berikut :\n1. Manajemen Strategik\n2. Metoda Penelitian Manajemen\n3. Ilmu dan Seni Kewirausahaan\n4. Manajemen Kreativitas dan Inovasi\n5. Kewirausahaan Global\n6. Perencanaan dan Simulasi Bisnis\n7. 1 Mata Kuliah Pilihan"]
+    },
+    {
+      "tag": "mk_smt_2_man_ris",
+      "patterns": ["Apa saja mata kuliah semester 2 dengan konsentrasi Manajemen Risiko di Magister Manajemen", "Apa saja mata kuliah semester 2 dengan konsentrasi Manajemen Risiko di MM", "Mata kuliah semester 2 konsentrasi Manajemen Risiko Magister Manajemen", "Mata kuliah semester 2 konsentrasi Manajemen Risiko MM", "Mata kuliah semester 2 konsentrasi Manajemen Risiko"],
+      "responses": ["Mata kuliah semester 2 (untuk konsentrasi Manajemen Risiko) Program Studi Magister Manajemen adalah sebagai berikut :\n1. Manajemen Strategik\n2. Metoda Penelitian Manajemen\n3Manajemen Risiko Operasional\n4. Risiko Penilaian\n5. Manajemen Risiko Keuangan\n6. Risiko Investasi pada Instrumen Keuangan\n7. 1 Mata Kuliah Pilihan"]
+    },
+    {
+      "tag": "mk_smt_3",
+      "patterns": ["Apa saja mata kuliah semester 3 di Magister Manajemen", "Apa saja mata kuliah semester 3 di MM", "Mata kuliah semester 3 Magister Manajemen", "Mata kuliah semester 3 MM", "Mata kuliah semester 3"],
+      "responses": ["Mata kuliah semester 3 (untuk semua konsentrasi) Program Studi Magister Manajemen adalah sebagai berikut :\n1. Seminar Usulan Penelitian dan Publikasi (SUPP)\n2. Tesis"]
+    },
+    {
+      "tag": "mk_pilihan",
+      "patterns": ["Apa saja mata kuliah pilihan di Magister Manajemen", "Apa saja mata kuliah pilihan di MM", "Mata kuliah pilihan Magister Manajemen", "Mata kuliah pilihan MM", "Mata kuliah pilihan"],
+      "responses": ["Mata kuliah pilihan Program Studi Magister Manajemen adalah sebagai berikut :\n1. Akuntansi untuk Manajer2. Etika Bisnis dan Tanggung Jawab Sosial Perusahaan\n3. Komunikasi Bisnis Global\n4. Sistem Informasi Manajemen (SIM) dan E-Bisnis\n5. Analisis Laporan Keuangan Bisnis Hukum Komersial dan Perpajakan Pemodelan Bisnis\n6. Manajemen Jasa\n7. Kepemimpinan (Leadership)\n8. Manajemen Lintas Budaya (Cross-Cultural Management)\n9. Wawasan Internasional (International Insights)\n10. Analitik Bisnis untuk Profesional (Business Analytics for Professionals)"]
+    },
+    {
+      "tag": "alamat_mm",
+      "patterns": ["Lokasi kampus Magister Manajemen", "Lokasi kampus MM", "Di mana kampus Magister Manajemen", "Di mana kampus MM", "Kampus Magister Manajemen", "Kampus MM"],
+      "responses": ["Lokasi kampus Magister Manajemen berada di Jl. Dipati Ukur 46 Bandung 40132", "Jl. Dipati Ukur 46 Bandung 40132"]
+    },
+    {
+      "tag": "telepon_mm",
+      "patterns": ["Nomor telepon Magister Manajemen", "Nomor telepon MM", "No. telp Magister Manajemen", "No. telp MM", "Apa Nomor Telepon Magister Manajemen", "Apa Nomor Telepon MM"],
+      "responses": ["(+62)22 250 9585"]
+    },
+    {
+      "tag": "email_web",
+      "patterns": ["Email Magister Manajemen", "Email MM", "Website Magister Manajemen", "Website MM", "Email dan Web Magister Manajemen", "Email dan Web MM"],
+      "responses": ["Email : informasi@mm.fe.unpad.ac.id, akademik.mm@unpad.ac.id\nWebsite : www.mm.feb.unpad.ac.id"]
+    },
+    {
+      "tag": "tanggal_pembukaan_mm",
+      "patterns": ["Kapan Magister Manajemen didirikan", "Kapan MM didirikan", "Tanggal berapa Magister Manajemen dibuka", "Tanggal berapa MM dibuka", "Pembukaan Magister Manajemen", "Pembukaan MM"],
+      "responses": ["Program Studi Magister Manajemen dibuka pada 10 September 1993 "]
+    },
+    {
+      "tag": "rektor_unpad",
+      "patterns": ["Siapa rektor Universitas Padjadjaran", "Siapa rektor Unpad", "Siapa pimpinan Unpad", "Siapa pimpinan universitas"],
+      "responses": ["Rektor Universitas Padjadjaran adalah Ibu Prof. Dr. Rina Indiastuti, S.E., M.SIE.", "Pimpinan Universitas Padjadjaran adalah Ibu Prof. Dr. Rina Indiastuti, S.E., M.SIE."]
+    },
+    {
+      "tag": "dekan_feb",
+      "patterns": ["Siapa dekan Fakultas Ekonomi dan Bisnis", "Siapa Dekan FEB", "Siapa pimpinan FEB?", "Siapa pimpinan fakultasnya?"],
+      "responses": ["Dekan FEB Unpad adalah Ibu Prof. Dr. Nunuy Nur Afiah, M.S., Ak.", "Pimpinan Fakultas Ekonomi dan Bisnis Unpad adalah Ibu Prof. Dr. Nunuy Nur Afiah, M.S., Ak."]
+    },
+    {
+      "tag": "pimpinan_mm",
+      "patterns": ["Siapa ketua Magister Manajemen", "Siapa ketua MM", "Siapa ketua prodi Magister Manajemen", "Siapa ketua prodi MM", "Siapa pimpinan Magister Manajemen?", "Siapa pimpinan MM?"],
+      "responses": ["Ketua Prodi Magister Manajemen adalah Bapak Sunu Widianto, SE., M.Sc., PhD", "Pimpinan Prodi Magister Manajemen adalah Bapak Sunu Widianto, SE., M.Sc., PhD"]
+    },
+    {
+      "tag": "pendaftaran_mm",
+      "patterns": ["Bagaimana cara saya mendaftar program magister manajemen", "Daftar program magister manajamen", "Daftar magister"],
+      "responses": ["Seleksi calon mahasiswa Pendidikan Magister dilakukan melalui mekanisme SMUP. Fakultas/Sekolah Pascasarjana dapat mempersiapkan seleksi wawancara dan tes lainnya berkoordinasi dengan Panitia SMUP."]
+    },
+    {
+      "tag": "syarat_pendaftaran_mm",
+      "patterns": ["Apa syarat mendaftar program magister manajemen", "Syarat daftar program magister manajamen", "Syarat daftar magister"],
+      "responses": ["a. Warga Negara Indonesia atau Warga Negara Asing yang mendapat persetujuan Kementerian Pendidikan, Kebudayaan, Riset dan Teknologi;\nb. Memiliki ijazah sarjana atau diploma empat/sarjana terapan; \nc. Memiliki Tes Kemampuan Akademik (TKA) minimum 450 (empat ratus lima puluh) yang dibuktikan dengan sertifikat hasil tes yang diselenggarakan oleh lembaga penyelenggara tes yang diakui Unpad dan masih berlaku maksimum 2 (dua) tahun dari tanggal dikeluarkannya sertifikat; \nd. Memiliki kemampuan Bahasa Inggris dengan standar nilai sebagai berikut: \n\t1) TOEFL International (Paper-Based Test) paling sedikit 450; atau \n\t2) TOEFL International (Internet-Based Test)paling sedikit 45; atau \n\t3) TOEFL International (Computer-BasedTest) paling sedikit 133; \n\t4) International English Language Testing System (IELTS) Academic paling sedikit4.5; \n\t5) Tes Kemampuan Bahasa Inggris (TKBI) paling sedikit 450 yang diselenggarakan oleh lembaga penyelenggara tes yang diakui Unpad yang dibuktikan dengan sertifikat hasil tes yang masih berlaku maksimum 2 (dua) tahun dari tanggal dikeluarkannya sertifikat; \ne. Syarat TKA dan TKBI seperti yang dimaksud pada poin c dan poin d, tidak diperlukan bagi calon mahasiswa yang sudah memiliki publikasi ilmiah sebagai penulis pertama yang telah terbit pada jurnal internasional bereputasi Q3; \nf. Melampirkan Pernyataan Tujuan (Statement of Purpose)."]
+    },
+    {
+      "tag": "proses_penerimaan_mm",
+      "patterns": ["Bagaimana proses penerimaan mahasiswa program magister manajemen", "Proses penerimaan mahasiswa program magister manajamen", "Penerimaan mahasiswa magister manajamen"],
+      "responses": ["1. Ketua Program Studi mempersiapkan Rekapitulasi Nilai dari proses seleksi calon mahasiswa untuk mengusulkan diterima atau tidak diterimanya calon mahasiswa.\n2. Usulan Ketua Program Studi sebagaimana dimaksud dalam butir 1 diajukan kepada Dekan Fakultas/Sekolah Pascasarjana.\n3. Dekan Fakultas/Sekolah Pascasarjana mengajukan usulan diterima atau tidak diterimanya calon mahasiswa kepada Rektor Unpad melalui Wakil Rektor Bidang Akademik dan Kemahasiswaan.\n4.Keputusan diterimanya calon mahasiswa ditetapkan oleh Rektor Unpad dan pengumuman hasil seleksi dilaksanakan oleh Wakil Rektor Bidang Akademik dan Kemahasiswaan atas nama Rektor Unpad."]
+    },
+    {
+      "tag": "fast_track",
+      "patterns": ["Apakah mahasiswa yang mengikuti program fast track dapat mengikuti pendidikan magister", "Apakah mahasiswa yang mengikuti program fast track dapat masuk ke magister manajemen", "mahasiswa fast track ke magister manajemen", "mahasiswa fast track magister manajemen"],
+      "responses": ["Mahasiswa Program Sarjana atau Sarjana Terapan di Unpad dapat mengikuti seleksi calon mahasiswa Pendidikan Magister melalui program Fast Track. Calon mahasiswa yang berasal dari Program Fast Track wajib memenuhi persyaratan yang sesuai dengan ketentuan pendaftaran Program Fast Track yang diatur dalam aturan tersendiri."]
+    },
+    {
+      "tag": "beasiswa",
+      "patterns": ["Beasiswa di magister manajemen", "Bagaimana beasiswa di magister manajemen", "Apakah bisa menggunakan beasiswa di magister manajemen", ""],
+      "responses": ["Bagi calon mahasiswa Pendidikan Magister yang akan mengajukan beasiswa dan telah memenuhi syarat untuk diterima dapat diberikan Surat Keterangan Diterima (Letter of Acceptance/LoA) di Unpad. Pengajuan beasiswa bagi calon mahasiswa Pendidikan Magister yang berasal dari jalur kerjasama antara Unpad dengan mitra dilaksanakan sesuai dengan prosedur dalam Memorandum of Understanding (MoU) dan/atau PKS."]
+    },
+    {
+      "tag": "registrasi_krs",
+      "patterns": ["Informasi registrasi", "Informasi KRS"],
+      "responses": ["1. Mahasiswa yang sudah diterima pada Pendidikan Magister wajib mendaftarkan diri (registrasi) dan wajib melakukan pendaftaran ulang (herregistrasi) pada setiap semester. \n2. Pada setiap awal semester mahasiswa harus mengisi Kartu Rencana Studi (KRS) online dalam Sistem Informasi Administrasi Terpadu (SIAT) yang disetujui Dosen Wali dan diketahui oleh Pimpinan Pendidikan Magister.\n3. Mahasiswa tidak akan mendapat layanan akademik apapun termasuk pengisian KRS selama tidak registrasi/herregistrasi dan tidak mengisi KRS pada semester yang berjalan.\n4. Mahasiswa diperbolehkan melakukan Perubahan KRS (PKRS) dalam waktu yang sudah ditentukan.\n5. Jika selama 2 (dua) semester berturut-turut tidak melakukan herregistrasi, maka mahasiswa yang bersangkutan dianggap mengundurkan diri sebagai mahasiswa Unpad.\n6. Sebelum herregistrasi semester VI (enam) dansemester berikutnya Prodi Magister mengeluarkan surat peringatan kepada mahasiswa bersangkutan yang diketahui Ketua Pembimbing."]
+    },
+    {
+      "tag": "cuti",
+      "patterns": ["Cuti akademik", "Informasi cuti akademik", "Informasi cuti"],
+      "responses": ["Penghentian studi untuk sementara (cuti akademik) atas izin Dekan Fakultas/Sekolah Pascasarjana hanya diperkenankan paling lama 2 (dua) semester dan tidak boleh berturut-turut. Waktu cuti tersebut tidak diperhitungkan dalam waktu tempuh studi. Ketentuan cuti akademik bagi mahasiswa penerima beasiswa diatur berdasarkan ketentuan Lembaga pemberi beasiswa. Mahasiswa tidak diperkenankan cuti akademik pada semester 1."]
+    },
+    {
+      "tag": "beban_studi",
+      "patterns": ["Seperti apa lama pendidikan dan beban studi di magister manajemen", "Lama pendidikan dan beban studi di magister manajemen", "Lama pendidikan magister manajemen", "Beban studi magister manajemen"],
+      "responses": ["a. Masa dan beban belajar penyelenggaraan Program Pendidikan Magister paling lama 4 (empat) tahun atau 8 (Delapan) semester.\nb. Beban studi kumulatif Pendidikan Magister paling sedikit 36 (tiga puluh enam) sks dan beban studi maksimum per semester adalah 24 (dua puluh empat) sks.\nc. Dalam kondisi di masa kedaruratan Kesehatan masyarakat berlaku ketentuan sebagai berikut:\n\t1) Batas studi mahasiswa yang berakhir pada semester berjalan, maka batas studi mahasiswa tersebut dapat diperpanjang 1 (satu) semester.\n\t2) Mahasiswa yang dimaksud pada angka 1) yaitu:\n\t\ta) Mahasiswa yang telah mengambil kontrak mata kuliah Tugas Tesis atau bentuk tugas akhir lainnya dan usulan risetnya sudah mendapat persetujuan dari dosen pembimbing/promotor.\n\t\tb) Mahasiswa yang mengalami hambatan dalam pengerjaan dan penyelesaian Tesis atau bentuk Tugas Akhir lainnya sebagai akibat dari pembatasan aktivitas  karena masa Kedaruratan Kesehatan Masyarakat.\n\t\tc) Mahasiswa yang telah dijadwalkan mengikuti Ujian Tesis atau Ujian Akhir lainnya untuk Mahasiswa Magister.\nd. Untuk memperoleh perpanjangan batas studi seperti yang dimaksud pada huruf c angka 1) dan 2), mahasiswa harus menyampaikan surat permohonan pengajuan perpanjangan batas studi kepada Dekan.\ne. Dekan berhak mengusulkan nama mahasiswa yang memperoleh perpanjangan batas studi atas dasar kondisi kedaruratan kesehatan masyarakat kepada Wakil Rektor Bidang Akademik dan Kemahasiswaan yang telah mendapat rekomendasi dosen pembimbing dan ketua program studi.\nf. Untuk kondisi pada angka 2 huruf a, b, c dan d mahasiswa dibebaskan dari kewajiban untuk membayar Uang Kuliah Tunggal (UKT) atau Biaya Penyelenggaraan Pendidikan (BPP).\ng. Jika pada saat perpanjangan batas studi berakhir,ternyata mahasiswa tidak dapat menyelesaikanstudinya, maka dianggap mengundurkan diri."]
+    },
+    {
+      "tag": "kualifikasi_dosen",
+      "patterns": ["Bagaimana kualifikasi dosen di magister manajemen", "Bagaimana kualifikasi dosen magister manajemen", "Kualifikasi dosen magister manajemen"],
+      "responses": ["Dosen pengampu dan pengajar mata kuliah berkualifikasi:\n1) Lulusan Pendidikan Doktor atau Doktor Terapan yang relevan dengan Pendidikan Magister; atau\n2) Bersertifikat profesi yang relevan dengan Pendidikan Magister dan berkualifikasi setara dengan jenjang 9 (sembilan) KKNI; atau\n3) Praktisi yang memiliki keahlian yang relevan dengan Pendidikan Magister dan berkualifikasi setara dengan jenjang 9 (sembilan) KKNI. Pembelajaran dapat dilakukan oleh tim dosen yang berjumlah sebanyak-banyaknya 2 (dua) atau 3 (tiga) orang yang diatur oleh Pendidikan Magister."]
+    },
+    {
+      "tag": "kegiatan_perkuliahan",
+      "patterns": ["Bagaimana kegiatan perkuliahan di magister manajemen", "Seperti apa kegiatan perkuliahan di magister manajemen", "Kegiatan perkuliahan di magister manajemen", "Kegiatan perkuliahan magister manajemen"],
+      "responses": ["a. Bagi mahasiswa yang berasal dari Program Sarjana yang tidak sebidang, Prodi Magister dapat merekomendasikan kepada mahasiswa di awal perkuliahan (semester I) untuk mengambil paling banyak berjumlah 12 sks dari beberapa mata kuliah tertentu pada Pendidikan Sarjana atau Sarjana Terapan, dengan tujuan penyetaraan pengetahuan yang relevan dengan rencana riset tesis;\nb. Pengambilan beberapa mata kuliah tersebut(pada butir a) dilakukan terintegrasi pada Pendidikan Sarjana bidang yang sama atau lintas Prodi/Fakultas di tingkat Sarjana;\nc. Dengan mempertimbangkan kondisi tertentu yang dihadapi (lokasi yang terpisah),pelaksanaan perkuliahan (pada butir b) dapat juga dilakukan tersendiri oleh Pendidikan Magister yang bersangkutan;\nd. Kontrak mata kuliah tidak dapat dibatalkan oleh mahasiswa, kecuali melakukan Perubahan KRS (PKRS) atas saran dosen wali/konselor pada waktu yang sudah ditetapkan."]
+    },
+    {
+      "tag": "metode_pembelajaran",
+      "patterns": ["Metode pembelajaran apa yang digunakan di magister manajemen", "Seperti apa metode pembelajaran di magister manajemen", "metode pembelajaran magister manajemen"],
+      "responses": ["Metode Pembelajaran Berbasis Capaian pembelajaran yang dapat menggunakan metode Interactive Teaching dan Student Centered Learning, Project Based Learning, dan lainnya."]
+    },
+    {
+      "tag": "Penilaian_mata_kuliah",
+      "patterns": ["Bagimana penilaian mata kuliah dan evaluasi pembelajaran di magister manajemen", "Bagimana penilaian mata kuliah dan evaluasi pembelajaran magister manajemen", "Seperti apa penilaian mata kuliah dan evaluasi pembelajaran magister manajemen", "Penilaian mata kuliah dan evaluasi pembelajaran magister manajemen"],
+      "responses": ["a. Prestasi akademik dinyatakan dalam bentuk IPS (Indeks Prestasi Semester) dan IPK (Indeks Prestasi Kumulatif). Perhitungan IPS dan IPK dilakukan setiap akhir semester;\nb. Nilai Akhir (NA) setiap mata kuliah dapat diperoleh dari gabungan nilai Ujian Tengah Semester (UTS), Ujian Akhir Semester (UAS), tugas, dan kegiatan lainnya yang diberikan selama semester berlangsung, sesuai bobot masing-masing;\nc. NA ini diberikan dalam bentuk Huruf Mutu (HM) berdasarkan skor mentah (raw score) yang menggunakan kisaran 0-100; \nd. Perolehan nilai IPK di bawah 3,00 pada semester I (Satu) dan semester II (Dua) akan berakibat mahasiswa terkena sanksi pemutusan studi. Ujian remedial dapat dilakukan sebelum berakhirnya masa pengumpulan nilai berakhir."]
+    },
+    {
+      "tag": "angka_huruf_mutu",
+      "patterns": ["Bagaimana konversi nilai akhir untuk huruf mutu dan angka mutu", "Seperti apa konversi nilai akhir untuk huruf mutu dan angka mutu", "Konversi nilai akhir untuk huruf mutu dan angka mutu"],
+      "responses": ["Berikut adalah konversi nilai akhir untuk huruf mutu dan angka mutu :\na. Jika (80 ≤ Nilai Akhir ≤ 100) - Huruf Mutu A - Angka Mutu 4 - Kategori Sangat Baik\nb. Jika (68 ≤ Nilai Akhir < 80) - Huruf Mutu B - Angka Mutu 3 - Kategori Baik\nc. Jika (56 ≤ Nilai Akhir < 68) - Huruf Mutu C - Angka Mutu 2 - Kategori Cukup\nd. Jika (45 ≤ Nilai Akhir ≤ 56) - Huruf Mutu D - Angka Mutu 1 - Kategori Kurang\ne. Jika (Nilai Akhir < 45) - Huruf Mutu E - Angka Mutu 0 - Kategori Sangat Kurang"]
+    },
+    {
+      "tag": "pembimbing_tesis",
+      "patterns": ["Bagaimana proses penentuan anggota tim pembimbing tesis mahasiswa", "Bagaimana proses penentuan pembimbing tesis", "Bagaimana pembimbing tesis ditentukan", "Bagaimana pembimbing ditentukan"],
+      "responses": ["Selama proses pembuatan tesis setiap mahasiswa diarahkan dan dibimbing oleh Tim Pembimbing. Tim Pembimbing berjumlah minimal 2 (dua) orang dan maksimal 3 (tiga) orang, yang terdiri dari seorang Ketua Pembimbing dan maksimal 2 (dua) Anggota Pembimbing. Penentuan Ketua dan Anggota Pembimbing adalah sebagai berikut :\na. Surat Keputusan Rektor yang ditandatangani Dekan Fakultas/Sekolah Pascasarjana atas nama Rektor, kepada dosen yang menjadi Ketua Pembimbing dan para Anggota Pembimbing Paling lambat dibuat 1 (satu) tahun setelah calon mahasiswa yang bersangkutan dinyatakan diterima dan melakukan pendaftaran (registrasi) sebagai mahasiswa baru Pendidikan Magister Unpad;\nb. Penetapan dosen yang menjadi Ketua Pembimbing berdasarkan Surat Kesediaan Membimbing yang ditulisnya;\nc. Mahasiswa mengusulkan calon Ketua Pembimbing berdasarkan tema risetnya yang sesuai dengan dengan hibah/roadmap/payung riset atau bidang riset calon Ketua Pembimbing;\nd. Anggota pembimbing diusulkan oleh Ketua Pembimbing dengan pertimbangan dan berkoordinasi dengan Ketua Prodi;\ne. Ketua Pembimbing bertanggung jawab serta melakukan koordinasi dengan Anggota Pembimbing dalam proses pendidikan mahasiswa yang dibimbingnya."]
+    },
+    {
+      "tag": "pembimbing_tesis_berhalangan",
+      "patterns": ["Bagaimana jika tim pembimbing tesis mahasiswa berhalangan", "Bagaimana jika pembimbing tesis berhalangan", "Bagaimana jika pembimbing tesis tidak bisa membimbing", "Bagaimana jika pembimbing tidak bekerja"],
+      "responses": ["Jika salah seorang Tim Pembimbing berhalangan tetap (misalnya meninggal dunia, tugas di dalam dan di luar negeri lebih dari 6 (enam) bulan, pensiun atau mengundurkan diri), berlaku ketentuan sebagai berikut:\n1) Jika terjadi sebelum SUR, boleh dilakukan penggantian;\n2) Jika terjadi sesudah SUR, tidak boleh dilakukan penggantian, kecuali jika kedua-duanya berhalangan tetap;\n3) Jika terjadi sesudah SUR, Ketua Pembimbing berhalangan tetap, maka Anggota Pembimbing menggantikannya, tanpa perlu penambahan Anggota Pembimbing;\n4) Penggantian Anggota Pembimbing Diperkenankan, harus dengan pernyataan tertulis dari Anggota pembimbing lama (kecuali meninggal dunia); dan\n5) Setelah 6 (enam) bulan tidak ada pernyataan tertulis dari Tim Pembimbing (Ketua dan Anggota Pembimbing) lama maka Ketua Prodi Magister berhak mengajukan penggantian Tim Pembimbing."]
+    },
+    {
+      "tag": "syarat_ketua_pembimbing",
+      "patterns": ["Apa syarat menjadi ketua pembimbing tesis mahasiswa", "Sebutkan syarat menjadi ketua pembimbing tesis mahasiswa", "Apa syarat menjadi ketua pembimbing"],
+      "responses": ["Ketua Pembimbing harus memenuhi persyaratan sebagai berikut:\na. Dosen Unpad yang mempunyai NIDN atau NIDK;\nb. Berkualifikasi pendidikan akademik Doktor;\nc. Memiliki jabatan akademik serendah-rendahnya Lektor;\nd. Berkualifikasi bidang ilmu yang sebidang atau serumpun dengan Pendidikan Magister atau bidang riset yang ditempuh mahasiswa;\ne. Minimal memiliki publikasi di jurnal nasional terakreditasi Sinta 3 (Tiga) sebagai penulis pertama atau penulis korespondensi, dalam waktu 5 (lima) tahun terakhir;\nf. Pernah atau sedang menjadi anggota pembimbing Program Magister;\ng. Memiliki jumlah bimbingan sebagai pembimbing pertama pada semua jenjang di bawah 10 orang."]
+    },
+    {
+      "tag": "syarat_anggota_pembimbing",
+      "patterns": ["Apa syarat menjadi anggota pembimbing tesis mahasiswa", "Sebutkan syarat menjadi anggota pembimbing tesis mahasiswa", "Apa syarat menjadi anggota pembimbing"],
+      "responses": ["Anggota pembimbing harus memenuhi persyaratan sebagai berikut :\na. Dosen Unpad berkualifikasi pendidikan akademik Doktor dengan jabatan akademik serendah-rendahnya Asisten Ahli yang dipilih berdasarkan spesialisasi kepakaran ilmunya; atau\nb. Dosen perguruan tinggi dalam negeri yang terakreditasi setara dengan Unpad atau perguruan tinggi luar negeri yang mempunyai reputasi minimal setara Unpad, dengan jabatan serendah-rendahnya Lektor dengan kualifikasi akademik Doktor yang dipilih berdasarkan spesialisasi kepakaran ilmunya; atau\nc. Ahli atau praktisi dalam atau luar negeri yang dipilih berdasarkan pengakuan spesialisasi kepakarannya berkualifikasi setara dengan KKNI jenjang 9 (sembilan)."]
+    },
+    {
+      "tag": "syarat_tim_penguji",
+      "patterns": ["Apa syarat menjadi tim penguji tesis mahasiswa", "Sebutkan syarat menjadi tim penguji tesis mahasiswa", "Apa syarat menjadi tim penguji"],
+      "responses": ["Tim penguji harus memenuhi persyaratan sebagai berikut :\na. Dosen Unpad berkualifikasi pendidikan akademik Doktor dengan jabatan akademik serendah-rendahnya Asisten Ahli yang dipilih berdasarkan spesialisasi kepakaran ilmunya; atau\nb. Dosen perguruan tinggi dalam negeri yang terakreditasi setara dengan Unpad atau perguruan tinggi luar negeri yang mempunyai reputasi minimal setara Unpad, dengan jabatan serendah-rendahnya Lektor dengan kualifikasi akademik Doktor yang dipilih berdasarkan spesialisasi kepakaran ilmunya; atau\nc. Ahli atau praktisi dalam atau luar negeri yang dipilih berdasarkan pengakuan spesialisasi kepakarannya berkualifikasi setara dengan KKNI jenjang 9 (sembilan).\nd. Jika salah seorang Tim Penguji berhalangan tetap (misalnya meninggal dunia, tugas di dalam dan diluar negeri lebih dari 6 (enam) bulan, pensiun atau mengundurkan diri), maka Pimpinan Prodi Magister dapat menggantikannya dengan Penguji Lain."]
+    },
+    {
+      "tag": "tesis",
+      "patterns": ["Apa itu tesis", "Apa yang dimaksud dengan tesis", "Berapa bobot tesis dalam sks", "Tesis berapa sks", "Struktur penulisan tesis","Gaya penulisan tesis"],
+      "responses": ["Tesis adalah karya ilmiah akhir mahasiswa Program Studi Magister, dibuat berdasarkan hasil riset dengan menggunakan metode dan kaidah keilmuan sesuai disiplin ilmu masing-masing. Tesis merupakan karya ilmiah asli mahasiswa yang ditunjukkan dengan pernyataan bermaterai tentang keasliannya dan dapat dibuktikan melalui perangkat lunak anti-plagiarisme. Bobot tesis ditetapkan sebesar 6 (enam) sks selama 1 (satu) semester. Struktur dan gaya penulisan tesis, seperti: outline, penulisan sitasi, catatan (footnote atau running note), dan daftar pustaka, mengikuti pedoman penulisan tesis yang berlaku di setiap Fakultas/Sekolah Pascasarjana masing-masing."]
+    },
+    {
+      "tag": "pembimbingan_tesis",
+      "patterns": ["Seperti apa pembimbingan tesis mahasiswa", "pembimbingan tesis mahasiswa", "Bagaimana pembimbingan tesis mahasiswa"],
+      "responses": ["Pembimbingan dilaksanakan oleh Tim Pembimbing Sejak ditetapkan Surat Keputusan Dekan Fakultas/Sekolah Pascasarjana pada semester I (pertama) hingga penyelesaian tesis. Proses pembimbingan wajib tercatat dalam buku kemajuan studi (log book) sebagai suatu bukti proses pembelajaran, dan Prodi Magister melakukan monitoring dan evaluasi sebagai landasan untuk melakukan review kinerja dari mahasiswa dan Tim Pembimbing. Ketua Pembimbing wajib memberikan laporan perkembangan kemajuan studi mahasiswa di setiap akhir semester kepada Ketua Prodi Magister.", "", ""]
+    },
+    {
+      "tag": "pelaksanaan_sur_sam",
+      "patterns": ["Kapan kegiatan Seminar Usulan Riset (SUR) dan Sidang Akhir Magister (SAM) dapat dilaksanakan?", "Kapan dilaksanakannya Seminar Usulan Riset (SUR) dan Sidang Akhir Magister (SAM)"],
+      "responses": ["Kegiatan Seminar Usulan Riset (SUR) dan Sidang Akhir Magister (SAM) dapat dilaksanakan setelah proses pembimbingan dan selalu diawali dengan proses administrasi pendaftaran."]
+    },
+    {
+      "tag": "pendaftaran_sur_sam",
+      "patterns": ["Kapan pendaftaran kegiatan Seminar Usulan Riset (SUR) dan Sidang Akhir Magister (SAM)", "Kapan dilaksanakannya pendaftaran Seminar Usulan Riset (SUR) dan Sidang Akhir Magister (SAM)"],
+      "responses": ["Pendaftaran administrasi kegiatan SUR dan SAM, paling lambat 2 (dua) minggu sebelum pelaksanaan kegiatan."]
+    },
+    {
+      "tag": "sur",
+      "patterns": ["Apa itu seminar usulan riset", "Apa itu SUR"],
+      "responses": ["Seminar Usulan Riset (SUR) merupakan rencana riset mahasiswa dalam rangka penyusunan tesis. SUR dilaksanakan paling lambat pada akhir semester III (tiga), bila tidak atau belum dilaksanakan maka mahasiswa yang bersangkutan dianggap mengundurkan diri. SUR dilakukan secara terbuka dan dapat dihadiri oleh mahasiswa dan dosen. Mahasiswa mengikuti SUR pada waktu yang telah ditetapkan, dan naskah Usulan Riset (UR) harus sudah dijilid tipis (soft cover) berwarna biru, dan diserahkan pada Pimpinan SUR, Tim Pembimbing Dan Tim Penguji paling sedikit 1 (satu) minggu sebelum pelaksanaan SUR."]
+    },
+    {
+      "tag": "tim_pembahas_sur",
+      "patterns": ["Siapa saja yang menjadi anggota tim Pembahas SUR", "Anggota tim Pembahas Seminar Usulan Riset"],
+      "responses": ["Tim Pembahas SUR terdiri dari 2 (dua) orang Tim Pembimbing, 3 (tiga) orang Tim Penguji, dan dipimpin 1 (satu) orang Pimpinan SUR."]
+    },
+    {
+      "tag": "pimpinan_sur",
+      "patterns": ["Siapa yang menjadi pimpinan SUR", "Pimpinan SUR"],
+      "responses": ["Pimpinan SUR adalah Ketua Prodi Magister atau Ketua Pembimbing, yang ditetapkan berdasarkan Surat Keputusan Dekan Fakultas/Sekolah Pascasarjana atas nama Rektor. Pimpinan SUR tidak otomatis sebagai pembahas,kecuali sesuai dengan bidang ilmu mahasiswa yang diuji atau sebagai Ketua Tim Pembimbing."]
+    },
+    {
+      "tag": "pelaksanaan_sur",
+      "patterns": ["Seperti apa proses pelaksanaan seminar ulasan riset", "Seperti apa proses pelaksanaan SUR", "Bagimana proses pelaksanaan seminar ulasan riset", "Bagimana proses pelaksanaan SUR"],
+      "responses": ["SUR dilaksanakan secara panel serta dihadiri sekurang-kurangnya 3 (tiga) orang pembahas, yang terdiri dari 1 (satu) atau 2 (dua) orang Tim Pembimbing dan 1 (satu) atau 2 (dua) orang Tim Penguji dan ditambah 1 (satu) orang Pimpinan SUR. SUR dilakukan secara terbuka dan dapat dihadiri oleh mahasiswa dan dosen. Dalam SUR, pembahas mengevaluasi isi UR,mengajukan pertanyaan dan mengevaluasi jawaban yang diberikan mahasiswa, serta memberikan saran untuk perbaikan UR."]
+    },
+    {
+      "tag": "gagal_sur",
+      "patterns": ["Bagaimana jika saya tidak lulus seminar ulasan riset", "Bagaimana jika saya tidak lulus SUR", "Apa yang terjadi jika saya tidak lulus seminar ulasan riset", "Apa yang terjadi jika saya tidak lulus SUR"],
+      "responses": ["Mahasiswa yang dinyatakan tidak lulus SUR, diberi kesempatan untuk mengulang SUR 1 (satu) kali, yang dilaksanakan paling lama 3 (tiga) bulan sesudah SUR yang pertama. Sanksi pemutusan studi akan diberikan, apabila mahasiswa dinyatakan tidak lulus SUR untuk kedua kalinya.", "", ""]
+    },
+    {
+      "tag": "penilaian_sur",
+      "patterns": ["Bagaimana penilaian akhir seminar ulasan riset", "Bagaimana penilaian akhir SUR", "Seperti apa penilaian akhir seminar ulasan riset", "Seperti apa penilaian akhir SUR"],
+      "responses": ["Penilaian pada SUR diberikan dalam bentuk skor mentah (raw score) dengan kisaran 0-100. Pada akhir SUR, pembahas/penelaah memberikan penilaian sebagai berikut:\na. mahasiswa dinyatakan lulus apabila memperoleh nilai rata-rata ≥ 68;\nb. mahasiswa dinyatakan tidak lulus apabila memperoleh nilai rata-rata < 68.\nc. Skor dari pembahas dijumlahkan dengan persentase Tim Pembimbing 60% (enam puluh persen) dan Tim Penguji 40% (empat puluh persen) sebagai NA, tanpa terlebih dahulu dikonversikan ke dalam HM"]
+    },
+    {
+      "tag": "bobot_penilaian_detail_sur",
+      "patterns": ["Bagaimana bobot penilaian pada SUR dihitung", "Seperti apa bobot penilaian pada SUR dihitung", "Perhitungan penilaian SUR","Bagaimana bobot penilaian pada seminar ulasan riset dihitung", "Seperti apa bobot penilaian pada seminar ulasan riset dihitung", "Perhitungan penilaian seminar ulasan riset"],
+      "responses": ["Dalam SUR, pembahas mengevaluasi pertanggungjawaban mahasiswa atas pertanyaan yang bersifat mengkritisi maupun mengklarifikasi terhadap materi/substansi UR itu dengan bobot penilaian:\na. Signifikansi Latar Belakang Riset dan/atau Fokus Riset, dan Rumusan Masalah, bobot 15% (lima belas persen);\nb. Relevansi dan kemutakhiran Tinjauan Pustaka,bobot 25% (dua puluh lima persen);\nc. Ketepatan formulasi Kerangka Pemikiran dan Proposisi Riset/Hipotesis, bobot 10% (sepuluh persen)\n;d. Kesesuaian Metode Riset, bobot 10% (sepuluh persen);\ne. Kemampuan penulisan ilmiah, bobot 20% (dua puluh persen);\nf. Kemampuan komunikasi dalam ujian lisan, bobot 20% (dua puluh persen). Bobot penilaian 100%(seratus persen) di atas dapat ditambah dengan bobot penilaian 10% (sepuluh persen) di bawah ini, jika mahasiswa dapat memperlihatkan novelty riset."]
+    },
+    {
+      "tag": "riset_artikel_ilmiah",
+      "patterns": ["Riset dan penulisan artikel ilmiah", "Apa itu riset dan penulisan artikel ilmiah", "Kapan pelaksanaan riset dan penulisan artikel ilmiah"],
+      "responses": ["Riset dilaksanakan setelah mahasiswa lulus SUR dan telah melakukan perbaikan UR yang disetujui Tim Pembimbing. Selama masa perkuliahan dan setelah SUR, mahasiswa melakukan penulisan karya ilmiah sesuai dengan tema riset dalam SUR sebagai salah satu syarat kelulusan."]
+    },
+    {
+      "tag": "karya_ilmiah",
+      "patterns": ["Karya apa saja yang dapat diajukan dalam pelaksanaan riset dan penulisan artikel ilmiah", "Karya dalam pelaksanaan riset dan penulisan artikel ilmiah"],
+      "responses": ["Adapun karya-karya ilmiah dalam pelaksanaan riset dan penulisan artikel ilmiah dapat berupa: \na. Artikel ilmiah berupa tulisan yang merupakan bagian dari tesis, sebagai penulis utama (first author) pada jurnal nasional bereputasi yang sekurang-kurangnya terindeks SINTA 3 (Tiga); atau \nb. Artikel ilmiah berupa tulisan yang merupakan bagian dari tesis, sebagai penulis utama (first author) pada prosiding yang terindeks pada lembaga pengindeks internasional bereputasi tinggi (Web of Science, Scopus, atau yang setara)hasil dari melaksanakan oral presentation pada seminar ilmiah.\n3. Mahasiswa mengirimkan artikel ilmiah ke jurnal ilmiah sebagaimana dimaksud dengan persetujuan para Pembimbing yang akan bertindak sebagai co-authors, dengan mencantumkan institusi Unpad.\n4. Keterkaitan Tesis dengan Artikel Ilmiah Mahasiswa Menulis naskah Tesis sesuai dengan SUR dan berdasarkan hasil-hasil riset yang dipublikasikan sebagai artikel ilmiah pada jurnal internasional bereputasi."]
+    },
+    {
+      "tag": "syarat_sam",
+      "patterns": ["Apa syarat mengikuti sidang akhir magister", "Apa syarat mengikuti sam"],
+      "responses": ["Mahasiswa Pendidikan Magister dapat menempuh SAM jika telah memenuhi persyaratan berikut:\n1) Telah lulus perangkat mata kuliah dengan IPK sekurang-kurangnya 3,00;\n2) Telah melaksanakan SUR dan dinyatakan lulus;\n3) Naskah Tesis telah disetujui oleh Tim Pembimbing;\n4) Menyerahkan surat keterangan bukti artikel ilmiah yang diterima (accepted) yang ditulis selama mengikuti kuliah Pendidikan Magister. "]
+    },
+    {
+      "tag": "sam",
+      "patterns": ["Berikan informasi mengenai sidang akhir magister", "Jelaskan mengenai sidang akhir magister","Berikan informasi mengenai SAM", "Jelaskan mengenai SAM"],
+      "responses": ["Mahasiswa Pendidikan Magister dapat menempuh SAM jika telah memenuhi persyaratan. Mahasiswa mengikuti SAM pada waktu yang telah ditetapkan, dan naskah tesis harus sudah dijilid tipis (soft cover) berwarna kuning, dan diserahkan pada Pimpinan SAM, Tim Pembimbing dan Tim Penguji paling sedikit 1(satu) minggu sebelum pelaksanaan SAM. Penilaian Tesis dilakukan melalui SAM. Sebelum SAM, Tim Pembimbing dapat mengevaluasi materi/substansi naskah yang diajukan melalui Seminar Hasil Riset (SHR)."]
+    },
+    {
+      "tag": "tim_pembahas_sam",
+      "patterns": ["Siapa saja yang menjadi anggota tim Pembahas SAM", "Anggota tim Pembahas Sidang Akhir Magister"],
+      "responses": ["terdiri dari 2 (dua) orang Tim Pembimbing dan 3 (tiga) orang Tim Penguji, dan dipimpin 1 (satu) orang Pimpinan SAM."]
+    },
+    {
+      "tag": "pimpinan_sam",
+      "patterns": ["Siapa yang menjadi pimpinan Sidang Akhir Magister","Siapa yang menjadi pimpinan SAM", "Pimpinan Sidang Akhir Magister", "Pimpinan SUR"],
+      "responses": ["Pimpinan SAM adalah Ketua Prodi Magister atau Ketua Pembimbing. Pimpinan SAM tidak otomatis sebagai pembahas, kecuali sesuai dengan bidang ilmu mahasiswa yang diuji atau sebagai Ketua Pembimbing."]
+    },
+    {
+      "tag": "pelaksanaan_sam",
+      "patterns": ["Seperti apa proses pelaksanaan sidang akhir magister", "Seperti apa proses pelaksanaan SAM", "Bagimana proses pelaksanaan sidang akhir magister", "Bagimana proses pelaksanaan SAM"],
+      "responses": ["SAM dilaksanakan secara panel serta dihadiri sekurang-kurangnya 3 (tiga) orang pembahas, yang terdiri dari 1 (satu) atau 2 (dua) orang Tim Pembimbing dan 1 (satu) atau 2 (dua) orang Tim Penguji dan ditambah 1 (Satu) orang Pimpinan SAM. Tim Penguji pada waktu SAM yang ditetapkan harus sama dengan Tim Penguji pada waktu SUR."]
+    },
+    {
+      "tag": "penilaian_sam",
+      "patterns": ["Bagaimana penilaian akhir sidang akhir magister", "Bagaimana penilaian akhir SAM", "Seperti apa penilaian akhir sidang akhir magister", "Seperti apa penilaian akhir SAM"],
+      "responses": ["Nilai akhir pada SAM diberikan dalam bentuk skor mentah (raw score) dengan kisaran 0-100. Pada akhir SAM, pembahas memberikan penilaian sebagai berikut:\n1) mahasiswa dinyatakan lulus apabila memperoleh nilai rata-rata ≥ 68;\n2) mahasiswa dinyatakan tidak lulus apabila memperoleh nilai rata-rata < 68.\nSkor dari pembahas dijumlahkan dengan persentase Tim Pembimbing 60% (enam puluh persen) dan Tim Penguji 40% (empat puluh persen) sebagai Nilai Akhir, tanpa terlebih dahulu dikonversikan ke dalam Huruf Mutu."]
+    },
+    {
+      "tag": "bobot_penilaian_detail_sam",
+      "patterns": ["Bagaimana bobot penilaian pada SAM dihitung", "Seperti apa bobot penilaian pada SAM dihitung", "Perhitungan penilaian SAM","Bagaimana bobot penilaian pada sidang akhir magister dihitung", "Seperti apa bobot penilaian pada sidang akhir magister dihitung", "Perhitungan penilaian sidang akhir magister"],
+      "responses": ["Dalam SAM, pembahas mengevaluasi isi naskah tesis dengan bobot penilaian:\n1) Signifikansi Latar Belakang Riset dan/atau Fokus Riset, dan Rumusan Masalah, bobot 10% (Sepuluh Persen);\n2) Relevansi dan kemutakhiran Tinjauan Pustaka, bobot 20% (Dua Puluh Persen);\n3) Ketepatan formulasi Kerangka Pemikiran Dan Proposisi Riset/Hipotesis, bobot 10%(Sepuluh Persen);\n4) Kesesuaian Metode Riset, bobot 10%(Sepuluh Persen);\n5) Ketajaman analisis dan keutuhan pemikiran,bobot 20% (Dua Puluh Persen);\n6) Kemantapan dan mutu penyimpulan, serta saran-saran yang diajukan, bobot 10%(Sepuluh Persen);\n7) Kemampuan penulisan ilmiah, bobot 10%(Sepuluh Persen);\n8) Kemampuan komunikasi dalam ujian lisan, bobot 10% (Sepuluh Persen). Bobot Penilaian 100% (seratus persen) di atas dapat ditambah dengan bobot penilaian 10%(sepuluh persen) di bawah ini, jika mahasiswa dapat memperlihatkansumbangan terhadap perkembangan ilmu pengetahuan, teknologi dan pembangunan."]
+    },
+    {
+      "tag": "gagal_sam",
+      "patterns": ["Bagaimana jika saya tidak lulus sidang akhir magister", "Bagaimana jika saya tidak lulus SAM", "Apa yang terjadi jika saya tidak lulus sidang akhir magister", "Apa yang terjadi jika saya tidak lulus SAM"],
+      "responses": ["Mahasiswa yang dinyatakan tidak lulus SAM, diberi kesempatan untuk menempuh SAM ulangan sebanyak 1 (Satu) kali dalam kurun waktu yang disepakati, dengan memperhitungkan batas waktu studi."]
+    },
+    {
+      "tag": "sam_online",
+      "patterns": ["Apakah pelakasanan sidang akhir magister dapat dilakukan secara daring atau online", "Apakah pelakasanan SAM dapat dilakukan secara daring atau online", "Pelaksanaan SAM dalam keadaan covid dan ppkm", "Bagaimana pelaksanaan SAM dalam keadaan covid"],
+      "responses": ["Dalam kondisi di masa kedaruratan kesehatan masyarakat, penyelenggaraan Sidang karya ilmiah Akhir pada Program Magister dapat dilakukan dengan media elektronik/teleconference dengan tetap mengacu pada Standar Kualitas Penyelenggaraan Sidang Karya Ilmiah Akhir dengan ketentuan sebagai berikut:\na. Pelaksanaan ujian sidang pada program studi Program Magister dapat dilakukan melalui media elektronik/teleconference.\nb. Ujian sidang di lingkungan Unpad tetap mengikuti pedoman pendidikan berbagai jenjang dan disiplin ilmunya serta dalam kondisi keadaan Kedaruratan di Masyarakat dilakukan penyesuaian melalui media elektronik/teleconference."]
+    },
+    {
+      "tag": "pelaksanaan_sam_online",
+      "patterns": ["Seperti apa proses pelaksanaan sidang akhir magister secara daring/online", "Seperti apa proses pelaksanaan SAM secara daring/online", "Bagimana proses pelaksanaan sidang akhir magister secara daring/online", "Bagimana proses pelaksanaan SAM secara daring/online"],
+      "responses": ["Pelaksanaan Ujian Tesis atau Ujian Akhir lainnya untuk Mahasiswa Program Magister:\n1) Sidang dibuka secara resmi oleh Ketua Program Studi sesuai dengan ketentuan yang berlaku;\n2) Sebelum sidang dilaksanakan, maka Ketua Program Studi melakukan pengecekan kehadiran mahasiswa peserta sidang, pembimbing, pembahas/penguji baik secara fisik pada tempat/venue atau hadir secara jarak jauh/virtual;\n3) Sidang dibuka secara resmi setelah memenuhi korum sesuai ketentuan yang berlaku, serta sidang dilaksanakan secara panel yang dihadiri secara fisik pada tempat/venue atau hadir secara jarak jauh/virtual;\n4) Layar Utama/Main Screen adalah layar yang digunakan untuk menampilkan presentasi pada mahasiswa peserta sidang yang dapat dilihat pula oleh Pembimbing, Pembahas/Penguji secara jarak jauh/virtual melalui media elektronik yang digunakannya.\n5) Pihak yang hadir secara fisik pada tempat/venue sidang hanya dimungkinkan jika jumlahnya sedikit dan harus memperhatikan physical distancing dan protokol kesehatan yang ditentukan pemerintah.\n6) Pelaksanaan sidang mengikuti ketentuan yang berlaku setelah memenuhi korum dipimpin oleh Ketua Program Studi untuk Mahasiswa Program Sarjana dan Sarjana Terapan dan Ujian Tesis atau untuk Mahasiswa Program Magister, Profesi, dan Spesialisasi;\n7) Nilai akhir pada ujian sidang pada diberikan dalam bentuk skor mentah(raw score) dengan kisaran 0-100, yang kemudian dikirimkan melalui media elektronik, seperti email atau media elektronik lain yang sudah ditetapkan oleh Ketua Program Studi, dalam rangka menetapkan kelulusan/yudisium sesuai dengan aturan standar penetapan kelulusan/yudisium pada jenjang pendidikan tersebut oleh Ketua Program Studi."]
+    },
+    {
+      "tag": "deskripsi_feb",
+      "patterns": ["Apa itu Fakultas Ekonomi dan Bisnis", "Apa itu FEB", "Jelaskan apa itu FEB", "Deskripsikan FEB"],
+      "responses": ["Fakultas Ekonomi dan Bisnis (FEB) Unpad didirikan berdasarkan Peraturan Pemerintah nomor 37 tanggal 18 September 1957 tentang pendirian Unpad. Peraturan ini mulai berlaku tanggal 11 September 1957. FEB Unpad berasal dari Universitas Merdeka dibawah naungan Yayasan Universitas Merdeka Bandung yang didirikan tahun 1952, yang pada perkembangannya menjadi Universitas Padjadjaran pada tahun 1957 dengan ketuanya Prof. Mr. R. Iwa Kusumasumantri dan Mr. Achmad Sanusi sebagai sekretaris."]
+    },
+    {
+      "tag": "prodi_feb",
+      "patterns": ["Di FEB ada Program Studi apa saja","Di FEB ada jurusan apa saja", "Jurusan di FEB", "Program Studi FEB"],
+      "responses": ["A. Diploma:\n1. D-IV Akuntansi Perpajakan \n2. D-IV Akuntansi Sektor Publik \n3. D-IV Bisnis Internasional \n4. D-IV Pemasaran Digital \n\nB. Sarjana: \n1. Akuntansi \n2. Ilmu Ekonomi \n3. Manajemen \n4. Ekonomi Islam \n5. Bisnis Digital \n\nC. Pascasarjana: \n- Profesi \n1. Profesi Akuntansi (PPAK) \n\n- Magister (S2): \n1. Ekonomi \n2. Ilmu Ekonomi \n3. Ilmu Manajemen \n4. Manajemen \n5. Akuntansi \n6. Ekonomi Terapan \n7. Manajemen Mikro Terpadu \n\n- Doktor (S3) \n1. Ekonomi \n2. Manajemen \n3. Akuntansi"]
+    },
+    {
+      "tag": "program",
+      "patterns": ["Di FEB Ada Program Apa Saja?", "Program Nya Apa Aja?", "Program Akademik?", "Program Disini Ada Apa Saja?"],
+      "responses": ["Program Akademik Di FEB UNPAD Ada 3 Yaitu Program Sarjana, Program Pasca Sarjana, dan  Program Profesi.","Kami Memiliki 3 Program Akademik Yaitu Program Sarjana, Program Pasca Sarjana, dan  Program Profesi."]
+    },
+    {
+      "tag": "lucu",
+      "patterns": ["Aku bosen, sebutin bercandaan!", "Aku bosen, coba sebutin tebak-tebakan!", "Bisa Nge Lucu Tidak?"],
+      "responses": ["Gajah apa yang belalainya pendek? Jawabannya Gajah Pesek", "Lemari apa yang bisa dimasukkan kantong? Jawabannya Lemaribuan.", "Salah apa yang tidak bisa dipidanakan? Jawabannya Salah Pidana.", "Apa bahasa Chinanya aneka macam sayur? Jawabannya Cap Cay.", "Makan apa yang tidak membuat kenyang malah sebaliknya membuat sesak? Jawabannya Makan hati.", "Kalau sedang sendiri, kakinya ada empat, kalau berdua, kakinya jadi ada delapan. Siapakah aku? Aku adalah Kursi.","Masak apa yang ragu-ragu? Jawabannya Masak iya sih."]
+    }
+  ]
+}
