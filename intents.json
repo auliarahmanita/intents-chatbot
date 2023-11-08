@@ -273,6 +273,16 @@
       "responses": ["Mata kuliah semester 2 (untuk konsentrasi Manajemen Risiko) Program Studi Magister Manajemen adalah sebagai berikut :\n1. Manajemen Strategik\n2. Metoda Penelitian Manajemen\n3Manajemen Risiko Operasional\n4. Risiko Penilaian\n5. Manajemen Risiko Keuangan\n6. Risiko Investasi pada Instrumen Keuangan\n7. 1 Mata Kuliah Pilihan"]
     },
     {
+      "tag": "mk_smt_2_man_bks",
+      "patterns": ["Apa saja mata kuliah semester 2 dengan konsentrasi Manajemen Bisnis dan Keuangan Syariah di Magister Manajemen", "Apa saja mata kuliah semester 2 dengan konsentrasi Manajemen Bisnis dan Keuangan Syariah di MM", "Mata kuliah semester 2 konsentrasi Manajemen Bisnis dan Keuangan Syariah Magister Manajemen", "Mata kuliah semester 2 konsentrasi Manajemen Bisnis dan Keuangan Syariah MM", "Mata kuliah semester 2 konsentrasi Manajemen Bisnis dan Keuangan Syariah"],
+      "responses": ["Mata kuliah semester 2 (untuk konsentrasi Manajemen Bisnis) Program Studi Magister Manajemen adalah sebagai berikut :\n1. Manajemen Strategik\n2. Metoda Penelitian Manajemen\n3. Pemikiran Ekonomi dan Manajemen Islam\n4. Topik Khusus Manajemen Syariah\n5. Manajemen Perbankan dan Keuangan Syariah\n6. Kontrak Bisnis Islam dan Manajemen Keuangan Mikro\n7. 1 Mata Kuliah Pilihan"]
+    },
+    {
+      "tag": "mk_smt_2_man_bank",
+      "patterns": ["Apa saja mata kuliah semester 2 dengan konsentrasi Manajemen Perbankan di Magister Manajemen", "Apa saja mata kuliah semester 2 dengan konsentrasi Manajemen Perbankan di MM", "Mata kuliah semester 2 konsentrasi Manajemen Perbankan Magister Manajemen", "Mata kuliah semester 2 konsentrasi Manajemen Perbankan MM", "Mata kuliah semester 2 konsentrasi Manajemen Perbankan"],
+      "responses": ["Mata kuliah semester 2 (untuk konsentrasi Manajemen Bisnis) Program Studi Magister Manajemen adalah sebagai berikut :\n1. Manajemen Strategik\n2. Metoda Penelitian Manajemen\n3. Manajemen Risiko Perbankan\n4. Manajemen Kredit Perbankan\n5. Manajemen Treasury dan Perbankan\n6. Manajemen Perbankan Syariah\n7. 1 Mata Kuliah Pilihan"]
+    },
+    {
       "tag": "mk_smt_3",
       "patterns": ["Apa saja mata kuliah semester 3 di Magister Manajemen", "Apa saja mata kuliah semester 3 di MM", "Mata kuliah semester 3 Magister Manajemen", "Mata kuliah semester 3 MM", "Mata kuliah semester 3"],
       "responses": ["Mata kuliah semester 3 (untuk semua konsentrasi) Program Studi Magister Manajemen adalah sebagai berikut :\n1. Seminar Usulan Penelitian dan Publikasi (SUPP)\n2. Tesis"]
@@ -370,7 +380,7 @@
     {
       "tag": "metode_pembelajaran",
       "patterns": ["Metode pembelajaran apa yang digunakan di magister manajemen", "Seperti apa metode pembelajaran di magister manajemen", "metode pembelajaran magister manajemen"],
-      "responses": ["Metode Pembelajaran Berbasis Capaian pembelajaran yang dapat menggunakan metode Interactive Teaching dan Student Centered Learning, Project Based Learning, dan lainnya."]
+      "responses": ["Metode Pembelajaran Berbasis Capaian pembelajaran yang dapat menggunakan metode Interactive Teaching dan Student Centered Learning, Project Based Learning, dan lainnya. Salah satu contoh metode pembelajaran SCL yang telah diterapkan di Fakultas Ekonomi dan Bisnis mencakup antara lain:\na. Diskusi Kecil (Small Group Discussion)\nb. Permainan dan Simulasi (Role-Play & Simulation)\nc. Studi kasus (Case Study)\nd. Contextual Instruction"]
     },
     {
       "tag": "Penilaian_mata_kuliah",
@@ -537,6 +547,496 @@
       "patterns": ["Di FEB Ada Program Apa Saja?", "Program Nya Apa Aja?", "Program Akademik?", "Program Disini Ada Apa Saja?"],
       "responses": ["Program Akademik Di FEB UNPAD Ada 3 Yaitu Program Sarjana, Program Pasca Sarjana, dan  Program Profesi.","Kami Memiliki 3 Program Akademik Yaitu Program Sarjana, Program Pasca Sarjana, dan  Program Profesi."]
     },
+    {
+      "tag": "yudisium_kelulusan",
+      "patterns": ["Bagaimana yudisium kelulusan ditentukan?", "Seperti apa yudisium kelulusan ditentukan?", "Penentuan yudisium kelulusan", "Bagaimana penentuan yudisium kelulusan"],
+      "responses": ["1.Yudisium kelulusan didasarkan pada IPK akhir yaitu rata-rata gabungan AM perangkat mata kuliah dengan AM SAM, sebagai berikut:\n\ta. Angka Mutu 3,00 - 3,50 (Memuaskan)\n\tb. 3,51 - 3,75 (Sangat Memuaskan) \n\tc. 3,76 - 4,00 (Pujian) [dengan syarat tambahan]\n2. Predikat kelulusan 'Pujian', memiliki persyaratan tambahan lain, yaitu:\n\ta. Waktu kelulusan Pendidikan Magister (tanggal SAM) memperhatikan masa studi terjadwal ditambah 1 (Satu) semester (0,5 tahun) atau paling lama 5 (Lima) semester;\n\tb. Telah memiliki paling sedikit 1 (Satu) artikel ilmiah dengan status diterima (accepted) pada jurnal nasional terakreditasi sekurang-kurangnya SINTA 2 (Dua) atau jurnal internasional bereputasi;\n\tc. Tidak terdapat mata kuliah yang bernilai C; \n\td. Tidak mengulang studi pada Prodi yang sama di Unpad.\n3.Mahasiswa yang memenuhi Yudisium 'Pujian' berdasarkan IPK, tetapi tidak memenuhi persyaratan tambahan sesuai dengan butir 2, maka Yudisium kelulusan hanya ditetapkan 'Sangat Memuaskan'."]
+    },
+    {
+      "tag": "busana_sur_sam",
+      "patterns": ["Bagaimana kode busana dalam melaksanakan sidang akhir magister dan seminar usulan riset", "Bagaimana kode busana dalam melaksanakan SAM dan SUR", "Pakaian yang digunakan untuk pelaksanakan sidang akhir magister dan seminar usulan riset", "Pakaian yang digunakan untuk pelaksanaan SAM dan SUR"],
+      "responses": ["Pada waktu SUR dan SAM, Ketua dan Sekretaris serta seluruh Tim Pembimbing dan Tim Penguji, busana pria menggunakan jas lengkap atau kemeja batik, celana panjang warna gelap, sedangkan untuk busana perempuan menyesuaikan.Pada waktu SUR maupun SAM, mahasiswa memakai jas lengkap, celana panjang warna gelap dan dasi, sedangkan untuk mahasiswa perempuan menyesuaikan."]
+    },
+    {
+      "tag": "peringatan_akademik",
+      "patterns": ["Jelaskan hal apa saja yang dapat membuat mahasiswa mendapat peringatan akademik", "Jelaskan mengenai peringatan akademik", "peringatan akademik"],
+      "responses": ["Peringatan akademik diberikan secara tertulis kepada mahasiswa yang:\n1. Pada akhir semester I (Satu) atau semester II (Dua) memperoleh IPK di bawah 3,00;\n2. Pada akhir semester I (Satu) atau semester II (Dua) memperoleh nilai C (nilai murni kurang dari 68);\n3. Pada awal semester III (Tiga) belum melakukan SUR;\n4. Pada akhir semester VII (Tujuh) belum menempuh SAM;\n5. Selama 1 (Satu) semester tidak melakukan pendaftaran ulang (herregistrasi);\n6. Belum lulus sesuai dengan masa studi terjadwal."]
+    },
+    {
+      "tag": "pemutusan_studi",
+      "patterns": ["Jelaskan hal apa saja yang dapat membuat mahasiswa mendapat pemutusan studi", "Jelaskan mengenai pemutusan studi", "pemutusan studi"],
+      "responses": ["Pemutusan studi dikenakan terhadap mahasiswa yang:\n1. Pada akhir semester III (Tiga) memperoleh IPK di bawah 3,00;\n2. Pada akhir semester I (Satu) dan semester II (Dua) memperoleh huruf mutu di bawah C;\n3. Pada akhir semester III (Tiga) belum melakukan SUR atau tidak lulus SUR untuk kedua kalinya;\n4. Pada akhir semester VIII (Delapan) tidak dapat menyelesaikan studi;\n5. Pada akhir semester VIII (Delapan) tidak atau belum memiliki artikel ilmiah sesuai persyaratan kelulusan;\n6. Pada 2 (Dua) semester berturut-turut atau dalam waktu berlainan tidak melakukan herregistrasi;\n7. Melakukan hal- hal yang bersifat mencemarkan nama baik almamater (Unpad), melakukan plagiarisme, dan/atau melanggar etika keilmuan."]
+    },
+    {
+      "tag": "sanksi_akademik",
+      "patterns": ["Jelaskan hal apa saja yang dapat membuat mahasiswa mendapat sanksi akademik", "Jelaskan mengenai sanksi akademik", "sanksi akademik"],
+      "responses": ["1. Sanksi akademik dikenakan kepada mahasiswa yang melakukan tindakan tidak terpuji dalam proses belajar-mengajar, baik akademik maupun non- akademik, atau melanggar hukum, dan/atau melakukan perbuatan asusila.\n2. Penetapan sanksi akademik untuk kasus-kasus tertentu (plagiasi data, plagiasi bahasan, tidak menyebutkan sumber, norma dan etika) ditetapkan berdasarkan usulan dari Tim Fakultas/Sekolah Pascasarjana.\n3. Penanganan kasus plagiarisme merujuk pada peraturan yang berlaku di Unpad dan peraturan perundang- undangan yang berlaku.\n4. Jenis sanksi akademik ditetapkan berdasarkan peraturan perundang undangan yang berlaku oleh Komisi Pertimbangan yang terdiri dari:\n\ta. perwakilan universitas (Rektor/Wakil Rektor Bidang Akademik dan Kemahasiswaan/Direktur Pendidikan dan Internasionalisasi); dan/perwakilan institusi penyelenggara Pendidikan Magister (Dekan Fakultas/Sekolah Pascasarjana, Wakil Dekan, Ketua/Sekretaris Prodi Magister, dan Ketua Pembimbing).\n5. Hasil kesepakatan Komisi Pertimbangan kemudian ditindaklanjuti dengan penandatanganan Berita Acara sebagai dasar untuk menetapkan keputusan."]
+    },
+    {
+      "tag": "ijazah_wisuda_gelar",
+      "patterns": ["Jelaskan mengenai ijazah", "Jelaskan mengenai wisuda", "Jelaskan mengenai gelar akademik"],
+      "responses": ["1. Mahasiswa Pendidikan Magister yang telah dinyatakan lulus akan mendapatkan Surat Keterangan Kelulusan (jika diperlukan), Transkrip Akademik, dan Ijazah, jika:\n\ta.    Menyerahkan hard copy dan soft copy tesis selambat- lambatnya 1 (satu) bulan jika koreksi minor dan 3 (Tiga) bulan jika koreksi mayor; dan\n\tb.   Menyerahkan seluruh persyaratan administrasi kelulusan.\n2. Lulusan dapat mengikuti wisuda apabila telah memenuhi kewajiban seperti yang tercantum butir 1.\n3. Ijazah dan Transkrip Akademik akan diserahkan 1 (Satu) minggu setelah wisuda pada Pusat Layanan Terpadu Unpad.\n4. Gelar akademik dari lulusan Pendidikan Magister yang ditempuh, sesuai dengan Keputusan Rektor Universitas Padjadjaran."]
+    },
+    {
+      "tag": "bahan_kajian",
+      "patterns": ["Bahan kajian pembelajaran Magister Manajemen", "Bahan kajian pembelajaran MM", "Apa bahan kajian pembelajaran Magister Manajemen", "Apa bahan kajian pembelajaran lulusan MM"],
+      "responses": ["Bahan Kajian pembelajaran adalah suatu bangun keilmuan dan penerapan konsep-konsep Manajemen yang dikembangkan untuk dapat mencapai kompetensi berdasarkan profil lulusan Prodi S2 Magister Manajemen yang telah ditetapkan. Terdapat 6 (Enam) bahan kajian inti dalam Prodi S2 MM yang meliputi Bahan Kajian sebagai berikut: Konsep Manajemen Bisnis, Kekhususan Rumpun Keilmuan Manajemen / Pendalaman, Literasi Data, Teknologi dan Sistem Informasi Manajemen Bisnis (SIM), Alat dan Metode Analisis Manajemen, Karya Tulis Ilmiah, Softs Skill."]
+    },
+    {
+      "tag": "struktur_kurikulum",
+      "patterns": ["struktur kurikulum Magister Manajemen", "struktur kurikulum MM", "Bagaimana struktur kurikulum Magister Manajemen", "Bagaimana struktur kurikulum MM", "Seperti apa struktur kurikulum Magister Manajemen", "Seperti apa struktur kurikulum MM"],
+      "responses": ["Struktur kurikulum menunjang sepenuhnya pencapaian standar kompetensi. Setelah terakreditasi internasional ABEST21 dan dalam rangka mempertahankan akreditasi BAN-PT, Prodi MMFEB Unpad merancang kurikulum yang berasal dari tujuan pembelajaran yang sejalan dengan pernyataan misi prodi. Untuk memastikan tujuan pembelajaran ini, dirancanglah kurikulum dalam lima bagian, yaitu:\n1. Fungsi Bisnis yang terdiri dari semua Fungsi Manajemen (Pemasaran, Operasi, Sumber Daya Manusia, Keuangan) dengan jumlah 12 SKS;\n2. Keputusan Strategik dan Internasionalisasi, yaitu Seminar Internasional dan Kunjungan Perusahaan (2 SKS), Manajemen Strategik (3 SKS), Analisis Kuantitatif Untuk Manajemen (2 SKS), Metodologi Penelitian Manajemen (3 SKS), dengan total semuanya 10 SKS;3. Konsentrasi atau General terdiri dari empat mata pelajaran dengan jumlah 12 SKS (untuk pilihan jalur Konsentrasi) dan 6 SKS (untuk pilihan jalur General / Top Manajemen); dan\n4. Pilihan Program yaitu mata kuliah pilihan yang disiapkan 2 SKS yang dapat dipilih dari 10 matakuliah pilihan.\n5. Karya Ilmiah, yaitu terdiri dari mata kuliahSeminar Usulan Riset dan Publikasi (SURP) sebanyak 2 SKS, Tesis sebanyak 6 SKS. Dalam setiap program, kumpulan taksonomi digunakan untuk menentukan tingkat hasil belajar."]
+    },
+    {
+      "tag": "deskripsi_matkul",
+      "patterns": ["Sebutkan deskripsi mata kuliah magister manajemen", "Apa deskripsi mata kuliah", "Deskripsi mata kuliah"],
+      "responses": ["Deskripsi mata kuliah apa yang Anda cari? Bisakah Anda lebih spesifik"]
+    },
+    {
+      "tag": "deskripsi_matkul_pengantar_bisnis",
+      "patterns": ["Sebutkan deskripsi mata kuliah pengantar bisnis magister manajemen", "Apa deskripsi mata kuliah pengantar bisnis", "Deskripsi mata kuliah pengantar bisnis"],
+      "responses": ["Mata kuliah Pengantar Bisnis membahas konsep bisnis dan fungsi-fungsi utama bisnis seperti pemasaran, MSDM, operasi dan keuangan dan manajemen bisnis global dan Kewirausahaan."]
+    },
+    {
+      "tag": "deskripsi_matkul_pengantar_manajemen",
+      "patterns": ["Sebutkan deskripsi mata kuliah pengantar manajemen dan perilaku keorganisasian magister manajemen", "Apa deskripsi mata kuliah pengantar manajemen dan perilaku keorganisasian", "Deskripsi mata kuliah pengantar manajemen dan perilaku keorganisasian"],
+      "responses": ["Mata kuliah Pengantar Manajemen dan Perilaku Keorganisasian membahas konsep dasar manajemen serta menguraikan perkembangan ilmu manajemen dan proses manajemen yaitu perencanaan, pengorganisasian, stafing, pengendalian dan proses manajemen strategis."]
+    },
+    {
+      "tag": "deskripsi_matkul_pengantar_ilmu_ekonomi",
+      "patterns": ["Sebutkan deskripsi mata kuliah pengantar ilmu ekonomi untuk bisnis magister manajemen", "Apa deskripsi mata kuliah pengantar ilmu ekonomi untuk bisnis", "Deskripsi mata kuliah pengantar ilmu ekonomi untuk bisnis"],
+      "responses": ["Mata kuliah Pengantar Ilmu Ekonomi Untuk Bisnis membahas konsep dan indikatorindikator ekonomi seperti pertumbuhan ekonomi, inflasi, tingkat pengangguran, neraca perdagangan dan nerasa pembayaran serta berbagai kebijakan ekonomi makro. Selain itu, mahasiswa juga diharapkan mampu menjelaskan konsep ilmu ekonomi, perilaku konsumen dalam optimasi kebutuhan ekonomi; dan perilaku produsen mengenai teori produksi dan biaya serta bentuk-bentuk pasar dan implikasinya untuk pengambilan keputusan bisnis."]
+    },
+    {
+      "tag": "deskripsi_matkul_pengantar_statistika",
+      "patterns": ["Sebutkan deskripsi mata kuliah pengantar statistika dan ekonometrika magister manajemen", "Apa deskripsi mata kuliah pengantar statistika dan ekonometrika", "Deskripsi mata kuliah pengantar statistika dan ekonometrika"],
+      "responses": ["Mata kuliah Pengantar Statistika dan Ekonometrika membahas konsep fungsi statistik serta dapat mengaplikasikannya dalam pengambilan keputusan bisnis terutama statistik deskriptif dan inferensi serta karakteristik distribusi dan desain pengujian hipotesis. Sedangkan ekonometrika lebih pada analisis regresi multipel, baik time series, cross section maupun panel data dan data dengan variabel dummy."]
+    },
+    {
+      "tag": "deskripsi_matkul_metode_kuantitatif",
+      "patterns": ["Sebutkan deskripsi mata kuliah metode kuantitatif bisnis  magister manajemen", "Apa deskripsi mata kuliah metode kuantitatif bisnis", "Deskripsi mata kuliah metode kuantitatif bisnis "],
+      "responses": ["Mata kuliah Metode Kuantitatif Bisnis  membahas konsep bisnis dan fungsi-fungsi utama bisnis seperti pemasaran, MSDM, operasi dan keuangan dan manajemen bisnis global dan Kewirausahaan."]
+    },
+    {
+      "tag": "deskripsi_matkul_teori_aplikasi_manajemen_pemasaran",
+      "patterns": ["Sebutkan deskripsi mata kuliah teori dan aplikasi manajemen pemasaran  magister manajemen", "Apa deskripsi mata kuliah teori dan aplikasi manajemen pemasaran ", "Deskripsi mata kuliah teori dan aplikasi manajemen pemasaran "],
+      "responses": ["Mata kuliah Teori dan Aplikasi Manajemen Pemasaran membahas tentang konsep-konsep dasar yang relevan dengan proses perencanaan, pengendalian dan pengambilan keputusan dalam bidang pemasaran, baik strategik manajerial maupun operasional, antara lain mencakup profil produk, profil konsumen, profil persaingan, segmentas pasar, sasaran pasar, bauran pasar, perencanaan, pengendalian serta pengukuran keefektifan pasar, dan sistem informasi pemasaran."]
+    },
+    {
+      "tag": "deskripsi_matkul_teori_aplikasi_manajemen_sdm",
+      "patterns": ["Sebutkan deskripsi mata kuliah teori dan aplikasi manajemen sumber daya manusia  magister manajemen", "Apa deskripsi mata kuliah teori dan aplikasi manajemen sumber daya manusia ", "Deskripsi mata kuliah teori dan aplikasi manajemen sumber daya manusia "],
+      "responses": ["Mata kuliah Teori dan Aplikasi Manajemen Sumber Daya Manusia membahas tentang berbagai teori serta praktek administrasi personalia dengan merujuk terutama pada pendekatan diagnosis, mengkaitkan kondisi eksternal, penetapan sasaran dan upaya-upaya yang diperlukan untuk mencapai sasaran SDM dengan pembahasan fungsi¬fungsi operatif MSDM pada masalah recruitment, retensi, sistem insentiv dan perencanaan sumber daya manusia."]
+    },
+    {
+      "tag": "deskripsi_matkul_teori_aplikasi_manajemen_operasi",
+      "patterns": ["Sebutkan deskripsi mata kuliah teori dan aplikasi manajemen operasi  magister manajemen", "Apa deskripsi mata kuliah teori dan aplikasi manajemen operasi ", "Deskripsi mata kuliah teori dan aplikasi manajemen operasi "],
+      "responses": ["Mata kuliah Teori dan Aplikasi Manajemen Operasi membahas tentang konsep, metode dan teknik yang inheren dalam proses perencanaan, pengendalian dan pengambilan keputusan dalarn sistem produksi serta merumuskan dan mengatur pelaksanaan kegiatan produksi. Topik-topik yang dibahas antara lain meliputi proses perencanaan dan pengendalian operasional yang menyangkut pengembangan produk dan proses kapasitas produksi, standar waktu, pengendalian jadwal produksi, pengendafian persediaan, manajemen kualitas dan sistem informasi produksi."]
+    },
+    {
+      "tag": "deskripsi_matkul_teori_aplikasi_manajemen_keuangan",
+      "patterns": ["Sebutkan deskripsi mata kuliah Teori dan Aplikasi Manajemen Keuangan  magister manajemen", "Apa deskripsi mata kuliah Teori dan Aplikasi Manajemen Keuangan ", "Deskripsi mata kuliah Teori dan Aplikasi Manajemen Keuangan "],
+      "responses": ["Mata kuliah Teori dan Aplikasi Manajemen Keuangan membahas tentang konsep-konsep dasar yang relevan dalam proses perencanaan, pengendalian dan pengambil-an keputusan, baik strategis, manajerial maupun operasional dalam bidang keuang-an. Topiktopik yang dibahas antara lain aspek-aspek yang relevan dengar anggaran modal, analisis dan interpretasi laporan keuangan, manajemer modal kerja, struktur modal, leasing dan kebijakan dividen."]
+    },
+    {
+      "tag": "deskripsi_matkul_manajemen_strategis",
+      "patterns": ["Sebutkan deskripsi mata kuliah Manajemen Strategis magister manajemen", "Apa deskripsi mata kuliah Manajemen Strategis", "Deskripsi mata kuliah Manajemen Strategis"],
+      "responses": ["Mata kuliah Manajemen Strategis membahas tentang berbagai konsep, metode dan teknik serta interaksi dan keterpaduan diantara berbagai disiplin ilmu yang relevan dengan strategi. Fokus mata ajaran diorientasikan ke arah peningkatan kemampuan dalam perumusan pilihan strategi yang diperlukan ditinjau dari perspektif pimpinan puncak dan pimpinan fungsional perusahaan."]
+    },
+    {
+      "tag": "deskripsi_matkul_metodologi_penelitian_manajemen",
+      "patterns": ["Sebutkan deskripsi mata kuliah Metodologi Penelitian Manajemen magister manajemen", "Apa deskripsi mata kuliah Metodologi Penelitian Manajemen", "Deskripsi mata kuliah Metodologi Penelitian Manajemen"],
+      "responses": ["Mata kuliah Metodologi Penelitian Manajemen membahas tentang azas penelitian ilmiah, syarat-syarat penelitian ilmiah, hipotesis dan kegunaan dalam penelitian ilmiah yang meliputi instrumen penelitian, metode pengumpulan data, metode analisis, penyusunan proposal penelitian dan penulisan laporan penelitian, khususnya dalam bidang manajemen bisnis."]
+    },
+    {
+      "tag": "deskripsi_matkul_seminar_internasional_kunjungan_perusahaan",
+      "patterns": ["Sebutkan deskripsi mata kuliah Metodologi Penelitian Manajemen magister manajemen", "Apa deskripsi mata kuliah Metodologi Penelitian Manajemen", "Deskripsi mata kuliah Metodologi Penelitian Manajemen"],
+      "responses": ["Mata kuliah Seminar Internasional dan Kunjungan Perusahaan memberikan mahasiswa memiliki kemampuan menulis makalah topik bisnis seperti marketing, keuangan, SDM, operasi, manajemen strategik, kewirausahaan dan inovasi, manajemen rumah sakit, manajemen perbankan, manajemen risiko, manajemen aset dan penilaian dan topik terkini lainnya di bidang bisnis dan manajemen.; (2) mahasiswa mampu mempresentasikan makalah pada suatu event internasional seminar/konferensi yang dilaksanakan di luar negeri oleh perguruan tinggi mitra universitas."]
+    },
+    {
+      "tag": "deskripsi_matkul_seminar_usulan_riset_publikasi",
+      "patterns": ["Sebutkan deskripsi mata kuliah Seminar Usulan Riset dan Publikasi magister manajemen", "Apa deskripsi mata kuliah Seminar Usulan Riset dan Publikasi", "Deskripsi mata kuliah Seminar Usulan Riset dan Publikasi"],
+      "responses": ["Mata kuliah Seminar Usulan Riset dan Publikasi adalah mata kuliah wajib yang harus diambil sebelum mengambil tesis. Matakuliah ini harus diambil selambat lambatnya pada semester kedua (reguler) dan semester ketiga (eksekutif). Kuliah akan diselenggarakan tujuh sesi tatap muka dengan mengarahkan mahasiswa menyusun proposal penelitian tesis; tujuh tatap muka sesi kuliah lainnya akan diarahkan untuk membentuk siswa untuk menyusun makalah yang akan dipublikasikan pada jurnal internasional. Mahasiswa wajib mendiskusikan proposal penelitian tesis dengan dosen pembimbing yang telah ditetapkan oleh Program Studi MM FEB Unpad. Mahasiswa wajib mencatat tanggal pertemuan dan isi bimbingan dengan dosen pembimbing. Mahasiswa wajib mendapatkan ijin untuk pelaksanaan Seminar Usulan Riset (SUR) bila isi proposal penelitian tesis telah disetujui oleh dosen pembimbing. Sesi ujian sisipan dilakukan dalam bentuk ujian proposal penelitian yang akan dilaksanakan pada waktu yang ditetapkan oleh Program Studi MM FEB Unpad. Sesi ujian akhir dilakukan dalam bentuk pengiriman makalah kepada jurnal internasional terpilih dan menunjukan bukti telah mengirimkan makalah jurnal internasional terpilih tersebut. Isi makalah disusun berdasarkan hasil pre-test dari proposal penelitian tesis. Mahasiswa wajib menunjukan letter of acceptance (LOA) dan atau bukti printscreen kirim makalah dari web online system dari pengelola jurnal internasional.)"]
+    },
+    {
+      "tag": "deskripsi_matkul_akuntansi_manajer",
+      "patterns": ["Sebutkan deskripsi mata kuliah Akuntansi untuk Manajer magister manajemen", "Apa deskripsi mata kuliah Akuntansi untuk Manajer", "Deskripsi mata kuliah Akuntansi untuk Manajer"],
+      "responses": ["Mata kuliah Akuntansi untuk Manajer membahas tentang fungsi akuntansi dalam perusahaan, baik akuntansi keuangan maupun akuntansi manajemen. Topik-topik yang dibahas antara lain meliputi akumulasi serta akuntansi untuk menghasilkan berbagai informasi akuntansi untuk berbagai tujuan penggunaan dan analisis serta interpretasi baik laporan akuntansi keuangan untuk pihak luar maupun laporan akuntansi manajemen dalam proses perencanaan, pengendalian dan pengambilan keputusan. Pembahasan akan mencakup pula berbagai kendala dan keterbatasan yang inheren baik dalam akuntansi keuangan maupun akuntansi manajemen."]
+    },
+
+    {
+      "tag": "deskripsi_matkul_etika_bisnis_tanggungjawab_sosial_perusahaan",
+      "patterns": ["Sebutkan deskripsi mata kuliah Etika Bisnis dan Tanggung Jawab Sosial magister manajemen", "Apa deskripsi mata kuliah Etika Bisnis dan Tanggung Jawab Sosial", "Deskripsi mata kuliah Etika Bisnis dan Tanggung Jawab Sosial"],
+      "responses": ["Mata kuliah Etika Bisnis dan Tanggung Jawab Sosial Perusahaan membahas tentang berbagai masalah yang timbui karena gerakan yang dilakukan negara industri dan masyarakat internasional yang mempertanyakan masalah lingkungan global. Mata kuliah ini diinformasikan untuk membahas masalahmasalah di atas dalam kaitannya dengan keberlangsungan perusahaan jangka panjang stockholder strategy dan good corporate governance."]
+    },
+
+    {
+      "tag": "deskripsi_matkul_komunikasi_bisnis_global",
+      "patterns": ["Sebutkan deskripsi mata kuliah Komunikasi Bisnis Global magister manajemen", "Apa deskripsi mata kuliah Komunikasi Bisnis Global", "Deskripsi mata kuliah Komunikasi Bisnis Global"],
+      "responses": ["Mata kuliah Komunikasi Bisnis Global membahas tentang komunikasi bisnis. Topik ini mengangkat masalah-masalah pilihan-pilihan membentuk jaringan komunikasi, memanfaatkan teknologi informasi, polapola komunikasi dalam kelompok, distorsi komunikasi, dan efektivitas organisasi dikaitkan dengan komunikasi bisnis."]
+    },
+
+    {
+      "tag": "deskripsi_matkul_sistem_informasi_bisnis",
+      "patterns": ["Sebutkan deskripsi mata kuliah Sistem Informasi Manajemen (SIM) dan E-Bisnis magister manajemen", "Apa deskripsi mata kuliah Sistem Informasi Manajemen (SIM) dan E-Bisnis", "Deskripsi mata kuliah Sistem Informasi Manajemen (SIM) dan E-Bisnis"],
+      "responses": ["Mata kuliah Sistem Informasi Manajemen (SIM) dan E-Bisnis membahas tentang dan, kemampuan serta keterampilan yang diperlukan dalam proses analisis, perencanaan dan implementasi Sistem Informasi Manajemen (SIM), sebagai subsistem efektivitas perencanaan dan pengendalian organisasi yang terpenting. Topik-topik yang dibahas antara lain meliputi konsep sistem, kerangka dasar SIM, berbagai subsistem perkantoran, sistem pendukung keputusan, pengolahan data elektronik dan penguasaan beberapa program paket."]
+    },
+
+    {
+      "tag": "deskripsi_matkul_analisis_laporan_keungan_bisnis",
+      "patterns": ["Sebutkan deskripsi mata kuliah Analisis Laporan Keuangan Bisnis magister manajemen", "Apa deskripsi mata kuliah Analisis Laporan Keuangan Bisnis", "Deskripsi mata kuliah Analisis Laporan Keuangan Bisnis"],
+      "responses": ["Mata kuliah Analisis Laporan Keuangan Bisnis membahas tentang konsep, teknik, peralatan analisis serta teknik penilaian kinerja perusahaan berdasarkan informasi yang disajikan dalam laporan keuangan secara mendalam. Selain itu, mahasiswa diharapkan dapat memahami penyesuaianpenyesuaian yang dibutuhkan untuk meningkatkan kualitas informasi yang disajikan oleh laporan keuangan dan menggunakan laporan keuangan untuk menilai implementasi strategi perusahaan serta untuk memecahkan masalah-masalah yang dihadapi dalam dunia usaha."]
+    },
+
+    {
+      "tag": "deskripsi_matkul_hukum_komersial_perpajakan",
+      "patterns": ["Sebutkan deskripsi mata kuliah Hukum Komersial dan Perpajakan magister manajemen", "Apa deskripsi mata kuliah Hukum Komersial dan Perpajakan", "Deskripsi mata kuliah Hukum Komersial dan Perpajakan"],
+      "responses": ["Mata kuliah Hukum Komersial dan Perpajakan membahas tentang permasalahan hukum yang inheren dalam transaksi-transaksi bisnis yang berlangsung dalam kehidupan ekonomi seharihari yang dimaksudkan untuk memberikan bekal pengetahuan tentang berbagai aspek hukum Indonesia yang relevan dengan dunia usaha. Strategi perpajakan diberikan pada kondisi awal usaha investasi. Permasalahan yang dibahas antara lain meliputi dasardasar hukum usaha yang berlaku di Indonesia, bentuk dan dampak hukum badan usaha, kontrak dagang, keagenan, dan hukum perburuhan. Strategi Perpajakan yang berkaitan dengan investasi nyata dan investasi pada pasar modal, pertimbangan perkembangan dalam akuntansi perpajakan termasuk depresiasi dan amortisasi, pajak pengupahan dan sumbangan-sumbangan dalam pajak."]
+    },
+    {
+      "tag": "deskripsi_matkul_pemodelan_bisnis",
+      "patterns": ["Sebutkan deskripsi mata kuliah Pemodelan Bisnis magister manajemen", "Apa deskripsi mata kuliah Pemodelan Bisnis", "Deskripsi mata kuliah Pemodelan Bisnis"],
+      "responses": ["Mata kuliah Pemodelan Bisnis membahas tentang berbagai jenis model manajemen dalam meningkatkan keefektifan suatu bisnis. Model-model manajemen tersebut antara lain: the balance scorecard, benchmarking, business proces redesign, the capability materity model dll. Mata Kuliah ini juga menyampaikan beberapa pengetahuan mengenai prespektif dan proses dinamika bisnis; sistem dinamika, proses modeling; alat berpikir sistematis, dinamika pertumbuhan serta alat-alat untuk sistem dinamika modeling."]
+    },
+    {
+      "tag": "deskripsi_matkul_manajemen_jasa",
+      "patterns": ["Sebutkan deskripsi mata kuliah Manajemen Jasa magister manajemen", "Apa deskripsi mata kuliah Manajemen Jasa", "Deskripsi mata kuliah Manajemen Jasa"],
+      "responses": ["Mata kuliah Manajemen Jasa memberikan pengetahuan, kemampuan serta keterampilan untuk menererapkan berbagai konsep yang berkaitan dengan bisnis jasa baik komersil maupun nonkomersil khususnya proses perencanaan, pengendalian dan pengambilan keputusan secara manajerial yang berkaitan pada lingkungan organisasi penyedia jasa. Topik-topik yang dibahas dalam manajemen jasa ini mencakup konsep jasa, kerangka dasar bisnis jasa, kualitas jasa, analisis gap kualitas jasa dan pengukurannya dari suatu organisasi yang bergerak di bidang jasa."]
+    },
+    {
+      "tag": "deskripsi_matkul_perilaku_keorganisasian",
+      "patterns": ["Sebutkan deskripsi mata kuliah Perilaku Keorganisasian magister manajemen", "Apa deskripsi mata kuliah Perilaku Keorganisasian", "Deskripsi mata kuliah Perilaku Keorganisasian"],
+      "responses": ["Mata kuliah Perilaku Keorganisasian meliputi Struktur Organisasi dan Perilaku Organisasi. Pembahasan Struktur dan Perilaku Organisasi dimaksudkan untuk memberikan pengetahuan, kemampuan serta keterampilan yang diperlukan untuk mengatur kerja sama produktif melalui pembagian tugas, delegasi wewenang serta koordinasinya agar arus pekerjaan berjalan dengan lancar, teratur dan sinergestik. Topik-topik yang dibahas meliputi analisis dan pengelompokkan kerja, sentralisasi dan desentralisasi, pengaruh dan adaptasi lingkungan, arus pekerjaan, perencanaan struktur organisasi, perilaku individu dan kelompok, gaya kepemimpinan, dinamlka kelompok, komunikasi antar budaya dan sebagainya."]
+    },
+    {
+      "tag": "deskripsi_matkul_filsafat_ilmu",
+      "patterns": ["Sebutkan deskripsi mata kuliah Filsafat Ilmu magister manajemen", "Apa deskripsi mata kuliah Filsafat Ilmu", "Deskripsi mata kuliah Filsafat Ilmu"],
+      "responses": ["Mata kuliah Filsafat Ilmu membahas Ilmu (sains) sebagai pengetahuan yang positif perlu dipandu secara normatif dalam pencarian atau penguasaan ilmu (the quest for knowledge) dan relevansinya dengan manusia yang berkemampuan untuk mengetahui, nalar, dan hasil nalar. Topik-topik yang dibahas antara lain: sejarah perkembangan filsafat dan ilmu meliputi sains empiris; anatomi sains; penalaran deduktif dan induktif. Domain utama filsafat berupa ontologi, epistemologi dan aksiologi akan membahas hubungan diantara filsafat, sains, dan metodologi (metode dan teknik) serta persamaan dan perbedaan antara ilmu¬ilmu alamiah dengan ilmu-ilmu sosial-kemanusiaan."]
+    },
+
+    {
+      "tag": "deskripsi_matkul_kepemimpinan",
+      "patterns": ["Sebutkan deskripsi mata kuliah Kepemimpinan magister manajemen", "Apa deskripsi mata kuliah Kepemimpinan", "Deskripsi mata kuliah Kepemimpinan"],
+      "responses": ["Setelah menyelesaikan mata kuliah Kepemimpinan, mahasiswa akan dapat: Mendemonstrasikan kesadaran terintegrasi dari teori kepemimpinan dan hubungannya dengan praktik bisnis, Mengusulkan gaya dan pendekatan kepemimpinan yang tepat melalui evaluasi kepemimpinan, situasi dan konteks yang dinamis, Mengembangkan pemahaman kritis tentang bagaimana perbedaan budaya dan konteks struktural dapat berdampak pada agen kepemimpinan, Memahami peran kepemimpinan yang efektif dalam strategi organisasi, Menerapkan beragam keterampilan dan pendekatan yang terkait dengan kepemimpinan dalam berbagai situasi dan konteks organisasi, sosial dan budaya, Secara kritis mengevaluasi gagasan, konsep, dan masalah kompleks yang berkaitan dengan kepemimpinan, Kembangkan keterampilan kepemimpinan yang praktis dan terinformasi secara etis yang dapat diterapkan dalam berbagai situasi. "]
+    },
+
+    {
+      "tag": "deskripsi_matkul_manajemen_lintas_budaya",
+      "patterns": ["Sebutkan deskripsi mata kuliah Manajemen Lintas Budaya magister manajemen", "Apa deskripsi mata kuliah Manajemen Lintas Budaya", "Deskripsi mata kuliah Manajemen Lintas Budaya"],
+      "responses": ["Mata kuliah Manajemen Lintas Budaya terdiri dari sub bahasan teori – teori budaya, manajemen lintas budaya, pemahaman perbedaan budaya, konsep budaya, perilaku lintas budaya, komunikasi lintas budaya."]
+    },
+    {
+      "tag": "deskripsi_matkul_wawasan_internasional",
+      "patterns": ["Sebutkan deskripsi mata kuliah Wawasan Internasional magister manajemen", "Apa deskripsi mata kuliah Wawasan Internasional", "Deskripsi mata kuliah Wawasan Internasional"],
+      "responses": ["Mata kuliah Wawasan Internasional mempelajari tentang pengetahuan dalam sejarah dunia, politik internasional, dan isu-isu ekonomi dan pengetahuan umum."]
+    },
+    {
+      "tag": "deskripsi_matkul_analitik_bisnis_profesional",
+      "patterns": ["Sebutkan deskripsi mata kuliah Analitik Bisnis untuk Profesional magister manajemen", "Apa deskripsi mata kuliah Analitik Bisnis untuk Profesional", "Deskripsi mata kuliah Analitik Bisnis untuk Profesional"],
+      "responses": ["Mata kuliah Analitik Bisnis untuk Profesional mengacu pada cara di mana perusahaan baik bisnis maupun nonprofit dapat menggunakan data untuk mendapatkan wawasan dan membuat keputusan yang lebih baik. Analisis bisnis diterapkan di berbagai bidang seperti operasi, pemasaran, keuangan, sumber daya manusia, dan perencanaan strategis di antara fungsi-fungsi lainnya. Kemampuan untuk menggunakan data secara efektif untuk mendorong keputusan yang cepat, tepat, dan menguntungkan telah menjadi keunggulan strategis yang penting bagi berbagai perusahaan seperti WalMart, Google, Capital One, dan Disney. Misalnya sistem credit scoring di fintech peer to peer lending, segmentasi nasabah dan lain sebagainya. Dengan kekayaan sumber informasi yang luas dan mendalam — apa yang disebut analitik bisnis “Big Data” menjadi kemampuan yang bahkan lebih penting untuk perusahaan dari semua jenis dan semua ukuran.\nDalam mata kuliah ini, Anda akan belajar mengidentifikasi, mengevaluasi, dan menangkap peluang analitik bisnis yang menciptakan nilai. Untuk tujuan ini, Anda akan mempelajari metode analitik dasar dan menganalisis studi kasus tentang organisasi yang berhasil menerapkan teknik ini. Di bagian pertama mata kuliah, kami berfokus pada cara membekali pelajar dalam membangun keterampilan kesadaran data dan cara menggunakan data untuk mengembangkan wawasan dan kemampuan prediktif menggunakan pembelajaran mesin, penambangan data, dan teknik peramalan. Pada bagian kedua, kami fokus pada penggunaan analitik prediktif baik data yang diawasi maupun tidak dengan pembelajaran mesin untuk melakukan analitik data guna mendukung pengambilan keputusan untuk memecahkan tantangan bisnis. Terakhir, pembelajar akan mempresentasikan proyek batu penjuru yang berasal dari data bisnis kehidupan nyata mereka baik dari data kantor atau sumber terbuka.\nKami berharap berdasarkan tiga bagian yang mendasari mata kuliah ini akan membantu pelajar untuk berpikir kritis tentang data dan analisis berdasarkan data tersebut — baik yang dilakukan oleh Anda atau orang lain. Yang kedua adalah memungkinkan Anda mengidentifikasi peluang untuk menciptakan nilai menggunakan analisis bisnis. Yang ketiga adalah membantu Anda memperkirakan nilai yang diciptakan menggunakan analisis bisnis untuk mengatasi peluang. Analisis bisnis adalah bagian integral dari manajemen modern-mata kuliah ini akan menjadi pondasi."]
+    },
+    {
+      "tag": "deskripsi_matkul_big_data_analisis_situasi_strategik",
+      "patterns": ["Sebutkan deskripsi mata kuliah Big Data dan Analisis Situasi Strategik magister manajemen", "Apa deskripsi mata kuliah Big Data dan Analisis Situasi Strategik", "Deskripsi mata kuliah Big Data dan Analisis Situasi Strategik"],
+      "responses": ["Mata kuliah Big Data dan Analisis Situasi Strategik bertujuan untuk menjelaskan pengetahuan tentang jenisjenis big data yang berdampak terhadap pengelolaan perusahaan; dan metode analisis situasis strategik (seperti analisis lingkungan internal dan eksternal) pada berbagai tipe dan fungsi organisasi untuk memecahkan jenisjenis masalah managerial yang bersifat strategical berdasarkan big data yang telah didiagnosis dan dianalisis (big data diagnostics and analytics). Topik bahasan big data terdiri dari state of the art data management dan teknologinya, dan aplikasi pengelolaan big data."]
+    },
+
+    {
+      "tag": "deskripsi_matkul_analisis_persaingan_strategi_korporasi_bisnis",
+      "patterns": ["Sebutkan deskripsi mata kuliah Analisis Persaingan, Strategi Korporasi dan Bisnis magister manajemen", "Apa deskripsi mata kuliah Analisis Persaingan, Strategi Korporasi dan Bisnis", "Deskripsi mata kuliah Analisis Persaingan, Strategi Korporasi dan Bisnis"],
+      "responses": ["Mata kuliah Analisis Persaingan, Strategi Korporasi dan Bisnis bertujuan untuk menjelaskan pengetahuan tentang analisis persaingan, strategi korporasi dan bisnis; jenisjenis masalah operasional, managerial dan strategical yang akan terjadi berdasarkan dampak persaingan; dan penerapan jenis-jenis strategi korporasi dan bisnis berdasarkan hasil analisis persaingan."]
+    },
+
+    {
+      "tag": "deskripsi_matkul_implementasi_strategi_balance_card",
+      "patterns": ["Sebutkan deskripsi mata kuliah Implementasi Strategi dan Balance Score Card magister manajemen", "Apa deskripsi mata kuliah Implementasi Strategi dan Balance Score Card", "Deskripsi mata kuliah Implementasi Strategi dan Balance Score Card"],
+      "responses": ["Mata kuliah Implementasi Strategi dan Balance Score Card bertujuan untuk menjelaskan pengetahuan tentang implementasi strategi sebagai turunan dari perancangan strategi; dan perancangan Kartu Skor Berimbang (Balance Score Card) yang terdiri dari perspektif keuangan, perspektif marketing (eksternal), perspektif proses bisnis internal dan inovasi, dan perspektif pertumbuhan dan pembelajaran."]
+    },
+    {
+      "tag": "deskripsi_matkul_manajemen_konsultasi_korporasi_bisnis",
+      "patterns": ["Sebutkan deskripsi mata kuliah Manajemen Konsultasi Korporasi dan Bisnis magister manajemen", "Apa deskripsi mata kuliah Manajemen Konsultasi Korporasi dan Bisnis", "Deskripsi mata kuliah Manajemen Konsultasi Korporasi dan Bisnis"],
+      "responses": ["Mata kuliah Manajemen Konsultasi Korporasi dan Bisnis bertujuan untuk menjelaskan pengetahuan tentang pengelolaan konsultasi korporasi dan bisnis, menerapkan proses kerangka konsultasi untuk menciptakan keterikatan antara mitra (internal dan eksternal), merancang proposal dan rencana kerja untuk suatu proyek konsultasi korporasi dan bisnis (corporate and business consulting projects), menegosiasikan peluang corporate and business consulting projects dengan calon mitra dan keterampilan mempresentasikan serta menuliskan laporan eksekutif."]
+    },
+    {
+      "tag": "deskripsi_matkul_perilaku_pelanggan_riset_pasar",
+      "patterns": ["Sebutkan deskripsi mata kuliah Perilaku Pelanggan dan Riset Pasar magister manajemen", "Apa deskripsi mata kuliah Perilaku Pelanggan dan Riset Pasar", "Deskripsi mata kuliah Perilaku Pelanggan dan Riset Pasar"],
+      "responses": ["Mata kuliah Perilaku Pelanggan dan Riset Pasar membahas tentang pengaruh-pengaruh internal dan eksternal terhadap individu-individu yang mengambil keputusan untuk mengkonsumsi produk atau jasa. Perilaku konsumen mencakup; aplikasi-aplikasi perilaku konsumen untu, pemasaran strategik, segmentasi pasar, kebutuhan dan motivas konsumen, kepribadian konsumen, persepsi dan sikap konsumer pengaruh sosial budaya terhadap konsumen dan proses keputusa, pembelian dari konsumen. Selain itu juga dibahas mengenai perluasan konsep perilaku konsumen terhadap organisasi yang berorientasi paa: laba dan non-laba serta kebijakan-kebijakan publik."]
+    },
+    {
+      "tag": "deskripsi_matkul_manajemen_pemasaran_bisnis_strategik",
+      "patterns": ["Sebutkan deskripsi mata kuliah Manajemen Pemasaran Bisnis Strategik magister manajemen", "Apa deskripsi mata kuliah Manajemen Pemasaran Bisnis Strategik", "Deskripsi mata kuliah Manajemen Pemasaran Bisnis Strategik"],
+      "responses": ["Mata kuliah Manajemen Pemasaran Bisnis Strategik membahas tentang, berbagai konsep, metode dan teknik dalam perumusan, pilihan strategi pemasaran yang diperlukan ditinjau dari perspektif pimpinan puncak dan pimpinan fungsional perusahaan."]
+    },
+    {
+      "tag": "deskripsi_matkul_manajemen_pemasaran_bisnis_internasional",
+      "patterns": ["Sebutkan deskripsi mata kuliah Manajemen Pemasaran Bisnis Internasional magister manajemen", "Apa deskripsi mata kuliah Manajemen Pemasaran Bisnis Internasional", "Deskripsi mata kuliah Manajemen Pemasaran Bisnis Internasional"],
+      "responses": ["Mata kuliah Manajemen Pemasaran Bisnis Internasional membahas tentang teori, dasar pemikiran serta pola pemasar internasional, penggunaan perangkat analisis yang diperluka penguasaan metode riset serta analisis pasar internasional pengembangan keterampilan manajemen dalam usaha melancarkan operasi pemasaran internasional dan meningkatkan kemampuan bersaing."]
+    },
+    {
+      "tag": "deskripsi_matkul_manajemen_kreasi_nilai_pelanggan",
+      "patterns": ["Sebutkan deskripsi mata kuliah Manajemen Kreasi Nilai Pelanggan magister manajemen", "Apa deskripsi mata kuliah Manajemen Kreasi Nilai Pelanggan", "Deskripsi mata kuliah Manajemen Kreasi Nilai Pelanggan"],
+      "responses": ["Mata kuliah Manajemen Kreasi Nilai Pelanggan membahas tentang proses analisis, perencanaan, pelaksanaan dan pengendalian nilai pelanggan (cutomer value) melalui kreasi untuk menciptakan superior customer value agar perusahaan memiliki competitive advantantage. Proses tersebut diwujudkan melalui value exploration, creation, communication and delivery untuk menjamin value drivers, superior value dan cutomers equity."]
+    },
+    {
+      "tag": "deskripsi_matkul_manajemen_kinerja",
+      "patterns": ["Sebutkan deskripsi mata kuliah Manajemen Kinerja magister manajemen", "Apa deskripsi mata kuliah Manajemen Kinerja", "Deskripsi mata kuliah Manajemen Kinerja"],
+      "responses": ["Mata kuliah Manajemen Kinerja membahas tentang topik-topik mengenai konsep produktivitas dan kualitas, perkembangan dan strategistrategi manajemen produktivitas, termasuk Total Quality Management, penerapan ISO dan Modern Shop Floor Management Pembahasan mengenai teori Positive Reinforcement dan pendekatan karakteristik karyawan."]
+    },
+    {
+      "tag": "deskripsi_matkul_manajemen_talenta_pengetahuan",
+      "patterns": ["Sebutkan deskripsi mata kuliah Manajemen Talenta dan Pengetahuan magister manajemen", "Apa deskripsi mata kuliah Manajemen Talenta dan Pengetahuan", "Deskripsi mata kuliah Manajemen Talenta dan Pengetahuan"],
+      "responses": ["Mata kuliah Manajemen Talenta dan Pengetahuan membahas tentang perencanaan jabatan, anggaran dan sistem kompensasi. Mata kuliah ini mencakup perencanaan jabatan, evaluasi jabatan, evaluasi kinerja kebijakan dan sistem kompensasi yang dikaitkan dengan sasaran produktivitas, pemeliharaan dan kompetisi."]
+    },
+    {
+      "tag": "deskripsi_matkul_strategi_msdm_internasional",
+      "patterns": ["Sebutkan deskripsi mata kuliah Strategi MSDM dan MSDM Internasional magister manajemen", "Apa deskripsi mata kuliah Strategi MSDM dan MSDM Internasional", "Deskripsi mata kuliah Strategi MSDM dan MSDM Internasional"],
+      "responses": ["Mata kuliah Strategi MSDM dan MSDM Internasional membahas tentang strategi bisnis yang dipilih dan penetapan stretegi-strategi fungsional manajemen sumber daya manusia mulai dari Human Resources Flows, pelatihan dan pengembangan sistem kompensasi yang kesemuanya dikaitkan dengan kemungkinan dipergunakannya tenaga kerja asing (ekspatriat) serta manajemen sumber daya manusia dalam perusahaan multinasional."]
+    },
+    {
+      "tag": "deskripsi_matkul_hubungan_industrial",
+      "patterns": ["Sebutkan deskripsi mata kuliah Hubungan Industrial magister manajemen", "Apa deskripsi mata kuliah Hubungan Industrial", "Deskripsi mata kuliah Hubungan Industrial"],
+      "responses": ["Mata kuliah Hubungan Industrial membahas tentang hubungan karyawan dan industrial menyangkut peraturan-peraturan ketenaga-kerjaan, masalah hubungan pengusaha dan buruh berkaitan dengan persepsi dan kepentingan yang berbeda, organisasi buruh dan organisasi pengusaha, konflik hubungan dan cara-cara mengatasi konflik, serta strategi perusahaan dalam pemeliharaan karyawan sebagai strategi alternatif."]
+    },
+    {
+      "tag": "deskripsi_matkul_teori_investasi_analisis_sekuritas",
+      "patterns": ["Sebutkan deskripsi mata kuliah Teori Investasi dan Analisis Sekuritas magister manajemen", "Apa deskripsi mata kuliah Teori Investasi dan Analisis Sekuritas", "Deskripsi mata kuliah Teori Investasi dan Analisis Sekuritas"],
+      "responses": ["Mata kuliah Teori Investasi dan Analisis Sekuritas membahas tentang analsisi keputusan investasi terutama analisis dan pemilihan sekuritas, pembentukan portfolio investasi, penilaian suratsurat berharga seperti saham dan obligasi, strategi investasi saham dan obligasi, investasi pada instrumen derivatif serta analisis kinerja portofolio."]
+    },
+    {
+      "tag": "deskripsi_matkul_topik_khusus_manajemen_keungan",
+      "patterns": ["Sebutkan deskripsi mata kuliah Topik Khusus dalam Manajemen Keuangan magister manajemen", "Apa deskripsi mata kuliah Topik Khusus dalam Manajemen Keuangan", "Deskripsi mata kuliah Topik Khusus dalam Manajemen Keuangan"],
+      "responses": ["Mata kuliah Topik Khusus dalam Manajemen Keuangan membahas tentang mengenai option theory, hedging, dan issue-issue keuangan dan pasar dan pasar modal serta pasar uang internasional."]
+    },
+    {
+      "tag": "deskripsi_matkul_manajemen_risiko_keuangan_bisnis",
+      "patterns": ["Sebutkan deskripsi mata kuliah Manajemen Risiko Keuangan Bisnis magister manajemen", "Apa deskripsi mata kuliah Manajemen Risiko Keuangan Bisnis", "Deskripsi mata kuliah Manajemen Risiko Keuangan Bisnis"],
+      "responses": ["Mata kuliah Manajemen Risiko Keuangan Bisnis membahas tentang instrumen derivatif seperti kontrak forward, futures dan option serta penggunaannya untuk hedging. Selanjutriya dibahas manajemen risiko yang mencakup risiko pasar, risiko operasional dan risiko stratejik."]
+    },
+    {
+      "tag": "deskripsi_matkul_manajemen_keuangan_perusahaan_multinasional",
+      "patterns": ["Sebutkan deskripsi mata kuliah Manajemen Keuangan Perusahaan Multinasional magister manajemen", "Apa deskripsi mata kuliah Manajemen Keuangan Perusahaan Multinasional", "Deskripsi mata kuliah Manajemen Keuangan Perusahaan Multinasional"],
+      "responses": ["Mata kuliah Manajemen Keuangan Perusahaan Multinasional membahas tentang perangkat analisis dalam rangka pemahaman investasi internasional serta kerja sistem Manajemen Keuangan Internasional. Topik-topik yang dibahas antara lain meliputi hubungan antara investasi dengan sistem keuangan internasio-nal, mekanisme dan operasi valuta asing, perangkat analisis, perubahao kurs, cmrency, exposure dampaknya pada dunia usaha, terutama untuk perusahaan multinasional, serta metode untuk mergurangi resiko dan konsep country risk analysis."]
+    },
+    {
+      "tag": "deskripsi_matkul_manajemen_rantai_pasokan",
+      "patterns": ["Sebutkan deskripsi mata kuliah Manajemen Rantai Pasokan magister manajemen", "Apa deskripsi mata kuliah Manajemen Rantai Pasokan", "Deskripsi mata kuliah Manajemen Rantai Pasokan"],
+      "responses": ["Mata kuliah Manajemen Rantai Pasokan membahas tentang manajemen logistik dengan berbagai aspek strategisnya seperti dalam pemilihan lokasi yang stratejik, menentukan pemasok yang terbaik, peramalan pemintaan, pengendalian persediaan dengan sistem Q dan sistem P terrmasuk juga penerapan konsep MRP manajemen distribusi fisik serta manajemen pergudangan. Diharapkan setelah mengikuti kuliah ini mahasiswa dapat meningkatkan pola pengelolaan logistik ini dengan lebih produktif."]
+    },
+    {
+      "tag": "deskripsi_matkul_penjadwalan_operasi",
+      "patterns": ["Sebutkan deskripsi mata kuliah Penjadwalan Operasi magister manajemen", "Apa deskripsi mata kuliah Penjadwalan Operasi", "Deskripsi mata kuliah Penjadwalan Operasi"],
+      "responses": ["Mata kuliah Penjadwalan Operasi membahas membahas tentang sistem penjadwalan yang efektif dengan metode penjadwalan seperti penjadwalan batch, penjadawalan dengan kendala, penjadawalan dengan mesin tunggal dan paralel serta penjadwalan proyek. Berbagai studi kasus akan menjadi pelengkap mata kuliah ini untuk membantu mahasiswa memahami masalah ril yang ada dilapangan."]
+    },
+    {
+      "tag": "deskripsi_matkul_manajemen_mutu_terpadu",
+      "patterns": ["Sebutkan deskripsi mata kuliah Manajemen Mutu Terpadu magister manajemen", "Apa deskripsi mata kuliah Manajemen Mutu Terpadu", "Deskripsi mata kuliah Manajemen Mutu Terpadu"],
+      "responses": ["Mata kuliah Manajemen Mutu Terpadu membahas tentang topik-topik: Total Quality Control, alat-alat dalam Total Quality Control Management, Statistical Process Control, ISO 9000 dan ISO 14000 dengan dilengkapi kasus-kasus yang berhubungan dengan topiktopik tersebut."]
+    },
+    {
+      "tag": "deskripsi_matkul_perencanaan_fasilitas",
+      "patterns": ["Sebutkan deskripsi mata kuliah Perencanaan Fasilitas magister manajemen", "Apa deskripsi mata kuliah Perencanaan Fasilitas", "Deskripsi mata kuliah Perencanaan Fasilitas"],
+      "responses": ["Mata kuliah Perencanaan Fasilitas memberikan pengetahuan mengenai perencanaan produk, proses dan jadwal juga tata letak baik berdasarkan garis maupun fungsi. Penanganan bahan dan perencanaan kebutuhan tenaga kerja juga dibahas termasuk bagaimana menjalankan perawatan terhadap kasus suatu peralatan yang ada."]
+    },
+    {
+      "tag": "deskripsi_matkul_manajemen_pelayanan_medik",
+      "patterns": ["Sebutkan deskripsi mata kuliah Manajemen Pelayanan Medik magister manajemen", "Apa deskripsi mata kuliah Manajemen Pelayanan Medik", "Deskripsi mata kuliah Manajemen Pelayanan Medik"],
+      "responses": ["Mata kuliah Manajemen Pelayanan Medik membahas tentang pelayanan di berbagai instalasi pelayananan rumah sakit (instalasi rawat darurat, instalasi rawat inap, instalasi rawat jalan, instalasi bedah pusat, instalasi rawat khusus, dll). Dalam mata kuliah ini juga ditekankan konsep manajemen mutu pelayanan medik yang pengelolaannya mengacu pada konsep Total Quality Management."]
+    },
+    {
+      "tag": "deskripsi_matkul_manajemen_keperawatan",
+      "patterns": ["Sebutkan deskripsi mata kuliah Manajemen Keperawatan magister manajemen", "Apa deskripsi mata kuliah Manajemen Keperawatan", "Deskripsi mata kuliah Manajemen Keperawatan"],
+      "responses": ["Mata kuliah Manajemen Keperawatan membahas tentang konsep perencanaan dan aplikasi dalarn manajemen keperawatan; pengorganisasian dan aplikasi dalam manajemen; staffing dan aplikasinya dalam manajemen keperawatan sampai dengan audit keperawatan dan kendali mutu dalam keperawatan dan manajemen."]
+    },
+    {
+      "tag": "deskripsi_matkul_isu_rumah_sakit",
+      "patterns": ["Sebutkan deskripsi mata kuliah Isu Rumah Sakit magister manajemen", "Apa deskripsi mata kuliah Isu Rumah Sakit", "Deskripsi mata kuliah Isu Rumah Sakit"],
+      "responses": ["Mata kuliah Isu Rumah Sakit membahas tentang berbagai isu manajemen rumah sakit, dari berbagai perspektif manajemen dan bisnis, seperti: pendanaan, aspek legal, strategi bisnis dan pengembangan rumah sakit. Selain itu dibahas pula berbagai artikel riset mengenai manajemen rumah sakit yang akan menjadi inspirasi dalam penyusunan tesis."]
+    },
+    {
+      "tag": "deskripsi_matkul_kewirausahaan_korporasi",
+      "patterns": ["Sebutkan deskripsi mata kuliah Kewirausahaan Korporasi magister manajemen", "Apa deskripsi mata kuliah Kewirausahaan Korporasi", "Deskripsi mata kuliah Kewirausahaan Korporasi"],
+      "responses": ["Mata kuliah Kewirausahaan Korporasi membahas tentang tentang kewirausahaan serta meningkatkan kemampuan dalam   menganalisis pola kewirausahaan; etika kewirausahaan; dimensi global kewirausahaan serta meningkatkan kreativitas melalui pola pikir kewirausahaan (Entrepreneurial Mind) dalam rangka membantu untuk mewujudkan gagasan/ide menjadi realitas. Mata kuliah ini juga membahas tentang strategi akses pasar, pengembangan rencana pemasaran; perencanaan strategik menganalisis isu-isu finansial, dan peluang-peluang usaha baik nasional maupun internasional, sehingga dapat menyusun rencana usaha, mengungkap dan memecahkan persoalan tentang kasus-kasus yang berkaitan dengan kewirausahaan."]
+    },
+    {
+      "tag": "deskripsi_matkul_manajemen_kreativitas_inovasi",
+      "patterns": ["Sebutkan deskripsi mata kuliah Manajemen Kreativitas dan Inovasi magister manajemen", "Apa deskripsi mata kuliah Manajemen Kreativitas dan Inovasi", "Deskripsi mata kuliah Manajemen Kreativitas dan Inovasi"],
+      "responses": ["Mata kuliah Manajemen Kreativitas dan Inovasi membahas mengenai Mengembangkan potensi kreatif dan merangsang inovasi melalui “suara hati” yang merupakan bisikan rahasia untuk mencapai keberhasilan, sebagai perwujudan individu yang memiliki jiwa wirausaha. Dengan demikian perlu diberikan pengetahuan serta pemahaman tentang pentingnya kreativitas dan inovasi dalam berwirausaha."]
+    },
+    {
+      "tag": "deskripsi_matkul_kewirausahaan_global",
+      "patterns": ["Sebutkan deskripsi mata kuliah Kewirausahaan Global magister manajemen", "Apa deskripsi mata kuliah Kewirausahaan Global", "Deskripsi mata kuliah Kewirausahaan Global"],
+      "responses": ["Mata kuliah Kewirausahaan Global lebih pada konteks kewira-usahaan dalam perspektif bisnis global. Dalam mata kuliah ini dibahas bagaimana suatu strategi bisnis untuk dapat memasuki pasar internasional dan/atau bagaimana strategi bisnis lokal menghadapi persaingan terhadap produkproduk impor. Beberapa aspek tertentu dari manajemen pemasaran internasional, manajemen keuangan inter-nasional, MSDM internasional serta mana-jemen operasional internasional juga akan dibahas dalam mata kuliah ini."]
+    },
+    {
+      "tag": "deskripsi_matkul_perencanaan_simulasi_bisnis",
+      "patterns": ["Sebutkan deskripsi mata kuliah Perencanaan dan Simulasi Bisnis magister manajemen", "Apa deskripsi mata kuliah Perencanaan dan Simulasi Bisnis", "Deskripsi mata kuliah Perencanaan dan Simulasi Bisnis"],
+      "responses": ["Mata kuliah Perencanaan dan Simulasi Bisnis memberikan pengetahuan serta kemampuan dalam menyusun Perencanaan Bisnis yang merupakan studi dari suatu organisasi sebagai pedoman dalam melaksanakan aktivitasnya, kemudian dituangkan dalam bentuk program pelaksanaan dengan melakukan penggabungan dari berbagai faktor pada kondisi dan situasi saat ini dan masa yang akan datang dalam rangka mencapai suatu hasil tertentu."]
+    },
+    {
+      "tag": "deskripsi_matkul_manajemen_risiko_pasar",
+      "patterns": ["Sebutkan deskripsi mata kuliah Manajemen Risiko Pasar magister manajemen", "Apa deskripsi mata kuliah Manajemen Risiko Pasar", "Deskripsi mata kuliah Manajemen Risiko Pasar"],
+      "responses": ["Mata kuliah Manajemen Risiko Pasar membahas jenis jenis risiko yang disebabkan oleh perubahan kondisi pasar, termasuk risiko tingkat bunga, risiko likuiditas, risiko nilai tukar, dan risiko pasar lainnya. Dibahas pula risiko pasar pada produk keuangan dan derivatifnya. Teori dan instrumen pengukuran dan prosedur mitigasi atas risiko pasar menjadi topik utama dalam mata kuliah ini."]
+    },
+    {
+      "tag": "deskripsi_matkul_manajemen_risiko_operasional",
+      "patterns": ["Sebutkan deskripsi mata kuliah Manajemen Risiko Operasional magister manajemen", "Apa deskripsi mata kuliah Manajemen Risiko Operasional", "Deskripsi mata kuliah Manajemen Risiko Operasional"],
+      "responses": ["Mata kuliah Manajemen Risiko Operasional membahas Risiko Operasional dalam konteks risiko yang disebabkan karena faktor manusia, prosedur, alat, IT, dan faktor lainnya yang bersifat non keuangan. Selain itu juga menjadi topik bahasan dalam mata kuliah ini adalah Opvar, Sistem dan sarana pengendalian risiko operasional."]
+    },
+    {
+      "tag": "deskripsi_matkul_investasi_manajemen_risiko_keuangan",
+      "patterns": ["Sebutkan deskripsi mata kuliah Investasi & Manajemen Risiko Keuangan magister manajemen", "Apa deskripsi mata kuliah Investasi & Manajemen Risiko Keuangan", "Deskripsi mata kuliah Investasi & Manajemen Risiko Keuangan"],
+      "responses": ["Mata kuliah Investasi & Manajemen Risiko Keuangan membahas teori dan model perhitungan eksposur risiko yang melekat pada instrumen keuangan seperti saham, obligasi, serta produk derivatifnya seperti option, future, dan forward. Penggunaan derivatif sebagai sarana mitigasi risiko juga menjadi topik bahasan dalam mata kuliah ini."]
+    },
+    {
+      "tag": "deskripsi_matkul_risiko_penilaian",
+      "patterns": ["Sebutkan deskripsi mata kuliah Risiko Penilaian magister manajemen", "Apa deskripsi mata kuliah Risiko Penilaian", "Deskripsi mata kuliah Risiko Penilaian"],
+      "responses": ["Mata kuliah Risiko Penilaian bertujuan untuk memberikan pemahaman dan kemampuan mahasiswa dalam penggunaan VAR dalam menghitung risiko financial, dan operasional. Backtesting, Analytical Methods, dan VAR methods merupakan pokok bahasan utama. Metode kuantitatif lainnya termasuk GARCH dan ARCH, Forecasting dan Monte Carlo Simulation."]
+    },
+    {
+      "tag": "deskripsi_matkul_penilaian_aset_finansial",
+      "patterns": ["Sebutkan deskripsi mata kuliah Penilaian Aset Finansial magister manajemen", "Apa deskripsi mata kuliah Penilaian Aset Finansial", "Deskripsi mata kuliah Penilaian Aset Finansial"],
+      "responses": ["Mata kuliah Penilaian Aset Finansial membahas tentang prinsip-prinsip dan teknik penilaian asset baik menggunakan metode discounted cash flow, multiples, fair value, market value dan historical value. Asset yang dinilai dimulai dari surat berharga seperti surat hutang, saham, obligasi sampai kepada aktiva tetap seperti property, proyek infrastruktur dan fasilitas umum beserta metode depresiasinya. Matakuiah ini juga akan membahas implementasi atau kegunaan dari valuasi asset yang akan dipakai pada penyusunan studi kelayakan/feasibility study maupun untuk keperluan pelaporan keuangan."]
+    },
+    {
+      "tag": "deskripsi_matkul_penilaian_bisnis",
+      "patterns": ["Sebutkan deskripsi mata kuliah Penilaian Bisnis magister manajemen", "Apa deskripsi mata kuliah Penilaian Bisnis", "Deskripsi mata kuliah Penilaian Bisnis"],
+      "responses": ["Mata kuliah Penilaian Bisnis membahas tentang prinsip dan teknik dalam mengelola aset baik untuk sektor bisnis private maupun publik yang sangat berguna bagi institusi sebagai developer, kontraktor atau pebisnis dari tahap Analysis Using Discounted Cash Flow, Risk Analysis, Estimating Cost of Capital dan Required Rates of Return, Relative Valuation Using Market Comparables, Review before mid test and case study. Aset yang dikelola mulai di bidang real estate, property, aset finansial, fasilitas pelayanan publik, infrastruktur dan sektor energi. Pengelolaan aset akan ditinjau dari berbagai segi baik dari segi system informasi dan asset knowledge management, pelakasanaan proyek, analisis ekonomi, sosial, pemasaran dan pelayanan publik. Optimalisasi manajemen aset dengan melibatkan swasta dan badan usaha berdasarkan pola public private partnership pun akan dibahas dalam mata kuliah ini."]
+    },
+    {
+      "tag": "deskripsi_matkul_manajemen_aset",
+      "patterns": ["Sebutkan deskripsi mata kuliah Manajemen Aset magister manajemen", "Apa deskripsi mata kuliah Manajemen Aset", "Deskripsi mata kuliah Manajemen Aset"],
+      "responses": ["Mata kuliah Manajemen Aset membahas tentang prinsip dan teknik dalam mengelola aset baik untuk sektor private maupun publik yang sangat berguna bagi institusi sebagai developer, kontraktor maupun operator dari tahap pembelian aset, pengelolaan, perawatan, perbaikan, penjualan bahkan sampai tahap bagaimana mengoptimalisasi manajemen aset untuk menambah nilai lebih bagi pemilik aset. Aset yang dikelola mulai di bidang real estate, property, aset finansial, fasilitas pelayanan publik, infrastruktur dan sektor energi Pengelolaan aset akan ditinjau dan berbagai segi baik dari segi system informasi dan asset knowledge management, pelakasanaan proye~ analisis ekonomi, sosial, pemasaran dan pelayanan publik. Optimalisas manajemen aset dengan melibatkan swasta dan badan usah: berdasarkan pola public private partnership pun akan dibahas dalam mata kuliah ini."]
+    },
+    {
+      "tag": "deskripsi_matkul_topik_khusus_manajemen_aset",
+      "patterns": ["Sebutkan deskripsi mata kuliah Topik Khusus Manajemen Aset magister manajemen", "Apa deskripsi mata kuliah Topik Khusus Manajemen Aset", "Deskripsi mata kuliah Topik Khusus Manajemen Aset"],
+      "responses": ["Mata kuliah Topik Khusus Manajemen Aset membahas tentang hal-hal strategis yang berkaitan dengan manajemen aset seperti kajian hukum dan regulasi, aspek social dan lingkungan, analisis ekonomi mikro dan makro, ekonomi perkotaan, perpajakan, akuntabilitas dan tata kelola dan pelaporan keuangan, peran pemerintah, etika bisnis, community development serta strategic alliance sehingga isu-is, strategis ini akan membentuksuatu pola pikiryang terintegrasi dan lintas sektoral demi memaksimumkan penggunaan dan pengelolaan assw secara baik dan benar."]
+    },
+    {
+      "tag": "deskripsi_matkul_manajemen_risiko_perbankan",
+      "patterns": ["Sebutkan deskripsi mata kuliah Manajemen Risiko Perbankan magister manajemen", "Apa deskripsi mata kuliah Manajemen Risiko Perbankan", "Deskripsi mata kuliah Manajemen Risiko Perbankan"],
+      "responses": ["Mata kuliah Manajemen Risiko Perbankan membahas tentang konsep maupun aspek praktis mengenai berbagai model risiko dengan sensitiviti analisisnya. Topik yang juga dipelajari yaitu mengenai manajemen aset, risiko kredit serta operasional risiko."]
+    },
+    {
+      "tag": "deskripsi_matkul_manajemen_kredit_perbankan",
+      "patterns": ["Sebutkan deskripsi mata kuliah Manajemen Kredit Perbankan magister manajemen", "Apa deskripsi mata kuliah Manajemen Kredit Perbankan", "Deskripsi mata kuliah Manajemen Kredit Perbankan"],
+      "responses": ["Mata kuliah Manajemen Kredit Perbankan membahas teori atas filosofi dan pelaksanaan pengelolaan perkreditan yang terjadi di dunia perbankan global maupun di Indonesia. Pemahaman mendalam atas landasan teoritis yang mendukung; yaitu mengenaiperanan kredit dalam meningkatkan pendapatan bank, analisis kredit dan fungsinya dalam mengurangi kerugian kredit, kredit komersial, kredit konsumsi, pasar khusus bagi kredit perbankan, dan restrukturisasi kredit, selanjutnya dikaji relevansinya dengan kasuskasus dan pelaksanaan operasional perbankan dalam bidang manajemen kredit perbankan."]
+    },
+    {
+      "tag": "deskripsi_matkul_manajemen_treasury_perbankan_internasional",
+      "patterns": ["Sebutkan deskripsi mata kuliah Manajemen Treasury dan Perbankan Internasional magister manajemen", "Apa deskripsi mata kuliah Manajemen Treasury dan Perbankan Internasional", "Deskripsi mata kuliah Manajemen Treasury dan Perbankan Internasional"],
+      "responses": ["Mata kuliah Manajemen Treasury dan Perbankan Internasional membahas tentang filoso fidan pelaksanaan pengelolaan manajemen treasury dan perbankan investasi di dunia perbankan global di Indonesia. Pemahaman mendalam atas landasan teoritis yang mendukung, yaitu mengenai posisi perbankan dalam industri jasa keuangan, pasar uang dan instrumennya, manajemen treasury, manajemen resiko dan pengendalian serta perbankan investasi; selanjutnya dikaji relevansinya dengan kasuskasus dan pelaksanaan operasional perbankan dalam bidang manajemen treasury dan perbankan investasi."]
+    },
+    {
+      "tag": "deskripsi_matkul_manajemen_perbankan_syariah",
+      "patterns": ["Sebutkan deskripsi mata kuliah Manajemen Perbankan Syariah magister manajemen", "Apa deskripsi mata kuliah Manajemen Perbankan Syariah", "Deskripsi mata kuliah Manajemen Perbankan Syariah"],
+      "responses": ["Mata kuliah Manajemen Perbankan Syariah membahas tentang dasar-dasar pengelolaan bank dengan konsep syariah. Berbagai peluang dan pengembangan produk-produk simpanan dan penijaman dengan basis syariah."]
+    },
+    {
+      "tag": "deskripsi_matkul_pemikiran_ekonomi_manajemen_islam",
+      "patterns": ["Sebutkan deskripsi mata kuliah Pemikiran Ekonomi dan Manajemen Islam magister manajemen", "Apa deskripsi mata kuliah Pemikiran Ekonomi dan Manajemen Islam", "Deskripsi mata kuliah Pemikiran Ekonomi dan Manajemen Islam"],
+      "responses": ["Mata kuliah Pemikiran Ekonomi dan Manajemen Islam menjelaskan pandangan Islam terhadap permasalahan ekonomi dan manajemen. Diawali dengan pembahasan tentang konsep dasar ekonomi Islam kemudian penjelasan tentang karakteristik dan rancang bangun ekonomi Islam, sejarah pemikiran ekonomi Islam: berbagai teori ekonomi seperti teori komsumsi, produksi, mekanisme kerja pasar dalam perspektif Islam. Dalam pemikiran manajemen perspektif Islam pembahasan materi ini meliputi konsep dasar manajemen dalam perspektif Islam, lingkungan dan budaya perusahaan serta proses dan kepemimpinan manajemen."]
+    },
+    {
+      "tag": "deskripsi_matkul_manajemen_perbankan_keuangan_syariah",
+      "patterns": ["Sebutkan deskripsi mata kuliah Manajemen Perbankan dan Keuangan Syariah  magister manajemen", "Apa deskripsi mata kuliah Manajemen Perbankan dan Keuangan Syariah ", "Deskripsi mata kuliah Manajemen Perbankan dan Keuangan Syariah "],
+      "responses": ["Mata kuliah Manajemen Perbankan dan Keuangan Syariah membahas tentang manajemen keuangan dan perbarkan Islam. Mata kuliah ini bertujuan untuk membekali mahasiswa dengan kemampuan mengelola manajemen keuangan dan berbagai isu terkait dengan perbankan Islam. Dengan menggali informasi yang berasal dari dunia praktis dan dikompilasi dengan hasil-hasil penelitian yang ada. Mahasiswa diminta mempresentasikan dan mendiskusikan tema-tema berikut analisnya secara mendalam. Mata kuliah ini juga sebagai diselaraskan dengan rencana penulisan tesis."]
+    },
+    {
+      "tag": "deskripsi_matkul_topik_khusus_manajemen_syariah",
+      "patterns": ["Sebutkan deskripsi mata kuliah Topik Khusus Manajemen Syariah magister manajemen", "Apa deskripsi mata kuliah Topik Khusus Manajemen Syariah", "Deskripsi mata kuliah Topik Khusus Manajemen Syariah"],
+      "responses": ["Mata kuliah Topik Khusus Manajemen Syariah membahas tentang peran sumber daya manusia dalam perspektif manusia sebagai khalifah di muka bumi dan peran pemasaran Islami. Ukuran keberhasilan seorang pegawai dalam perannya sebagai khalifah terletak pada sejauhmana pegawai ini dapat memberikan manfaat. Oleh karena itu, agar pegawai semakin sadar akan perannya sebagai khalifah tersebut; serta Peran Pemasaran Islami. Topik - topik yang akan disampaikan dalam mata kuliah ini adalah fungsi- fungsi manajemen sumber daya berbasis kompetensi, penilaian kinerja; sedangkan pemasaran yang berbasis Islami."]
+    },
+    {
+      "tag": "deskripsi_matkul_kontrak_bisnis_islam_manajemen_keuangan_mikro",
+      "patterns": ["Sebutkan deskripsi mata kuliah Kontrak Bisnis Islam dan Manajemen Keuangan Mikro magister manajemen", "Apa deskripsi mata kuliah Kontrak Bisnis Islam dan Manajemen Keuangan Mikro", "Deskripsi mata kuliah Kontrak Bisnis Islam dan Manajemen Keuangan Mikro"],
+      "responses": ["Mata kuliah Kontrak Bisnis Islam dan Manajemen Keuangan Mikro membahas pengelolaan bisnis mikro Islami dengan memberikan dasar pemahaman tentang kegiatan bisnis dengan faktor–faktor yang mempengaruhinya. Fungsi manajemen bisnis mikro utama dalam konteks Islami khususnya keuangan dan operasi dan SDM."]
+    },
+    {
+      "tag": "deskripsi_matkul_manajemen_pemasaran_bisnis_internasional",
+      "patterns": ["Sebutkan deskripsi mata kuliah Manajemen Pemasaran Bisnis Internasional magister manajemen", "Apa deskripsi mata kuliah Manajemen Pemasaran Bisnis Internasional", "Deskripsi mata kuliah Manajemen Pemasaran Bisnis Internasional"],
+      "responses": ["Mata kuliah Manajemen Pemasaran Bisnis Internasional memperkenalkan teori, dasar pemikiran serta pola pemasaran internasional, penggunaan perangkat analisis yang diperlukan, penguasaan metode riset serta analisis pasar internasional, pengembangan keterampilan manajemen dalam usaha melancarkan operasi pemasaran internasional dan meningkatkan kemampuan bersaing dalam perdagangan."]
+    },
+    {
+      "tag": "deskripsi_matkul_manajemen_perdagangan_internasional",
+      "patterns": ["Sebutkan deskripsi mata kuliah Manajemen Perdagangan Internasional magister manajemen", "Apa deskripsi mata kuliah Manajemen Perdagangan Internasional", "Deskripsi mata kuliah Manajemen Perdagangan Internasional"],
+      "responses": ["Mata kuliah Manajemen Perdagangan Internasional bertujuan untuk memperkenalkan manajemen perusahaan yang beroperasi lintas negara, baik dari sudut pengembangan profesionalisme manajemen global maupun kewirausahaan global pertumbuhan bisnis. Topiktopik yang dibahas mencakup lingkungan internasional yang kompleks yang dihadapi perusahaan, motif dan kompetensi memperluas usaha dalam pasar global, berbagai strategi persaingan tingkat global, berbagai strategi persaingan tingkat global, menjalankan operasi bisnis lintas negara, strategi wirausaha di lingkungan global, berbagai strategi entry ke lain negara."]
+    },
+    {
+      "tag": "deskripsi_matkul_manajemen_keuangan_perusahaan_multinasional",
+      "patterns": ["Sebutkan deskripsi mata kuliah Manajemen Keuangan Perusahaan Multinasional magister manajemen", "Apa deskripsi mata kuliah Manajemen Keuangan Perusahaan Multinasional", "Deskripsi mata kuliah Manajemen Keuangan Perusahaan Multinasional"],
+      "responses": ["Mata kuliah Manajemen Keuangan Perusahaan Multinasional membahas tentang perangkat analisis dalam rangka pemahaman investasi internasional serta kerja sistem manajemen keuangan internasional. Topik-topik yang dibahas antara lain meliputi hubungan antara investasi dengan sistem keuangan internasional, mekanisme dan operasi valuta asing, perangkat analisis, perubahan kurs, curency exposure dampaknya pada dunia usaha, terutama untuk perusahaan multinasional serta metode untuk mengurangi resiko dan konsep country risk analysis."]
+    },
+    {
+      "tag": "deskripsi_matkul_strategi_sdm_msdm_internasional",
+      "patterns": ["Sebutkan deskripsi mata kuliah Strategi SDM dan MSDM Internasional magister manajemen", "Apa deskripsi mata kuliah Strategi SDM dan MSDM Internasional", "Deskripsi mata kuliah Strategi SDM dan MSDM Internasional"],
+      "responses": ["Mata kuliah Strategi SDM dan MSDM Internasional bertujuan untuk membentuk peserta mampu menerapkan pengetahuan tentang strategi MSDM dan MSDMInternasional seperti isu strategi dan globalisasi yang harus dipertimbangkan dalam merumuskan kebijakan manajemen sumber daya manusia. Mata kuliah ini mencakup keterkaitan strategi bisnis yang dipilih dan penetapan sirar.egi- strategi fungsional manajemen sumber daya manusia."]
+    },
+    {
+      "tag": "deskripsi_matkul_manajemen_strategi_perguruan_tinggi",
+      "patterns": ["Sebutkan deskripsi mata kuliah Manajemen Strategis Perguruan Tinggi magister manajemen", "Apa deskripsi mata kuliah Manajemen Strategis Perguruan Tinggi", "Deskripsi mata kuliah Manajemen Strategis Perguruan Tinggi"],
+      "responses": ["Mata kuliah Manajemen Strategis Perguruan Tinggi menguraikan mengenai proses pembuatan rencana strategi perguruan tinggi (PT) sejak dari penetapan visi, misi, penetapan tujuan dan sasaran strategis sebagai pedoman untuk arah pengembangandan kebijakan PT. Renstra diturunkan kedalam rencana operasional yang melingkupi program kerja dan indikator kinerja kunci (IKK) serta target capaian setiap tahunnya (milestones). Berbagai perubahan asumsi dari lingkungan tentunya diperlukan respon yang adaptif dari para pengambil kebijakan PT. prinsipchange management, tata kelola yang baik (good institution governance), serta prinsip re-structuring, reengineering, re- training, repositioning, dan remodeling."]
+    },
+    {
+      "tag": "deskripsi_matkul_manajemen_mutu_perguruan_tinggi",
+      "patterns": ["Sebutkan deskripsi mata kuliah Manajemen Mutu Perguruan Tinggi  magister manajemen", "Apa deskripsi mata kuliah Manajemen Mutu Perguruan Tinggi ", "Deskripsi mata kuliah Manajemen Mutu Perguruan Tinggi "],
+      "responses": ["Mata kuliah Manajemen Mutu Perguruan Tinggi merupakan salah satu kunci peningkatan daya saingperguruan tinggi. Mutu perguruan tinggi diartikan sebagai pencapaian tujuan dari suatu universitas yang umumnya mencakup tri darma perguruan tinggi dan pengukurannya dilakukan dengan pendekatan exceptional dimana dapat dibagi kedalam tiga variasi, yaitu 1) mutu sebagai sesuatu yang distinctive,2) mutu sebagai sesuatu yang excellence, dan3) mutu sebagai sesuatu yang memenuhi batas standar minimum atau conformance to standard"]
+    },
+    {
+      "tag": "deskripsi_matkul_manajemen_ict",
+      "patterns": ["Sebutkan deskripsi mata kuliah Manajemen Information and Communication Technology (ICT) magister manajemen", "Apa deskripsi mata kuliah Manajemen Information and Communication Technology (ICT)", "Deskripsi mata kuliah Manajemen Information and Communication Technology (ICT)"],
+      "responses": ["Tuntutan kebutuhan akan informasi yang cepat, tepat dan akurat dewasa ini merupakan suatu implikasi dari perkembangan yang pesat tekno-logi informasi. Tanggung jawab manajemen perguruan tinggi dalam hal ini adalah memba-ngun sistem yang efektif. Untuk melaksanakan tanggung jawabnya dalam mengembangkan sistem informasi, maka manajemen harus memiliki pemahaman dasar atas proses pengembangn sistem informasi tersebut."]
+    },
+    {
+      "tag": "deskripsi_matkul_manajemen_keuangan_aset",
+      "patterns": ["Sebutkan deskripsi mata kuliah Manajemen Keuangan dan Aset magister manajemen", "Apa deskripsi mata kuliah Manajemen Keuangan dan Aset", "Deskripsi mata kuliah Manajemen Keuangan dan Aset"],
+      "responses": ["Mata kuliah Manajemen Keuangan dan Aset membahas tentang prinsip dan teknik dalam mengelola aset perguruan tinggi dari tahap pembelian aset, pengelolaan, perawatan, perbaikan, penjualan bahkan sampai tahap bagaimana mengoptimalisasi manajemen aset untuk menambah nilai lebih bagi pemilik aset. Aset yang dikelola mulai dari aset finansial, fasilitas dan infrastruktur perguruan tinggi."]
+    },
+    {
+      "tag": "bentuk_pembelajaran",
+      "patterns": ["Bentuk pembelajaran apa yang digunakan di magister manajemen", "Seperti apa bentuk pembelajaran di magister manajemen", "bentuk pembelajaran magister manajemen"],
+      "responses": ["Kuliah, Responsi, Tutorial, Seminar atau yang setara (Seminar Internasional), Praktik Lapangan, Penelitian, Pengabdian Kepada Masyarakat dan/atau bentuk pembelajaran lain yang setara."]
+    },
+    {
+      "tag": "proses_pembelajaran",
+      "patterns": ["Proses pembelajaran apa yang digunakan di magister manajemen", "Seperti apa proses pembelajaran di magister manajemen", "Proses pembelajaran magister manajemen"],
+      "responses": ["Proses belajar mengajar dilakukan dengan menawarkan sejumlah mata ajaran yang berdiri sendiri dan yang terintegrasi. Metode-metode lain yang digunakan seperti:\na. Kuliah tatap muka\nb. Belajar mandiri\nc. Paper dan presentasi dalam kelas\nd. Analisis kasus\ne. Kunjungan ke instansi terkait\nf. Proyek riset kepustakaan bersama \n\nDalam proses pembelajaran pun dapat juga menggunakan metode-metode seperti:\na. Diskusi Kecil (Small Group Discussion)Diskusi kecil dilakukan dengan mengarahkan mahasiswa untuk mahasiswa membentuk kelompok diskusi yang masing-masing beranggotakan sekitar 5-10 orang untuk mendiskusikan bahan yang diberikan oleh dosen atau bahan yang diperoleh sendiri oleh anggota kelompok tersebut. Aktivitas Diskusi dapat dilakukan dalam rangka:membangkitkan ide, menyimpulkan, membuat laporan, presentasi dan diskusi.\nb. Permainan dan Simulasi (Role-Play & Simulation) Simulasi adalah model yang membawa situasi yang mirip dengan sesungguhnya ke dalam kelas. Walaupun metode ini lebih banyak digunakan untuk mata kuliah aplikasi instrumentasi seperti halnya di Fakultas MIPA, namun beberapa bahasan dalam mata kuliah tertentu di Fakultas Ekonomi dan Bisnis memungkinkan untuk dilakukan simulasi dalam konteks yang lebih sederhana. Tujuan dilakukan simulasi adalah untuk memperdalam pengetahuan mahasiswa dan menciptakan variasi suasana dalam kegiatan PBM.\nc. Studi kasus (Case Study) Studi kasus dilakukan dengan mengarahkan mahasiswa untuk menganalisis suatu peristiwa atau kejadian ekonomi tertentu yang sedang atau telah berlangsung dalam beberapa waktu terakhir. Tujuan Studi Kasus dilakukan untuk mempertajam pemahaman, daya pikir dan analisis mahasiswa.d. Contextual Instruction Contextual Instruction adalah mengaitkan isi mata kuliah dengan situasi nyata dalam kehidupan sehari-hari dan membantu mahasiswa untuk membuat keterhubungan antara pengetahuan dan aplikasinya dalam kehidupan sehari-hari sebagai anggota masyarakat, pelaku kerja profesional, atau manajerial, entrepreneur, maupun investor.\ne.Interactive Learning Interactive Learning adalah proses pembelajaran dengan melibatkan diskusi yang intensif antara dosen dengan mahasiswa dengan berbagai media pembelajaran yang menggunakan peralatan multimedia dan pelibatan secara aktif dalam menyelesaikan berbagai tugas dan kasus."]
+    },
+    {
+      "tag": "hasil_pengukuran_capaian_pembelajaran",
+      "patterns": ["Bagaimana hasil pengukuran capaian pembelajaran di magister manajemen","Seperti apa hasil pengukuran capaian pembelajaran di magister manajemen", "Proses hasil pengukuran capaian pembelajaran"],
+      "responses": ["SIKAP:\n- Bertakwa kepada Tuhan Yang Maha Esa dan mampu menunjukkan sikap religius;\n- Menginternalisasi nilai, norma, etika bisnis, dan etika akademik dengan pemikiran yang kritis dan inovatif;\n- Menunjukkan sikap bertanggung jawab atas pekerjaan di bidang keahliannya baik secara mandiri atau dalam kelompok;\n- Menyelami dan mempraktikkan perilaku cendekia dan profesional yang berintegritas, rasional, berempati, dan menghormati norma-norma lingkungan dan kemanusiaan.\n\nPENGETAHUAN:\n- Memahami, menganalisis, dan mengevaluasi konsep-konsep manajemen dan bisnis dalam menunjang danpengembangan ilmu manajemen dan bisnis secara umum.\n- Memahami, menganalisis, dan mengevaluasi perkembangan ilmu pengetahuan dan teknologi informasi, dan komunikasi, khususnya pada bidang ilmu manajemen yang ditekuninya, serta berkenan memanfaatkannya untuk kepentingan publik atau stakeholder.\n\nKETERAMPILAN UMUM:\n- Mampu menyusun ide, pemikiran, dan argumen saintifik dan teknis secara bertanggung jawab dan berdasarkan etika akademik, serta mengkomunikasikannya melalui media kepada masyarakat akademik dan masyarakat luas;\n- Mampu mengambil keputusan dalam konteks menyelesaikan masalah pengembangan ilmu pengetahuan dan penerapan teknologi yang memperhatikan dan menerapkan nilai humaniora berdasarkan kajian analisis atau eksperimental terhadap informasi dan data;\n- Mampu meningkatkan kapasitas pembelajaran secara mandiri.\n\nKETERAMPILAN KHUSUS:\n- Mampu mendemonstrasikan sebuah pemahaman terhadap berbagai teori dan praktek manajemen suatu organisasi bisnis/non bisnis, terutama pemahaman dan penerapan fungsi manajemen yang utama, yaitu:planning, organizing, staffing, leading, dan controlling;serta mengevaluasi perkembangan teori dan beberapa pendekatan terbaru dalam pengelolaan organisasi bisnis/nonbisnis\n- Mampu menganalisis dan mengembangkan penerapan 4 (empat) fungsi bisnis utama, yaitu: pemasaran, operasi, MSDM dan keuangan, maupun pengelolaan aspek lainnya, seperti: aset dan risiko\n- Mampu menganalisis, mengembangkan dan menerapkan jiwa kewirausahaan, kreativitas dan inovasi dalam kewirausahaan, serta mampu mengembangkan studi kelayakan bisnis, baik untuk usaha baru maupun untuk pengembangan (ekspansi)."]
+    },
+    {
+      "tag": "sarana_prasarana_mm",
+      "patterns": ["Apa saja sarana dan prasarana yang terdapat pada magister manajemen", "sarana dan prasarana magister manajemen", "Seperti apa sarana dan prasarana yang terdapat pada magister manajemen"],
+      "responses": ["Kampus Prodi MM FEB Unpad yang terletak di Jl. Dipati Ukur 46 Bandung memiliki Gedung perkuliahan dan fasilitas lainnya yang sangat memadai dan dapat dibanggakan karena dapat digunakan tidak hanya oleh civitas akademika prodi MM FEB Unpad, tetapi juga oleh Prodi-Prodi lain di lingkungan FEB Unpad. Gedung yang digunakan untuk kuliah adalah gedung B dan C, rata-rata ruang kuliah yang tersedia mempunyai kapasitas 30 orang. Bangunan di gedung B yang dapat digunakan untuk kegiatan kuliah umum atau seminar adalah Aula seminar dengan kapasitas 200 orang. Selain itu terdapat 2 kelas dengan kapasitas 30 orang dan dengan luas masing-masing 74 m2 dan 72,5 m2. Selain itu, di gedung B lantai 1 terdapat 1 ruang perpustakaan untuk membaca tesis dan majalah seluas 36 m2, mushola dengan luas 13,5 m2 serta lobby seluas 108 m2 yang biasa digunakan untuk menerima tamu atau pendaftaran dan tempat duduk dilengkapi dengan sofa. \nSelanjutnya di lantai 2 terdapat ruang rapat seluas 39 m2, ruang Ketua Prodi seluas 36 m2, ruang dosen yang dapat digunakan juga untuk membimbing mahasiswa dalam penulisan tesis, lobby seluas 201 m2 dilengkapi dengan tiga meja dengan kursi untuk berdiskusi, pantry 6 m2 dan 2 toilet.\nSelanjutnya di lantai 3 terdapat ruang baca dan ruang buku perpustakaan seluas 108 m2, 2 ruang kuliah B.3.1 seluas 74 m2 dan B.3.2 seluas 74 m2, ruang kelas C.3.1 atau Lan Mini, C.3.2 seluas 33 m2, C.3.2 seluas 35 m2, C.3.3 dan C.3.5 seluas 50 m2, pantry 6m2 dan 2 ruang toilet, serta lobby seluas 117 m2. \nBerikutnya di lantai 4 terdapat Aula seluas 300 m2, lobby di luar Aula 148 m2 yang dilengkapi dengan sofa, Pantry 6 m2 dan 2 toilet. Pada lantai 4 setiap ruang kuliah yang tersedia dilengkapi dengan white board secara built in, Selanjutnya untuk perlengkapan lain yang menunjang proses belajar mengajar yaitu overhead projector (OHP), LCD projector, meja overhead projector dan lain-lain."]
+    },
+    {
+      "tag": "riset_penelitian_feb",
+      "patterns": ["Riset dan penelitian Fakultas Ekonomi dan Bisnis", "Riset dan penelitian FEB", "Jelaskan mengenai riset dan penelitian di Fakultas Ekonomi dan Bisnis", "Jelaskan mengenai riset dan penelitian di FEB"],
+      "responses": ["Di FEB Unpad, dosen dan mahasiswa bukan hanya terlibat dalam proses belajar-mengajar tetapi mereka berkolaborasi dalam melakukan penelitian untuk memecahkan permasalahan sosial yang dihadapi oleh masyarakat. Kegiatan penelitian di FEB Unpad berpusat di tiga pusat studi (Pusdi), yaitu Pusdi Ilmu Ekonomi dan Studi Pembangunan (CEDS), Pusdi Manajemen (LM), dan Pusdi Akuntansi (PSA). Hasil penelitian sivitas akademika FEB disebarluaskan melalui berbagai forum-forum knowledge sharing. Beberapa bentuk forum knowledge sharing dan diseminasi hasil penelitian yang dilakukan di FEB Unpad, adalah: \n1. Brown Bag Seminar. Acara ini diselenggakan minimal sekali dalam sebulan. Acara ini terbuka untuk semua civitas academica, dan selalu diinformasikan secara terbuka \n2. Research Seminar Series in Economics (RSSE). Adalah sarana diskusi dan diseminasi penelitian yang ada di Departemen Ilmu Ekonomi. Melalui RSSE seluruh civitas academica diharapkan mengetahui hasil-hasil penelitian terbaru pada Departemen Ilmu Ekonomi sekaligus juga para peneliti dapat memperoleh feedback penelitian yang telah dilakukan. RSSE diselenggarakan pada awal tahun dan berlangsung setiap minggu hingga semua penelitian tahun sebelumnya dapat dipresentasikan. \n3. The Reference. "The Reference" ialah kegiatan yang diselenggarakan Laboratorium Manajemen Fakultas Ekonomi (LMFE) beserta Departemen Manajemen dan Bisnis FEB Unpad. Kegiatan ini dilaksanakan dalam rangka diseminasi ilmu, merangsang para dosen untuk menulis artikel dan terlatih dalam mempresentasikan makalah di konferensi Nasional dan Internasional. Bahan- bahan yang dipresentasikan pada "The Reference" adalah materi training (dalam dan luar negeri), karya Ilmiah yang dipresentasikan di forum nasional / Internasional serta permintaan dari calon presenter (dosen) untuk mempresentasikan artikelnya.\n4. Padjadjaran Accounting Colloquium Series (PACS). Acara diselenggarakan setiap dua bulan oleh Pusat Studi Akuntansi (PSA). Topik yang diulas pada pertemuan bernuansa riset ini berkisar seputar aspek metode riset yang perlu dikembangkan, aspek penelitian, dan juga tentunya artikel yang akan dipublikasikan oleh dosen dan mahasiswa dalam bidang akuntansi dan sistem informasi."]
+    },
+    {
+      "tag": "pengabdian_pada_masyarakat",
+      "patterns": ["Pengabdian pada masyarakat Fakultas Ekonomi dan Bisnis", "Pengabdian pada masyarakat FEB", "Jelaskan mengenai pengabdian pada masyarakat di Fakultas Ekonomi dan Bisnis", "Jelaskan mengenai pengabdian pada masyarakat di FEB"],
+      "responses": ["FEB UNPAD mendorong para sivitas akademika untuk melaksanakan kegiatan pelayanan/ pengabdian kepada masyarakat melalui koordinasi dengan lembaga penelitian dan pengabdian pada masyarakat UNPAD. Kegiatan pengabdian pada masyarakat dosen dalam beberapa hal dikaitkan dengan kegiatan Kuliah Kerja Nyata Mahasiswa yang disebut sebagai KKN Integratif. Kegiatan KKN Integratif diharapkan dapat berperan dalam upaya memberi pencerahan kepada masyarakat khususnya berbasis ilmu pengetahuan dan teknologi yang dimiliki oleh dosen/tenaga pendidik sesuai dengan kompetensinya masing-masing. FEB Unpad berupaya untuk menuangkan program pengabdian kepada masyarakat dalam bentuk kerjasama dengan lembaga lain, agar kegiatan pengabdian kepada masyarakat tersebut dapat terselenggara secara berkelanjutan. Dalam menjamin mutu, relevansi,  produktivitas, dan keberlanjutan kegiatan pelayanan/ pengabdian kepada masyarakat, FEB UNPAD menempuh kebijakan peningkatan layanan publik secara terpadu melalui program peningkatan layanan proses administrasi kepada mahasiswa, dosen, dan pegawai di lingkungan UNPAD serta meningkatkan mutu kegiatan pelayanan/pengabdian pada masyarakat, FEB Unpad membuat rencana stratejik yang didalamnya memuat salah satu arahan program penelitian dan pengabdian kepada Masyarakat. Arahan yang diturunkan dari Rencana Induk Penelitian Universitas tersebut diturunkan menjadi tema-tema penelitian dan tema-tema kegiatan pengabdian kepada masyarakat unggulan fakultas implementasi sistem layanan terpadu; penerimaan tamu ; penyediaan biaya pertemuan/jamuan delegasi; pemberian bantuan sosial; serta kebijakan peningkatan kerjasama pengabdian kepada masyarakat dengan berbagai pihak, baik di dalam maupun di luar negeri melalui program kerjasama profesional dengan stakeholders; mengadakan pengabdian kepada masyarakat; menyediakan insentif dana untuk dosen yang mengikuti pertemuan ilmiah nasional dan internasional; memfasilitasi penyelenggaraan seminar nasional dan internasional."]
+    },
+    {
+      "tag": "kerjasama_feb",
+      "patterns": ["Kerjasama pada Fakultas Ekonomi dan Bisnis", "Kerjasama di FEB", "Jelaskan mengenai kerjasama di Fakultas Ekonomi dan Bisnis", "Jelaskan mengenai kerjasama di FEB"],
+      "responses": ["Untuk mengoptimalkan proses tridarma perguruan tinggi, FEB berupaya untuk melakukan kerjasama melalui program peningkatan kerjasama pendidikan, penelitian, dan pengabdian kepada masyarakat dengan Pemda, BUMN, industri di dalam dan luar negeri. FEB Unpad juga aktif bekerja sama secara aktif dengan sekolah bisnis terkemuka dari berbagai belahan dunia, seperti University of Canterbury di Selandia Baru; Monash University di Australia; Sungkyunkwan dan Ajou University di Korea Selatan; Northampton and Southampton University di Inggris and Heriott Watt University di Skotlandia; ESC Troyes Champagne School of Management di Perancis; Northern Illinois University di Amerika Serikat; Rikkyo University di Jepang dan masih banyak lagi. Melalui kerjasama ini, kami menyelenggarakan berbagai aktivitas untuk para mahasiswa dalam bentuk economics and business summer program, kunjungan perusahaan internasional, pertukaran pelajar, pertukaran staf, kerjasama penelitian dan konferensi ilmiah. Peluang ini terbuka untuk semua mahasiswa FEB UNPAD. Mahasiswa FEB Unpad juga dapat belajar di universitas mitra luar negeri selama setahun untuk mendapatkan gelar ganda yakni gelar UNPAD dan gelar universitas partner. Program gelar ganda ini sangat ekonomis dan para mahasiswa memiliki banyak pilihan universitas dan negara yang sesuai. Selain mahasiswa FEB UNPAD yang bersekolah di luar negeri, setiap tahun FEB UNPAD juga menjadi tuan rumah dari beberapa mahasiswa asing yang belajar di UNPAD."]
+    },
+    {
+      "tag": "kerjasama_mm",
+      "patterns": ["Kerjasama pada Magister Manajemen", "Kerjasama di MM", "Jelaskan mengenai kerjasama di Magister Manajemen", "Jelaskan mengenai kerjasama di MM"],
+      "responses": ["Pada implementasinya, Sebagai upaya meningkatkan kualitas, Prodi MM FEB Unpad selalu berusaha menjalin kerjasama baik dengan Perguruan Tinggi lain (lokal/ luar negeri), maupun dengan perusahaan, instansi, dan stakeholder yang lain. Kerjasama/ kemitraan yang terjalin terutama dalam bidang akademis misalnya adanya kemudahan bagi mahasiswa kedua belah pihak untuk mengikuti perkuliahan bersama di Prodi MM FEB Unpad, atau di Perguruan Tinggi yang bersangkutan (Pertukaran); adanya pertukaran dosen sehingga muncul pertukaran informasi dan benchmarking; dan kerjasama untuk menyelenggarakan program pendidikan (misalnya konsentrasi) sesuai kebutuhan stakeholder yang bersangkutan, juga Kerjasama penyampaian masukan bagi perbaikan prodi MM Unpad pada Lokakarya Peninjauan Kurikulum. Beberapa kemitraan yang pernah /sedang berjalan  antara lain MAPPI (Masyarakat Asosiasi Profesi Penilai indonesia), Asosiasi Pengusaha Indonesia (APINDO), Kamar Dagang dan Industri (Kadin), PT. Angkasa Pura (Persero), dan Prodi MM Universitas Widyatama.\nDalam pelaksanaan mata kuliah Seminar Internasional dan Kunjungan Perusahaan (SIKP), Prodi MM FEB Unpad saat ini menjalin kerjasama dengan dua institusi yaitu Graduate Business School, Rikkyo University, Jepang dan Graduate Business School, Western Sydney University, Australia. Sementara untuk Program Kerjasama Dual Degree, Prodi MM FEB menjalin Kerjasama dengan Master of Public Management and Administration (MPMA) Rikkyo University Jepang.\nProdi MM FEB Unpad selama ini juga sering dijadikan benchmark pengelolaan studi, terbukti dengan adanya kunjungan studi banding yang dilakukan beberapa prodi universitas pada tiga tahun terakhir ini diantaranya Prodi MM Universitas Udayana, Prodi MM Universitas Trisakti, Prodi MM Universitas Widyatama, dan Universitas Katolik Santo Thomas."]
+    },
+    {
+      "tag": "kemahasiswaan_feb",
+      "patterns": ["Kemahasiswaan pada Magister Manajemen", "Kemahasiswaan di MM", "Jelaskan mengenai kemahasiswaan di Magister Manajemen", "Jelaskan mengenai kemahasiswaan di MM"],
+      "responses": ["FEB Unpad mendorong mahasiswa untuk aktif terlibat dalam kegiatan ekstrakurikuler untuk meningkatkan kemampuan soft skill. Kegiatan ekstrakurikuler di FEB Unpad menawarkan banyak kegiatan dan program yang mendorong pengembangan kepemimpinan, berjejaring, melengkapi pengalaman di dalam kelas untuk membangun masyarakat. Kegiatan-kegiatan yang mengeksplorasi minat dan bakat tersebut diwadahi oleh berbagai lembaga kemahasiswaan yang ada di FEB Unpad. Lembaga kemahasiswaan di FEB Unpad berjumlah 23 yang terdiri dari :\nLembaga Kemahasiswaan Otonom : \n1. Badan Eksekutif Mahasiswa Sarjana \n2. Badan Perwakilan Mahasiswa Sarjana \n3. Badan Eksekutif Mahasiswa Diploma \n4. Badan Perwakilan Mahasiswa Diploma\n5. Himpunan Mahasiswa Akuntansi S1 \n6. Himpunan Mahasiswa IESP S1 \n7. Himpunan Mahasiswa Manajemen S1 \n8. Himpunan Mahasiswa Ekonomi Islam S1 \n9. Himpunan Mahasiswa Akuntansi (HIMAKU) Diploma \n10. Himpunan Mahasiswa Marketing (HIMMARK) Diploma \n11. Himpunan Mahasiswa Perpajakan (HIMAPPA) Diploma \n12. Himpunan Mahasiswa Bisnis Internasional (HIMABI) Diploma\n13. Himpunan Mahasiswa Magister Manajemen S2 \n\nLembaga Kemahasiswaan Semi-Otonom: \n1. Futsal of Economics (FUSEC) \n2. Komunitas Pers Intern (KOPI) \n3. Financial Market Community (FMC) \n4. Komunitas Angklung FE (KAFE) \n5. Persaudaraan Mahasiswa Islam (PERMAIS) \n6. Baitul Maal Wat Tamwil (BMT)\n 7. Persekutuan Mahasiswa Kristen (PMK) \n8. Peduli Anak Bangsa (PENA BANGSA) \n9. Pers Mahasiswa Padjadjaran (PMP) \n10. Forum Studi Islam (FOSI) \n\nFEB Unpad mendorong mahasiswanya untuk aktif mengikuti berbagai ajang kompetisi akademik dan non akademik baik di tingkat nasional maupun internasional. Untuk memastikan mahasiswa lulus dengan tepat waktu, FEB Unpad beserta mitra Unpad menyediakan dana beasiswa. Kemudian FEB Unpad juga menjalin kerjasama dengan pihak alumni dan industri untuk menyediakan sarana informasi peluang kerja, adaptasi ke dunia kerja untuk mempercepat lulusan FEB Unpad berkiprah di masyarakat. FEB Unpad juga secara sistematis mewadahi mahasiswa yang ingin berkiprah sebagai entrepreneur dengan program inkubator bisnis yang merupakan hasil kolaborasi pentahelix (FEB Unpad, Pemerintah, Industri, Media, dan Komunitas) dengan menggunakan metode triple blended learning."]
+    },
+
     {
       "tag": "lucu",
       "patterns": ["Aku bosen, sebutin bercandaan!", "Aku bosen, coba sebutin tebak-tebakan!", "Bisa Nge Lucu Tidak?"],
